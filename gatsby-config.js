@@ -61,11 +61,12 @@ module.exports = {
       options: {
         fonts: [
           `roboto mono`,
-          `multi\:300,400,400i,700`, // you can also specify font weights and styles
+          `muli\:300,400,400i,700`, // you can also specify font weights and styles
         ],
         display: "swap",
       },
-    }`gatsby-plugin-feed`,
+    },
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
