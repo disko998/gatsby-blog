@@ -61,7 +61,7 @@ module.exports = {
       options: {
         fonts: [
           `roboto mono`,
-          `muli\:300,400,400i,700`, // you can also specify font weights and styles
+          `muli\:300,400,400i,500,700,800,900`, // you can also specify font weights and styles
         ],
         display: "swap",
       },

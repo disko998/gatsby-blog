@@ -9,11 +9,12 @@ export default createGlobalStyle`
 
 	body, html {
 		font-family: ${props => props.theme.fonts.main};
-		height: 100%;
-		background-color: ${props => props.theme.colors.light};
+		background-color: ${props => props.theme.colors.background};
+		color: ${props => props.theme.colors.light};
 	}
 
 	code {
 		font-family: ${props => props.theme.fonts.code};
 	}
+
 `
