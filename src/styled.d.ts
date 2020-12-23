@@ -15,6 +15,7 @@ declare module "styled-components" {
       light: string
       background: string
       blue: string
+      gray: string
     }
 
     breakpoints: {
@@ -35,6 +36,7 @@ declare module "styled-components" {
     animation: {
       button: string
       link: string
+      main: string
     }
 
     shadows: {

@@ -41,3 +41,7 @@ export const Col = styled.div<ColProps>`
   align-items: ${p => p.align || "center"};
   padding: ${p => p.theme.spacing.small};
 `
+
+export const Section = styled.section`
+  padding: ${p => p.theme.spacing.medium} 0;
+`

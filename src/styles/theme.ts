@@ -9,6 +9,7 @@ export default {
     dark: "#16151f",
     main: "#ff7b7b",
     blue: "#323a96",
+    gray: "#aaa",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",
@@ -26,6 +27,7 @@ export default {
   animation: {
     button: "box-shadow 0.3 ease",
     link: "color 0.2s ease",
+    main: "all 0.3s ease",
   },
   shadows: {
     shadow1: "0px 5px 20px rgba(30,30,31,0.05)",
