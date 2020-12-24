@@ -11,6 +11,7 @@ export default createGlobalStyle`
 		font-family: ${props => props.theme.fonts.main};
 		background-color: ${props => props.theme.colors.background};
 		color: ${props => props.theme.colors.gray};
+		text-overflow: ellipsis;
 	}
 
 	code {

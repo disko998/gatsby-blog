@@ -8,7 +8,7 @@ export default {
     background: "rgb(15, 14, 21)",
     dark: "#16151f",
     main: "#ff7b7b",
-    blue: "#323a96",
+    second: "#323a96",
     gray: "#aaa",
   },
   breakpoints: {

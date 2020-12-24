@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
+
 import { rem } from "./../../utils/helper"
 
 export const Navbar = styled.nav`
@@ -16,7 +18,7 @@ export const NavContent = styled.div`
   align-self: center;
 `
 
-export const Logo = styled.a`
+export const Logo = styled(Link)`
   font-size: 27px;
   line-height: 1;
   font-weight: 900;
@@ -40,13 +42,13 @@ export const NavItem = styled.li`
   margin-right: ${p => p.theme.spacing.medium};
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)<{ active?: boolean }>`
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  color: #fff;
   cursor: pointer;
   position: relative;
+  color: ${p => (p.active ? p.theme.colors.main : p.theme.colors.light)};
 
   &::before {
     content: "";
@@ -61,7 +63,7 @@ export const NavLink = styled.a`
     left: 0;
     right: 0;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.3s;
   }
 
   &:hover::before {

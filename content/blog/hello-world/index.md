@@ -2,6 +2,12 @@
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
+image: https://en.wikipedia.org/wiki/Salted_duck_egg
+author: Anonymous
+tags: [bible, hebrew]
+readTime: 2 min
+thumbnail: ./10.jpg
+avatar: ./profile.jpg
 ---
 
 This is my first post on my new fake blog! How exciting!

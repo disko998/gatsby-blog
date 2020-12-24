@@ -27,16 +27,22 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
       <Navbar>
         <Container>
           <NavContent>
-            <Logo>Aditu</Logo>
+            <Logo to="/">Aditu</Logo>
             <Nav>
               <NavItem>
-                <NavLink>Blog</NavLink>
+                <NavLink active={location.pathname === "/"} to="/">
+                  Posts
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>About</NavLink>
+                <NavLink active={location.pathname === "/about"} to="/about">
+                  About
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Log in</NavLink>
+                <NavLink active={location.pathname === "/login"} to="/login">
+                  Log in
+                </NavLink>
               </NavItem>
             </Nav>
           </NavContent>

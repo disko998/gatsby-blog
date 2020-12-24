@@ -6,11 +6,17 @@ import { Layout, BlogPosts } from "../components"
 
 const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
+  const urlParams = new URLSearchParams(location.search)
+  const searchTerm = urlParams.get("term")
+
+  const filteredPosts = posts.filter(post =>
+    searchTerm ? post.frontmatter.tags.includes(searchTerm) : true
+  )
 
   return (
     <Layout location={location}>
       <SEO title="Posts" />
-      <BlogPosts posts={posts} />
+      <BlogPosts posts={filteredPosts} />
     </Layout>
   )
 }
@@ -32,8 +38,26 @@ export const pageQuery = graphql`
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
-          title
+          author
           description
+          image
+          tags
+          title
+          readTime
+          avatar {
+            childImageSharp {
+              fixed(height: 80, width: 80, quality: 100) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

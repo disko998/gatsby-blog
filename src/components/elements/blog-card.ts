@@ -1,58 +1,85 @@
 import styled from "styled-components"
 import { rem } from "../../utils/helper"
+import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
 export const ArticleCard = styled.article`
-  /* max-width: ${rem(412)}; */
-  min-height: ${rem(340)};
-  background-color: rgba(255, 255, 255, 0.2);
   position: relative;
-  display: flex;
-  flex-direction: column-reverse;
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  padding: ${p => p.theme.spacing.small};
-  flex-direction: column-reverse;
   cursor: pointer;
   transition: transform 0.3s;
 
   &:hover {
     transform: translateY(-10px);
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
   }
+`
+
+export const CardContent = styled.div`
+  /* max-width: ${rem(412)}; */
+  min-height: ${rem(340)};
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  padding: ${p => p.theme.spacing.small};
+  flex-direction: column-reverse;
+  cursor: pointer;
+  z-index: 2;
 `
 
 export const CardDesc = styled.p`
   font-size: 14px;
   line-height: 17px;
   margin: ${p => p.theme.spacing.xSmall} 0;
+  min-height: ${rem(55)};
+  overflow: hidden;
+  font-weight: 500;
 `
 
-export const CardFooter = styled.footer`
+export const CardFooter = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 `
 
-export const Avatar = styled.image`
-  position: relative;
+export const Thumb = styled(Img)<GatsbyImageFluidProps>`
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  filter: brightness(30%);
+`
+
+export const Avatar = styled(Img)<GatsbyImageFixedProps>`
   display: inline-block;
-  width: 36px;
-  height: 36px;
-  padding: 3px;
+  padding: ${rem(3)};
   margin-right: ${rem(8)};
-  border: 2px solid #ff7b7b;
+  /* border: 2px solid #ff7b7b; */
   border-radius: 50%;
   overflow: hidden;
+  width: ${rem(36)};
+  height: ${rem(36)};
 `
+
+// export const Avatar = {
+//   borderRadius: "50%",
+// }
 
 export const Author = styled.span`
   font-size: 13px;
   font-weight: 500;
   margin-right: ${rem(8)};
   color: ${p => p.theme.colors.light};
+  white-space: nowrap;
 `
 
 export const ReadTime = styled.time`
@@ -61,6 +88,7 @@ export const ReadTime = styled.time`
   font-weight: 500;
   margin-right: ${rem(2)};
   color: ${p => p.theme.colors.light};
+  white-space: nowrap;
 `
 
 export const PostDate = styled(ReadTime)`
@@ -79,16 +107,20 @@ export const Tag = styled.li`
   border: 1px solid ${p => p.theme.colors.gray};
   color: ${p => p.theme.colors.gray};
   transition: ${p => p.theme.animation.main};
-  margin: 0 ${rem(3)};
+  margin: ${rem(3)};
   border-radius: 30px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
   min-width: 50px;
   text-align: center;
+  white-space: nowrap;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 
   &:hover {
     border-color: ${p => p.theme.colors.main};
     color: ${p => p.theme.colors.light};
+    /* background: ${p => p.theme.colors.main}; */
   }
 `
