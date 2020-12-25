@@ -40,8 +40,14 @@ export const Col = styled.div<ColProps>`
   justify-content: ${p => p.justify || "center"};
   align-items: ${p => p.align || "center"};
   padding: ${p => p.theme.spacing.small};
+  display: flex;
 `
 
 export const Section = styled.section`
   padding: ${p => p.theme.spacing.medium} 0;
+`
+
+export const Row = styled.div`
+  display: flex;
+  align-items: center;
 `

@@ -2,6 +2,17 @@ import styled from "styled-components"
 import { rem } from "../../utils/helper"
 import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
+export const Thumb = styled(Img)<GatsbyImageFluidProps>`
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  filter: brightness(30%);
+  transition: all 0.3s;
+`
+
 export const ArticleCard = styled.article`
   position: relative;
   width: 100%;
@@ -9,11 +20,15 @@ export const ArticleCard = styled.article`
   border-radius: 1rem;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: all 0.3s;
 
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  &:hover ${Thumb} {
+    filter: brightness(40%);
   }
 `
 
@@ -47,16 +62,6 @@ export const CardFooter = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-`
-
-export const Thumb = styled(Img)<GatsbyImageFluidProps>`
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  filter: brightness(30%);
 `
 
 export const Avatar = styled(Img)<GatsbyImageFixedProps>`
@@ -117,10 +122,15 @@ export const Tag = styled.li`
   white-space: nowrap;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
   font-weight: bold;
+  cursor: pointer;
 
   &:hover {
     border-color: ${p => p.theme.colors.main};
     color: ${p => p.theme.colors.light};
     /* background: ${p => p.theme.colors.main}; */
   }
+`
+
+export const HashTag = styled.span`
+  color: ${p => p.theme.colors.main};
 `

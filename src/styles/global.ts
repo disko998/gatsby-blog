@@ -21,7 +21,7 @@ export default createGlobalStyle`
 	h1,h2,h3,h4,h5,h6 {
 		color: ${props => props.theme.colors.light};
 		font-weight: 900;
-		margin: ${props => props.theme.spacing.xxSmall} 0;
+		margin: ${props => props.theme.spacing.xSmall} 0;
 	}
 
 	&::selection {

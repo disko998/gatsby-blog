@@ -40,7 +40,6 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           author
           description
-          image
           tags
           title
           readTime
@@ -53,7 +52,7 @@ export const pageQuery = graphql`
           }
           thumbnail {
             childImageSharp {
-              fluid(maxWidth: 600) {
+              fluid(maxWidth: 1300) {
                 ...GatsbyImageSharpFluid
               }
             }

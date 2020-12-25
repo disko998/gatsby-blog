@@ -1,8 +1,22 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
-import { Layout } from "../components"
+import { Layout, Tags } from "../components"
 import SEO from "../components/seo"
+import {
+  PostHeader,
+  Grid,
+  Col,
+  ReadTime,
+  PostDate,
+  PostTitle,
+  Author,
+  CardFooter,
+  Avatar,
+  FeaturedImage,
+  Section,
+} from "../components/elements"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -20,42 +34,45 @@ const BlogPostTemplate = ({ data, location }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <section
+        <Section>
+          <Grid>
+            <Col flex={1.2}>
+              <FeaturedImage
+                fadeIn={true}
+                fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+              />
+            </Col>
+            <Col>
+              <PostHeader>
+                <Tags tags={post.frontmatter.tags} />
+                <PostTitle itemProp="headline">
+                  {post.frontmatter.title}
+                </PostTitle>
+                <CardFooter>
+                  <Avatar
+                    style={{ height: 36, width: 36 }}
+                    fadeIn={true}
+                    fixed={post.frontmatter.avatar.childImageSharp.fixed}
+                    alt="Avatar"
+                  />
+                  <Author>{post.frontmatter.author}</Author>
+                  <ReadTime>
+                    {post.frontmatter.readTime} read &bull;
+                    <PostDate>{` ${post.frontmatter.date}`}</PostDate>
+                  </ReadTime>
+                </CardFooter>
+              </PostHeader>
+            </Col>
+          </Grid>
+        </Section>
+
+        <Section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+
         <hr />
       </article>
-      <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
     </Layout>
   )
 }
@@ -81,6 +98,23 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
+        author
+        readTime
+        avatar {
+          childImageSharp {
+            fixed(height: 90, width: 90, quality: 100) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
@@ -101,3 +135,32 @@ export const pageQuery = graphql`
     }
   }
 `
+
+{
+  /* <nav className="blog-post-nav">
+<ul
+  style={{
+	display: `flex`,
+	flexWrap: `wrap`,
+	justifyContent: `space-between`,
+	listStyle: `none`,
+	padding: 0,
+  }}
+>
+  <li>
+	{previous && (
+	  <Link to={previous.fields.slug} rel="prev">
+		← {previous.frontmatter.title}
+	  </Link>
+	)}
+  </li>
+  <li>
+	{next && (
+	  <Link to={next.fields.slug} rel="next">
+		{next.frontmatter.title} →
+	  </Link>
+	)}
+  </li>
+</ul>
+</nav> */
+}

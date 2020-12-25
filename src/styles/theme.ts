@@ -33,7 +33,7 @@ export default {
     shadow1: "0px 5px 20px rgba(30,30,31,0.05)",
   },
   layouts: {
-    containerWidth: `${1200 / 16}rem`,
+    containerWidth: `${1300 / 16}rem`,
     minColWidth: `${350 / 16}rem`,
   },
 }
