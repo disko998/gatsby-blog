@@ -1,6 +1,6 @@
 export default {
   fonts: {
-    main: "Muli, sans-serif",
+    main: "Inter, sans-serif",
     code: "Roboto Mono, monospace",
   },
   colors: {

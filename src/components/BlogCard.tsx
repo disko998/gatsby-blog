@@ -1,14 +1,12 @@
 import React from "react"
 import { PostNode } from "../@types"
 import { navigate } from "gatsby"
-import Img from "gatsby-image"
 
-import { Tags } from "./Tags"
+import { Tags, Avatar } from "./index"
 import {
   ArticleCard,
   CardDesc,
   CardFooter,
-  Avatar,
   Author,
   PostDate,
   ReadTime,
@@ -23,10 +21,13 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
     <ArticleCard onClick={() => navigate(post.fields.slug)}>
       <Thumb
         fadeIn={true}
-        fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+        fluid={
+          post.frontmatter.thumbnail &&
+          post.frontmatter.thumbnail.childImageSharp.fluid
+        }
       />
       <CardContent>
-        <div>
+        <main>
           <Tags tags={post.frontmatter.tags} />
           <h2>{post.frontmatter.title}</h2>
           <CardDesc
@@ -38,20 +39,14 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
             itemProp="description"
           />
           <CardFooter>
-            <Avatar
-              style={{ height: 36, width: 36 }}
-              fadeIn={true}
-              fixed={post.frontmatter.avatar.childImageSharp.fixed}
-              alt="Avatar"
-            />
-
+            <Avatar src={post.frontmatter.avatar} />
             <Author>{post.frontmatter.author}</Author>
             <ReadTime>
               {post.frontmatter.readTime} read &bull;
               <PostDate>{` ${post.frontmatter.date}`}</PostDate>
             </ReadTime>
           </CardFooter>
-        </div>
+        </main>
       </CardContent>
     </ArticleCard>
   )

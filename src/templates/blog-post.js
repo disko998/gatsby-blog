@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
-import { Layout, Tags } from "../components"
+import { Layout, Tags, Avatar } from "../components"
 import SEO from "../components/seo"
 import {
   PostHeader,
@@ -13,9 +13,9 @@ import {
   PostTitle,
   Author,
   CardFooter,
-  Avatar,
   FeaturedImage,
   Section,
+  BlogPost,
 } from "../components/elements"
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -39,7 +39,10 @@ const BlogPostTemplate = ({ data, location }) => {
             <Col flex={1.2}>
               <FeaturedImage
                 fadeIn={true}
-                fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+                fluid={
+                  post.frontmatter.thumbnail &&
+                  post.frontmatter.thumbnail.childImageSharp.fluid
+                }
               />
             </Col>
             <Col>
@@ -49,12 +52,7 @@ const BlogPostTemplate = ({ data, location }) => {
                   {post.frontmatter.title}
                 </PostTitle>
                 <CardFooter>
-                  <Avatar
-                    style={{ height: 36, width: 36 }}
-                    fadeIn={true}
-                    fixed={post.frontmatter.avatar.childImageSharp.fixed}
-                    alt="Avatar"
-                  />
+                  <Avatar src={post.frontmatter.avatar} />
                   <Author>{post.frontmatter.author}</Author>
                   <ReadTime>
                     {post.frontmatter.readTime} read &bull;
@@ -66,10 +64,12 @@ const BlogPostTemplate = ({ data, location }) => {
           </Grid>
         </Section>
 
-        <Section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
+        <Section>
+          <BlogPost
+            dangerouslySetInnerHTML={{ __html: post.html }}
+            itemProp="articleBody"
+          />
+        </Section>
 
         <hr />
       </article>
