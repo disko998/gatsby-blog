@@ -6,7 +6,7 @@ export default {
   colors: {
     light: "#fff",
     background: "rgb(15, 14, 21)",
-    dark: "#16151f",
+    dark: "#17151e",
     main: "#ff7b7b",
     second: "#323a96",
     gray: "#aaa",

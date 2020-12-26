@@ -9,6 +9,8 @@ thumbnail: ./salty_egg.jpg
 avatar: ./profile.jpg
 ---
 
+# On deer horse aboard tritely yikes and much
+
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -40,9 +42,9 @@ few insidious Copy Writers ambushed her, made her drunk with
 they abused her for their projects again and again. And if she hasn’t been
 rewritten, then they are still using her.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+> The longer I live, the more I realize that I am never wrong about anything, ?
+> and that all the pains I have so humbly taken to verify my notions have only
+> wasted my time!
 
 It is a paradisematic country, in which roasted parts of sentences fly into your
 mouth. Even the all-powerful Pointing has no control about the blind texts it is

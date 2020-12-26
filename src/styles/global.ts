@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import { rem } from "../utils/helper"
 
 export default createGlobalStyle`
 	* {
@@ -27,6 +28,16 @@ export default createGlobalStyle`
 	&::selection {
     color: #fff;
     background-color: rgba(255,123,123,.7);
-}
+	}
+
+
+	.gatsby-highlight pre {
+	border-radius: 10px;
+	background-color: ${p => p.theme.colors.dark}
+	}
+
+	:-webkit-any(article,aside,nav,section) h1 {
+		font-size: 2em;
+	}
 
 `

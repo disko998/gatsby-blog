@@ -9,7 +9,7 @@ export const Thumb = styled(Img)<GatsbyImageFluidProps>`
   right: 0;
   bottom: 0;
   z-index: 1;
-  filter: brightness(30%);
+  filter: brightness(50%);
   transition: all 0.3s;
 `
 
@@ -28,7 +28,7 @@ export const ArticleCard = styled.article`
   }
 
   &:hover ${Thumb} {
-    filter: brightness(40%);
+    filter: brightness(60%);
   }
 `
 
@@ -55,6 +55,7 @@ export const CardDesc = styled.p`
   min-height: ${rem(55)};
   overflow: hidden;
   font-weight: 500;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
 `
 
 export const CardFooter = styled.div`
@@ -74,10 +75,6 @@ export const Avatar = styled(Img)<GatsbyImageFixedProps>`
   width: ${rem(36)};
   height: ${rem(36)};
 `
-
-// export const Avatar = {
-//   borderRadius: "50%",
-// }
 
 export const Author = styled.span`
   font-size: 13px;
@@ -109,7 +106,7 @@ export const TagList = styled.ul`
 
 export const Tag = styled.li`
   padding: ${rem(2)} ${rem(8)};
-  border: 1px solid ${p => p.theme.colors.gray};
+  border: 2px solid ${p => p.theme.colors.gray};
   color: ${p => p.theme.colors.gray};
   transition: ${p => p.theme.animation.main};
   margin: ${rem(3)};

@@ -18,7 +18,7 @@ export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
 `
 
 export const PostTitle = styled.h1`
-  font-size: 3rem;
+  font-size: ${p => p.theme.spacing.large} !important;
 `
 
 export const BlogPost = styled.article`
@@ -29,30 +29,56 @@ export const BlogPost = styled.article`
   line-height: 1.7;
 
   & > * {
-    margin: ${p => p.theme.spacing.large} 0;
+    margin-top: 1.5rem;
   }
 
-  h1,
-  h2 {
+  h2,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: ${p => p.theme.spacing.large};
+  }
+
+  h1 {
     text-align: center;
   }
 
   blockquote {
     position: relative;
-    padding: 32px 20px 62px 64px;
-    margin-bottom: 0;
-    font-size: 30px;
+    padding: 32px 20px 32px 64px;
+    font-size: ${rem(30)};
     line-height: 38px;
     font-weight: 900;
-    color: #fff;
+    color: ${p => p.theme.colors.light};
 
     &::before {
-      content: "'";
+      content: "\\201C";
       position: absolute;
       top: 0.59em;
       left: -0.01em;
       font-size: 4em;
-      color: #ff7b7b;
+      color: ${p => p.theme.colors.main};
+    }
+  }
+
+  a {
+    color: ${p => p.theme.colors.main};
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul,
+  ol {
+    margin-left: ${p => p.theme.spacing.medium};
+
+    li {
+      padding-left: ${p => p.theme.spacing.xSmall};
+      margin: ${p => p.theme.spacing.xSmall} 0;
     }
   }
 `

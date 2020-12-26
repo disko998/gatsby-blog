@@ -66,6 +66,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
         <Section>
           <BlogPost
+            id="blogPost"
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
           />
