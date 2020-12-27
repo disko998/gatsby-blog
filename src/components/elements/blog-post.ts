@@ -21,10 +21,63 @@ export const PostTitle = styled.h1`
   font-size: ${p => p.theme.spacing.large} !important;
 `
 
+export const PostContainer = styled.div`
+  width: 100%;
+  max-width: ${rem(750)};
+  margin: auto;
+`
+
+export const PostsNavWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  & > div {
+    width: 100%;
+  }
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    flex-direction: column;
+    margin: ${p => p.theme.spacing.small} 0;
+  }
+`
+
+export const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
+  flex: 1;
+  height: ${rem(240)};
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: ${p => (p.next ? "flex-end" : "flex-start")};
+  border-radius: ${p => (p.next ? "0 16px 16px 0" : "16px 0 0 16px")};
+  padding: ${p => p.theme.spacing.small} ${p => p.theme.spacing.medium};
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  ${p => (p.round ? "border-radius: 16px" : "")}
+`
+
+export const ArrowText = styled.nav<{ next?: boolean }>`
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: ${p => p.theme.colors.light};
+
+  ${postNav}
+`
+
+function postNav(props) {
+  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px}`
+  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px}`
+
+  return props.next ? nextStyle : prevStyle
+}
+
+// MDX Styles
 export const BlogPost = styled.article`
   width: 100%;
-  margin: auto;
-  max-width: ${rem(750)};
   font-size: 18px;
   line-height: 1.7;
 

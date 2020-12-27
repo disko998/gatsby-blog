@@ -44,7 +44,7 @@ export const Col = styled.div<ColProps>`
 `
 
 export const Section = styled.section`
-  margin: ${p => p.theme.spacing.large} 0;
+  margin: ${p => p.theme.spacing.xxLarge} 0;
 `
 
 export const Row = styled.div`

@@ -2,15 +2,24 @@ import styled from "styled-components"
 import { rem } from "../../utils/helper"
 import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
-export const Thumb = styled(Img)<GatsbyImageFluidProps>`
+type ThumbProps = GatsbyImageFluidProps & {
+  zIndex?: number
+  hoverEffect?: boolean
+}
+
+export const Thumb = styled(Img)<ThumbProps>`
   position: absolute !important;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: ${p => p.zIndex || 1};
   filter: brightness(50%);
   transition: all 0.3s;
+
+  &:hover {
+    ${p => (p.hoverEffect ? `filter: brightness(40%);` : "")}
+  }
 `
 
 export const ArticleCard = styled.article`

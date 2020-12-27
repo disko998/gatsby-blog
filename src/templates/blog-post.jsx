@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, navigate } from "gatsby"
 import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
 
 import { Layout, Tags, Avatar } from "../components"
@@ -16,6 +16,11 @@ import {
   FeaturedImage,
   Section,
   BlogPost,
+  PostNavCard,
+  ArrowText,
+  PostContainer,
+  Thumb,
+  PostsNavWrapper,
 } from "../components/elements"
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -65,11 +70,54 @@ const BlogPostTemplate = ({ data, location }) => {
         </Section>
 
         <Section>
-          <BlogPost
-            id="blogPost"
-            dangerouslySetInnerHTML={{ __html: post.html }}
-            itemProp="articleBody"
-          />
+          <PostContainer>
+            <BlogPost
+              id="blogPost"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              itemProp="articleBody"
+            />
+
+            <Section>
+              <PostsNavWrapper>
+                {previous && (
+                  <PostNavCard
+                    round={!next}
+                    onClick={() => navigate(previous.fields.slug)}
+                  >
+                    <Thumb
+                      zIndex={-1}
+                      hoverEffect
+                      fluid={
+                        previous.frontmatter.thumbnail &&
+                        previous.frontmatter.thumbnail.childImageSharp.fluid
+                      }
+                    />
+                    <ArrowText>previous post</ArrowText>
+                    <h2>{previous.frontmatter.title}</h2>
+                  </PostNavCard>
+                )}
+
+                {next && (
+                  <PostNavCard
+                    round={!previous}
+                    next
+                    onClick={() => navigate(next.fields.slug)}
+                  >
+                    <Thumb
+                      zIndex={-1}
+                      hoverEffect
+                      fluid={
+                        next.frontmatter.thumbnail &&
+                        next.frontmatter.thumbnail.childImageSharp.fluid
+                      }
+                    />
+                    <ArrowText next>next post</ArrowText>
+                    <h2>{next.frontmatter.title}</h2>
+                  </PostNavCard>
+                )}
+              </PostsNavWrapper>
+            </Section>
+          </PostContainer>
         </Section>
 
         <hr />
@@ -124,6 +172,13 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
     next: markdownRemark(id: { eq: $nextPostId }) {
@@ -132,6 +187,13 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

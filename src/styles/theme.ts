@@ -35,5 +35,6 @@ export default {
   layouts: {
     containerWidth: `${1300 / 16}rem`,
     minColWidth: `${350 / 16}rem`,
+    boxRadius: "16px",
   },
 }
