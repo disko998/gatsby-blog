@@ -32,14 +32,10 @@ export const PostsNavWrapper = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-
-  & > div {
-    width: 100%;
-  }
+  min-height: ${rem(240)};
 
   @media ${p => p.theme.breakpoints.mobile} {
     flex-direction: column;
-    margin: ${p => p.theme.spacing.small} 0;
   }
 `
 
@@ -57,6 +53,12 @@ export const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
   overflow: hidden;
   z-index: 2;
   ${p => (p.round ? "border-radius: 16px" : "")}
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    width: 100%;
+    border-radius: 16px;
+    margin: ${p => p.theme.spacing.small} 0;
+  }
 `
 
 export const ArrowText = styled.nav<{ next?: boolean }>`

@@ -38,8 +38,11 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink active={location.pathname === "/about"} to="/about">
-                  About
+                <NavLink
+                  active={location.pathname === "/elements"}
+                  to="/elements"
+                >
+                  Elements
                 </NavLink>
               </NavItem>
               <NavItem>
