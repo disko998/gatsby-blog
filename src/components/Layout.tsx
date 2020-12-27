@@ -15,7 +15,6 @@ import {
   Grid,
   Col,
   FooterTitle,
-  FooterCard,
   StyledTags,
 } from "./elements"
 import { FEATURED_TAGS } from "../config/const"
@@ -59,7 +58,7 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
         <Container>
           <Grid>
             <Col direction="column" justify="flex-start">
-              <FooterTitle>Coming soon...</FooterTitle>
+              <FooterTitle>Latest Posts</FooterTitle>
             </Col>
             <Col direction="column" justify="flex-start">
               <FooterTitle>Explore Tags</FooterTitle>

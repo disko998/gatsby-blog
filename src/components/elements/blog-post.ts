@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { rem } from "../../utils/helper"
-import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
+import Img, { GatsbyImageFluidProps } from "gatsby-image"
 
 export const PostHeader = styled.header`
   display: flex;
@@ -13,6 +13,7 @@ export const PostHeader = styled.header`
 
 export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
   width: 100%;
+  max-height: 600px;
   border-radius: 16px;
   filter: brightness(80%);
 `

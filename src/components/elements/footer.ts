@@ -8,7 +8,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: ${p => p.theme.spacing.xxLarge};
+  padding: ${p => p.theme.spacing.xxLarge} 0;
 `
 
 export const FooterCard = styled.div`
@@ -52,7 +52,7 @@ export const FooterTitle = styled.h2`
   }
 
   &::selection {
-    color: #fff;
+    color: ${p => p.theme.colors.light};
     background-color: rgba(255, 123, 123, 0.7);
   }
 `

@@ -22,6 +22,10 @@ export const TextInput = styled.input`
     color: ${p => p.theme.colors.light};
     border-color: ${p => p.theme.colors.main};
   }
+
+  &::placeholder {
+    color: ${p => p.theme.colors.light};
+  }
 `
 
 export const NewsletterForm = styled.form`

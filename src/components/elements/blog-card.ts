@@ -63,8 +63,9 @@ export const CardDesc = styled.p`
   margin: ${p => p.theme.spacing.xSmall} 0;
   min-height: ${rem(55)};
   overflow: hidden;
-  font-weight: 500;
+  font-weight: 400;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  color: ${p => p.theme.colors.light};
 `
 
 export const CardFooter = styled.div`

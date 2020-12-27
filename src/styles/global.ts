@@ -26,7 +26,7 @@ export default createGlobalStyle`
 	}
 
 	&::selection {
-    color: #fff;
+    color: ${p => p.theme.colors.light};
     background-color: rgba(255,123,123,.7);
 	}
 
@@ -38,6 +38,13 @@ export default createGlobalStyle`
 
 	:-webkit-any(article,aside,nav,section) h1 {
 		font-size: 2em;
+	}
+
+	hr {
+		border: 0;
+    	height: 1px;
+		border-radius: 16px;
+    	background: ${p => p.theme.colors.gray};
 	}
 
 `

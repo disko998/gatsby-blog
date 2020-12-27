@@ -16,7 +16,7 @@ export function Newsletter() {
     (e: React.MouseEvent) => {
       e.preventDefault()
       if (!newsletter.trim()) return
-      alert(`Subscribed with ${newsletter}!`)
+
       setNewsletter("")
     },
     [newsletter]
