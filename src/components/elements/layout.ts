@@ -31,6 +31,7 @@ type ColProps = {
   flex?: number
   justify?: string
   align?: string
+  direction?: string
 }
 
 export const Col = styled.div<ColProps>`
@@ -41,6 +42,7 @@ export const Col = styled.div<ColProps>`
   align-items: ${p => p.align || "center"};
   padding: ${p => p.theme.spacing.small};
   display: flex;
+  flex-direction: ${p => p.direction || "row"};
 `
 
 export const Section = styled.section`

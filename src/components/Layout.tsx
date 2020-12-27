@@ -14,8 +14,12 @@ import {
   Logo,
   Grid,
   Col,
-  Title,
+  FooterTitle,
+  FooterCard,
+  StyledTags,
 } from "./elements"
+import { FEATURED_TAGS } from "../config/const"
+import { Newsletter } from "./Newsletter"
 
 interface LayoutProps extends Omit<PageProps, "children"> {
   children?: JSX.Element | JSX.Element[]
@@ -54,14 +58,18 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
       <Footer>
         <Container>
           <Grid>
-            <Col>
-              <Title>Latest Posts</Title>
+            <Col direction="column" justify="flex-start">
+              <FooterTitle>Coming soon...</FooterTitle>
             </Col>
-            <Col>
-              <Title>Explore Tags</Title>
+            <Col direction="column" justify="flex-start">
+              <FooterTitle>Explore Tags</FooterTitle>
+              <div>
+                <StyledTags big tags={FEATURED_TAGS} />
+              </div>
             </Col>
-            <Col>
-              <Title>Get Interesting News</Title>
+            <Col direction="column">
+              <FooterTitle>Get Interesting News</FooterTitle>
+              <Newsletter />
             </Col>
           </Grid>
         </Container>

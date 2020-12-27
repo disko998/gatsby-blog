@@ -113,8 +113,8 @@ export const TagList = styled.ul`
   flex: 1;
 `
 
-export const Tag = styled.li`
-  padding: ${rem(2)} ${rem(8)};
+export const Tag = styled.li<{ big?: boolean }>`
+  padding: ${p => (p.big ? `${rem(5)} ${rem(11)}` : `${rem(2)} ${rem(8)}`)};
   border: 2px solid ${p => p.theme.colors.gray};
   color: ${p => p.theme.colors.gray};
   transition: ${p => p.theme.animation.main};
@@ -133,7 +133,6 @@ export const Tag = styled.li`
   &:hover {
     border-color: ${p => p.theme.colors.main};
     color: ${p => p.theme.colors.light};
-    /* background: ${p => p.theme.colors.main}; */
   }
 `
 

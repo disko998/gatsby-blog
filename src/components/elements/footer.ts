@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { rem } from "../../utils/helper"
+import { Tags } from "../Tags"
 
 export const Footer = styled.footer`
   min-height: ${rem(300)};
@@ -7,19 +8,28 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: ${p => p.theme.spacing.xxLarge};
 `
 
-export const Title = styled.h2`
+export const FooterCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: ${rem(450)};
+  margin: auto;
+`
+
+export const FooterTitle = styled.h2`
   position: relative;
   padding-left: 8px;
-  margin-bottom: 36px;
+  margin-bottom: ${p => p.theme.spacing.large};
   font-size: 24px;
   line-height: 1;
   font-weight: 900;
   z-index: 1;
   width: fit-content;
   text-align: center;
-  margin: auto;
 
   &::after {
     content: "";
@@ -45,4 +55,10 @@ export const Title = styled.h2`
     color: #fff;
     background-color: rgba(255, 123, 123, 0.7);
   }
+`
+
+export const StyledTags = styled(Tags)`
+  justify-content: center;
+  max-width: 350px;
+  margin: auto;
 `
