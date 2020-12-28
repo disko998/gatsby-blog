@@ -18,7 +18,14 @@ export function Tags({ tags, className, big }: TagsProps) {
     <TagList className={className}>
       {tags &&
         tags.map(tag => (
-          <Tag big={big} onClick={() => searchTag(tag)}>
+          <Tag
+            key={tag}
+            big={big}
+            onClick={(e: React.MouseEvent) => {
+              e.stopPropagation()
+              searchTag(tag)
+            }}
+          >
             <HashTag>#</HashTag>
             {tag}
           </Tag>

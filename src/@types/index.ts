@@ -13,4 +13,5 @@ export type PostNode = {
     thumbnail: any
     avatar: any
   }
+  id: string
 }

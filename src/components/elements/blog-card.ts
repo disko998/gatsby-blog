@@ -140,3 +140,23 @@ export const Tag = styled.li<{ big?: boolean }>`
 export const HashTag = styled.span`
   color: ${p => p.theme.colors.main};
 `
+
+export const Bookmark = styled.span<{ isBookmarked: boolean }>`
+  position: absolute;
+  top: ${p => p.theme.spacing.small};
+  right: ${p => p.theme.spacing.small};
+  font-size: 25px;
+  color: ${p => (p.isBookmarked ? p.theme.colors.main : p.theme.colors.light)};
+  cursor: pointer;
+  transform: color 0.2s;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  width: 30px;
+  text-align: center;
+
+  &:hover {
+    color: ${p => p.theme.colors.main};
+    background: rgba(255, 255, 255, 0.2);
+  }
+`

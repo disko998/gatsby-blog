@@ -31,6 +31,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
+        id
         fields {
           slug
         }
@@ -41,13 +42,6 @@ export const pageQuery = graphql`
           tags
           title
           readTime
-          avatar {
-            childImageSharp {
-              fixed(height: 80, width: 80, quality: 100) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
           thumbnail {
             childImageSharp {
               fluid(maxWidth: 1300) {

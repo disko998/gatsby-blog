@@ -34,7 +34,7 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
             <Nav>
               <NavItem>
                 <NavLink active={location.pathname === "/"} to="/">
-                  Posts
+                  All Posts
                 </NavLink>
               </NavItem>
               <NavItem>

@@ -1,6 +1,6 @@
 import React from "react"
 import { PostNode } from "../@types"
-import { navigate } from "gatsby"
+import { navigate, useStaticQuery, graphql } from "gatsby"
 
 import { Tags, Avatar } from "./index"
 import {
@@ -12,11 +12,32 @@ import {
   ReadTime,
   Thumb,
   CardContent,
+  Bookmark,
 } from "./elements"
 
 const maxLength = 140
 
 export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
+  const { site, avatar } = useStaticQuery(query)
+  const [bookmarks, setBookmarks] = React.useState<string[] | null>(
+    JSON.parse(localStorage.getItem("@BOOKMARKS"))
+  )
+
+  const onBookmark = (e: React.MouseEvent) => {
+    e.stopPropagation()
+
+    if (!bookmarks) {
+      return localStorage.setItem("@BOOKMARKS", JSON.stringify([post.id]))
+    }
+
+    const newBookmarks = bookmarks.includes(post.id)
+      ? bookmarks.filter(b => b !== post.id)
+      : [...bookmarks, post.id]
+
+    localStorage.setItem("@BOOKMARKS", JSON.stringify(newBookmarks))
+    setBookmarks(newBookmarks)
+  }
+
   return (
     <ArticleCard onClick={() => navigate(post.fields.slug)}>
       <Thumb
@@ -27,6 +48,12 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
         }
       />
       <CardContent>
+        <Bookmark
+          onClick={onBookmark}
+          isBookmarked={bookmarks.includes(post.id)}
+        >
+          &#9734;
+        </Bookmark>
         <main>
           <Tags tags={post.frontmatter.tags} />
           <h2>{post.frontmatter.title}</h2>
@@ -39,8 +66,8 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
             itemProp="description"
           />
           <CardFooter>
-            <Avatar src={post.frontmatter.avatar} />
-            <Author>{post.frontmatter.author}</Author>
+            <Avatar src={avatar} />
+            <Author>{site.siteMetadata.author.name}</Author>
             <ReadTime>
               {post.frontmatter.readTime} read &bull;
               <PostDate>{` ${post.frontmatter.date}`}</PostDate>
@@ -51,6 +78,25 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
     </ArticleCard>
   )
 }
+
+const query = graphql`
+  query {
+    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+      childImageSharp {
+        fixed(width: 80, height: 80, quality: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        author {
+          name
+        }
+      }
+    }
+  }
+`
 
 type PostCardProps = {
   post: PostNode

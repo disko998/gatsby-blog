@@ -2,11 +2,9 @@
 title: Markdown Cheat Sheet
 description: "Markdown is a lightweight markup language for creating formatted text using a plain-text editor. I created small cheat sheet with all markup elements in one place for you!"
 date: "2020-12-27T12:32:54+0000"
-author: Anonymous
 tags: [gatsby, react.js, markdown, web development]
 readTime: 30 sec
 thumbnail: ./thumb.png
-avatar: ./profile.jpg
 ---
 
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.

@@ -24,11 +24,10 @@ import {
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  const { previous, next, site, avatar } = data
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -56,8 +55,8 @@ const BlogPostTemplate = ({ data, location }) => {
                   {post.frontmatter.title}
                 </PostTitle>
                 <CardFooter>
-                  <Avatar src={post.frontmatter.avatar} />
-                  <Author>{post.frontmatter.author}</Author>
+                  <Avatar src={avatar} />
+                  <Author>{site.siteMetadata.author.name}</Author>
                   <ReadTime>
                     {post.frontmatter.readTime} read &bull;
                     <PostDate>{` ${post.frontmatter.date}`}</PostDate>
@@ -132,9 +131,18 @@ export const pageQuery = graphql`
     $previousPostId: String
     $nextPostId: String
   ) {
+    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+      childImageSharp {
+        fixed(width: 80, height: 80, quality: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
-        title
+        author {
+          name
+        }
       }
     }
     markdownRemark(id: { eq: $id }) {

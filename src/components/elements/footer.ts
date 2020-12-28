@@ -8,7 +8,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: ${p => p.theme.spacing.xxLarge} 0;
+  padding-bottom: ${p => p.theme.spacing.xxLarge};
 `
 
 export const FooterCard = styled.div`

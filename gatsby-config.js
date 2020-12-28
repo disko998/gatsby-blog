@@ -2,14 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     author: {
-      name: `Stefan Diskic`,
-      summary: `who lives and works in Serbia building useful things.`,
+      name: `Anonymous`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     {
