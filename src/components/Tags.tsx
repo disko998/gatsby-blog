@@ -2,6 +2,7 @@ import React from "react"
 import { navigate } from "gatsby"
 
 import { TagList, Tag, HashTag } from "../components/elements"
+import { LocationContext } from "./Layout"
 
 type TagsProps = {
   tags: string[]
@@ -10,8 +11,10 @@ type TagsProps = {
 }
 
 export function Tags({ tags, className, big }: TagsProps) {
+  const { pathname } = React.useContext(LocationContext)
+
   const searchTag = React.useCallback((tag: string) => {
-    navigate(`/?term=${tag}`)
+    navigate(`${pathname}?term=${tag}`)
   }, [])
 
   return (
