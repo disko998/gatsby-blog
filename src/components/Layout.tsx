@@ -1,5 +1,5 @@
 import React from "react"
-import { PageProps } from "gatsby"
+import { PageProps, useStaticQuery, graphql } from "gatsby"
 
 import {
   LayoutWrapper,
@@ -17,7 +17,6 @@ import {
   FooterTitle,
   StyledTags,
 } from "./elements"
-import { FEATURED_TAGS } from "../config/const"
 import { Newsletter } from "./Newsletter"
 
 interface LayoutProps extends Omit<PageProps, "children"> {
@@ -25,6 +24,8 @@ interface LayoutProps extends Omit<PageProps, "children"> {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
+  const { site } = useStaticQuery(query)
+
   return (
     <LayoutWrapper>
       <Navbar>
@@ -35,6 +36,14 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
               <NavItem>
                 <NavLink active={location.pathname === "/"} to="/">
                   All Posts
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  active={location.pathname === "/favorites"}
+                  to="/favorites"
+                >
+                  Favorites
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -66,7 +75,7 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
             <Col direction="column" justify="flex-start">
               <FooterTitle>Explore Tags</FooterTitle>
               <div>
-                <StyledTags big tags={FEATURED_TAGS} />
+                <StyledTags big tags={site.siteMetadata.featuredTags} />
               </div>
             </Col>
             <Col direction="column">
@@ -79,3 +88,13 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
     </LayoutWrapper>
   )
 }
+
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        featuredTags
+      }
+    }
+  }
+`

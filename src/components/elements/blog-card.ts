@@ -130,6 +130,7 @@ export const Tag = styled.li<{ big?: boolean }>`
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   cursor: pointer;
+  text-transform: lowercase;
 
   &:hover {
     border-color: ${p => p.theme.colors.main};

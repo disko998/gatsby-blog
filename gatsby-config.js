@@ -6,6 +6,15 @@ module.exports = {
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    featuredTags: [
+      "JavaScript",
+      "React.js",
+      "Nodejs",
+      "Bible",
+      "Tora",
+      "Hebrew",
+      "Web Development",
+    ],
   },
   plugins: [
     {

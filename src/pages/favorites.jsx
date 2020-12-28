@@ -1,17 +1,21 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import { AppContext } from "../Providers"
 import SEO from "../components/seo"
 import { Layout, BlogPosts } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
-const BlogIndex = ({ data, location }) => {
-  const posts = data.allMarkdownRemark.nodes
+const Favorites = ({ data, location }) => {
+  const { bookmarks } = React.useContext(AppContext)
+  const posts = data.allMarkdownRemark.nodes.filter(post =>
+    bookmarks.includes(post.id)
+  )
   const filteredPosts = useFilterPosts(posts)
 
   return (
     <Layout location={location}>
-      <SEO title="Posts" />
+      <SEO title="Favorites" />
       <BlogPosts posts={filteredPosts} />
     </Layout>
   )
@@ -46,4 +50,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default BlogIndex
+export default Favorites

@@ -14,14 +14,13 @@ import {
   CardContent,
   Bookmark,
 } from "./elements"
+import { AppContext } from "../Providers"
 
 const maxLength = 140
 
 export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
   const { site, avatar } = useStaticQuery(query)
-  const [bookmarks, setBookmarks] = React.useState<string[] | null>(
-    JSON.parse(localStorage.getItem("@BOOKMARKS"))
-  )
+  const { bookmarks, setBookmarks } = React.useContext(AppContext)
 
   const onBookmark = (e: React.MouseEvent) => {
     e.stopPropagation()
