@@ -16,7 +16,7 @@ export default createGlobalStyle`
 	}
 
 	code {
-		font-family: ${props => props.theme.fonts.code};
+		font-family: ${props => props.theme.fonts.code} !important;
 	}
 
 	h1,h2,h3,h4,h5,h6 {

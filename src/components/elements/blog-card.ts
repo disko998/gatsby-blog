@@ -61,7 +61,7 @@ export const CardDesc = styled.p`
   font-size: 14px;
   line-height: 17px;
   margin: ${p => p.theme.spacing.xSmall} 0;
-  min-height: ${rem(55)};
+  /* min-height: ${rem(55)}; */
   overflow: hidden;
   font-weight: 400;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);

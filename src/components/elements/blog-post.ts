@@ -87,8 +87,7 @@ export const BlogPost = styled.article`
   & > * {
     margin-top: 1.5rem;
   }
-
-  h2,
+  h1,
   h2,
   h3,
   h4,
@@ -97,9 +96,9 @@ export const BlogPost = styled.article`
     margin-top: ${p => p.theme.spacing.large};
   }
 
-  h1 {
+  /* h1 {
     text-align: center;
-  }
+  } */
 
   blockquote {
     position: relative;
