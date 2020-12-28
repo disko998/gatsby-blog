@@ -93,12 +93,8 @@ export const BlogPost = styled.article`
   h4,
   h5,
   h6 {
-    margin-top: ${p => p.theme.spacing.large};
+    margin-top: ${p => p.theme.spacing.xLarge};
   }
-
-  /* h1 {
-    text-align: center;
-  } */
 
   blockquote {
     position: relative;
@@ -127,6 +123,10 @@ export const BlogPost = styled.article`
     }
   }
 
+  strong {
+    color: ${p => p.theme.colors.light};
+  }
+
   ul,
   ol {
     margin-left: ${p => p.theme.spacing.medium};
@@ -135,5 +135,10 @@ export const BlogPost = styled.article`
       padding-left: ${p => p.theme.spacing.xSmall};
       margin: ${p => p.theme.spacing.xSmall} 0;
     }
+  }
+
+  .gatsby-resp-iframe-wrapper {
+    margin: ${p => p.theme.spacing.large} 0;
+    margin-bottom: ${p => p.theme.spacing.large} !important;
   }
 `

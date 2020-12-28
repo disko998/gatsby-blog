@@ -9,7 +9,7 @@ thumbnail: ./thumb.png
 
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
-This website is built with **Gatsby.js** witch uses **React.js** a **JavaScript** framework for building web applications. The interesting fact is that this website also uses markdown files for every blog post, so I posted some elements you will encounter throughout this website and their markup language.
+This website is built with **Gatsby.js** witch uses **React.js** a **JavaScript** framework for building web applications. The interesting fact is that this website also uses markdown files for every blog post. I posted some elements you will encounter throughout this website and their markup language.
 
 # Header 1
 

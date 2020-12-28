@@ -50,7 +50,7 @@ const BlogPostTemplate = ({ data, location }) => {
             </Col>
             <Col>
               <PostHeader>
-                <Tags tags={post.frontmatter.tags} />
+                <Tags tags={post.frontmatter.tags} searchPath="/" />
                 <PostTitle itemProp="headline">
                   {post.frontmatter.title}
                 </PostTitle>

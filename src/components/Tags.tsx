@@ -8,13 +8,14 @@ type TagsProps = {
   tags: string[]
   className?: string
   big?: boolean
+  searchPath?: string
 }
 
-export function Tags({ tags, className, big }: TagsProps) {
+export function Tags({ tags, className, big, searchPath }: TagsProps) {
   const { pathname } = React.useContext(LocationContext)
 
   const searchTag = React.useCallback((tag: string) => {
-    navigate(`${pathname}?term=${tag}`)
+    navigate(`${searchPath || pathname}?term=${tag}`)
   }, [])
 
   return (
