@@ -7,7 +7,7 @@ export const AppContext = React.createContext<IAppContext>({
 
 export const AppProvider = ({ children }) => {
   const [bookmarks, setBookmarks] = React.useState(
-    JSON.parse(localStorage.getItem("@BOOKMARKS"))
+    JSON.parse(localStorage.getItem("@BOOKMARKS")) || []
   )
 
   return (

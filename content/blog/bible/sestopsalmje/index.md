@@ -1,6 +1,6 @@
 ---
 title: Шестопсалмије
-description: "Једна од најлепших православних молитви, чита отац Предраг Поповић"
+description: "Шестопсалмије чита отац Предраг Поповић"
 date: "2020-12-28T16:06:06+0000"
 tags: ["bible", "christianity", "religion", "orthodox", "srb"]
 readTime: 1 min
