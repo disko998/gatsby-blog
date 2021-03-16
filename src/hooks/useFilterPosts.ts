@@ -1,9 +1,14 @@
 import React from "react"
 
 export const useFilterPosts = (posts: any[], param?: string): any[] => {
-  const urlParams = new URLSearchParams(location.search)
-  const searchTerm = urlParams.get("term")
+  const [searchTerm, setSearchTerm] = React.useState("")
   const [filteredPosts, setFilteredPosts] = React.useState([])
+
+  React.useEffect(() => {
+    const urlParams = new URLSearchParams(location.search)
+    const term = urlParams.get("term")
+    setSearchTerm(term)
+  }, [])
 
   React.useEffect(() => {
     const filtered = posts.filter(post => {

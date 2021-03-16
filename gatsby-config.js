@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     author: {
-      name: `Anonymous`,
+      name: `Stefan`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -17,6 +17,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -81,13 +82,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
+        icon: `content/assets/icon.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,

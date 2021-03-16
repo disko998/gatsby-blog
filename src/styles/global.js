@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components"
-import { rem } from "../utils/helper"
 
 export default createGlobalStyle`
 	* {

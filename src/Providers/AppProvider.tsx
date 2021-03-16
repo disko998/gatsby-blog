@@ -6,9 +6,15 @@ export const AppContext = React.createContext<IAppContext>({
 })
 
 export const AppProvider = ({ children }) => {
-  const [bookmarks, setBookmarks] = React.useState(
-    JSON.parse(localStorage.getItem("@BOOKMARKS")) || []
-  )
+  const [bookmarks, setBookmarks] = React.useState([])
+
+  React.useEffect(() => {
+    if (window) {
+      const favorites = JSON.parse(localStorage.getItem("@BOOKMARKS"))
+
+      setBookmarks(favorites || [])
+    }
+  }, [])
 
   return (
     <AppContext.Provider value={{ bookmarks, setBookmarks }}>
