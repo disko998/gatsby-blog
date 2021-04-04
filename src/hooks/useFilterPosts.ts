@@ -12,7 +12,7 @@ export const useFilterPosts = (posts: any[], param?: string): any[] => {
 
   React.useEffect(() => {
     const filtered = posts.filter(post => {
-      var regex = new RegExp(post.frontmatter.tags.join("|"), "i")
+      var regex = new RegExp(post.frontmatter?.tags?.join("|"), "i")
       return searchTerm ? regex.test(searchTerm) : true
     })
 
