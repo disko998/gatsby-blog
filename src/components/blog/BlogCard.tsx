@@ -1,18 +1,20 @@
 import React from "react"
 import { PostNode } from "../../@types"
 import { navigate, useStaticQuery, graphql } from "gatsby"
+import { BsStarFill } from "react-icons/bs"
 
 import { Tags, Avatar } from "../index"
 import {
   ArticleCard,
-  CardDesc,
+  CardDescription,
   CardFooter,
-  Author,
+  CardTitle,
   PostDate,
   ReadTime,
   Thumb,
   CardContent,
   Bookmark,
+  Author,
 } from "../elements"
 import { AppContext } from "../../Providers"
 
@@ -52,12 +54,16 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           onClick={onBookmark}
           isBookmarked={bookmarks.includes(post.id)}
         >
-          &#9734;
+          <BsStarFill />
         </Bookmark>
         <main>
-          <Tags tags={post.frontmatter.tags} />
-          <h2>{post.frontmatter.title}</h2>
-          <CardDesc
+          <ReadTime>
+            {post.frontmatter.readTime} read &bull;
+            <PostDate> {post.frontmatter.date}</PostDate>
+          </ReadTime>
+
+          <CardTitle>{post.frontmatter.title}</CardTitle>
+          <CardDescription
             dangerouslySetInnerHTML={{
               __html: post.frontmatter.description
                 ? post.frontmatter.description.substring(0, maxLength) + "..."
@@ -65,13 +71,11 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
             }}
             itemProp="description"
           />
+
           <CardFooter>
             <Avatar src={avatar} />
-            <Author>{site.siteMetadata.author.name}</Author>
-            <ReadTime>
-              {post.frontmatter.readTime} read &bull;
-              <PostDate>{` ${post.frontmatter.date}`}</PostDate>
-            </ReadTime>
+            {/* <Author>{site.siteMetadata.author.name}</Author> */}
+            <Tags tags={post.frontmatter.tags} />
           </CardFooter>
         </main>
       </CardContent>

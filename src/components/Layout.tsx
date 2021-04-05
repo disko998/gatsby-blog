@@ -38,7 +38,7 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
               <Nav>
                 <NavItem>
                   <NavLink active={location.pathname === "/"} to="/">
-                    All Posts
+                    Blogs
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -57,11 +57,6 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
                     Elements
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink active={location.pathname === "/login"} to="/login">
-                    Log in
-                  </NavLink>
-                </NavItem>
               </Nav>
             </NavContent>
           </Container>
@@ -78,7 +73,7 @@ export const Layout: React.FC<LayoutProps> = ({ location, children }) => {
               <Col direction="column" justify="flex-start">
                 <FooterTitle>Explore Tags</FooterTitle>
                 <div>
-                  <StyledTags big tags={site.siteMetadata.featuredTags} />
+                  <StyledTags widget tags={site.siteMetadata.featuredTags} />
                 </div>
               </Col>
               <Col direction="column">

@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { rem } from "../../utils/helper"
 
 export const TextInput = styled.input`
   position: relative;

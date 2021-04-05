@@ -14,7 +14,7 @@ export const Thumb = styled(Img)<ThumbProps>`
   right: 0;
   bottom: 0;
   z-index: ${p => p.zIndex || 1};
-  filter: brightness(50%);
+  filter: brightness(40%);
   transition: all 0.3s;
 
   &:hover {
@@ -37,12 +37,11 @@ export const ArticleCard = styled.article`
   }
 
   &:hover ${Thumb} {
-    filter: brightness(60%);
+    filter: brightness(50%);
   }
 `
 
 export const CardContent = styled.div`
-  /* max-width: ${rem(412)}; */
   min-height: ${rem(340)};
   position: relative;
   display: flex;
@@ -57,15 +56,18 @@ export const CardContent = styled.div`
   z-index: 2;
 `
 
-export const CardDesc = styled.p`
+export const CardTitle = styled.h2`
+  font-size: 28px;
+`
+
+export const CardDescription = styled.p`
   font-size: 14px;
   line-height: 17px;
   margin: ${p => p.theme.spacing.xSmall} 0;
-  /* min-height: ${rem(55)}; */
   overflow: hidden;
   font-weight: 400;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
-  color: ${p => p.theme.colors.light};
+  color: ${p => p.theme.colors.grayLight};
 `
 
 export const CardFooter = styled.div`
@@ -73,6 +75,7 @@ export const CardFooter = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 15px;
 `
 
 export const Avatar = styled(Img)<GatsbyImageFixedProps>`
@@ -104,56 +107,21 @@ export const ReadTime = styled.time`
 `
 
 export const PostDate = styled(ReadTime)`
-  color: ${p => p.theme.colors.gray};
-`
-
-export const TagList = styled.ul`
-  display: flex;
-  flex-flow: row wrap;
-  list-style-type: none;
-  flex: 1;
-`
-
-export const Tag = styled.li<{ big?: boolean }>`
-  padding: ${p => (p.big ? `${rem(5)} ${rem(11)}` : `${rem(2)} ${rem(8)}`)};
-  border: 2px solid ${p => p.theme.colors.gray};
-  color: ${p => p.theme.colors.gray};
-  transition: ${p => p.theme.animation.main};
-  margin: ${rem(3)};
-  border-radius: 30px;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 500;
-  min-width: 50px;
-  text-align: center;
-  white-space: nowrap;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
-  font-weight: bold;
-  cursor: pointer;
-  text-transform: lowercase;
-
-  &:hover {
-    border-color: ${p => p.theme.colors.main};
-    color: ${p => p.theme.colors.light};
-  }
-`
-
-export const HashTag = styled.span`
-  color: ${p => p.theme.colors.main};
+  color: ${p => p.theme.colors.lightGray};
 `
 
 export const Bookmark = styled.span<{ isBookmarked: boolean }>`
   position: absolute;
   top: ${p => p.theme.spacing.small};
   right: ${p => p.theme.spacing.small};
-  font-size: 25px;
+  font-size: 20px;
   color: ${p => (p.isBookmarked ? p.theme.colors.main : p.theme.colors.light)};
   cursor: pointer;
-  transform: color 0.2s;
+  transition: all 0.2s;
   z-index: 10;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 5px;
-  width: 30px;
+  padding: 5px 5px 0 5px;
   text-align: center;
 
   &:hover {

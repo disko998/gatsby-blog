@@ -10,6 +10,7 @@ export default {
     main: "#ff7b7b",
     second: "#323a96",
     gray: "#aaa",
+    lightGray: "#d1d1d1",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",

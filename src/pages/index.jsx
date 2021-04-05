@@ -5,13 +5,13 @@ import SEO from "../components/seo"
 import { Layout, BlogList } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
-const BlogIndex = ({ data, location }) => {
+const Blog = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const filteredPosts = useFilterPosts(posts)
 
   return (
     <Layout location={location}>
-      <SEO title="Posts" />
+      <SEO title="Blogs" />
       <BlogList posts={filteredPosts} />
     </Layout>
   )
@@ -46,4 +46,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default BlogIndex
+export default Blog

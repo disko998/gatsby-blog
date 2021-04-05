@@ -50,17 +50,18 @@ const BlogPostTemplate = ({ data, location }) => {
             </Col>
             <Col>
               <PostHeader>
-                <Tags tags={post.frontmatter.tags} searchPath="/" />
+                <ReadTime>
+                  {post.frontmatter.readTime} read &bull;
+                  <PostDate>{` ${post.frontmatter.date}`}</PostDate>
+                </ReadTime>
+
                 <PostTitle itemProp="headline">
                   {post.frontmatter.title}
                 </PostTitle>
                 <CardFooter>
                   <Avatar src={avatar} />
                   <Author>{site.siteMetadata.author.name}</Author>
-                  <ReadTime>
-                    {post.frontmatter.readTime} read &bull;
-                    <PostDate>{` ${post.frontmatter.date}`}</PostDate>
-                  </ReadTime>
+                  <Tags tags={post.frontmatter.tags} searchPath="/" />
                 </CardFooter>
               </PostHeader>
             </Col>

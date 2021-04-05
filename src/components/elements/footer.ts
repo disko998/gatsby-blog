@@ -59,6 +59,4 @@ export const FooterTitle = styled.h2`
 
 export const StyledTags = styled(Tags)`
   justify-content: center;
-  max-width: 350px;
-  margin: auto;
 `
