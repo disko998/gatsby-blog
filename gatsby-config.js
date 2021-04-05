@@ -1,23 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog`,
+    title: ``,
     author: {
-      name: `Stefan`,
+      name: `Stefan Diskic`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     featuredTags: [
-      "JavaScript",
-      "React.js",
+      "Javascript",
+      "React",
       "Nodejs",
       "Bible",
-      "Tora",
+      "Torah",
       "Hebrew",
       "Web Development",
     ],
   },
   plugins: [
-	`gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,

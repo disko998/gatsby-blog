@@ -26,7 +26,6 @@ export const BlogCard: React.FC<PostCardProps> = ({ post }) => {
 
   const onBookmark = (e: React.MouseEvent) => {
     e.stopPropagation()
-    if (!window) return
 
     if (!bookmarks) {
       return localStorage.setItem("@BOOKMARKS", JSON.stringify([post.id]))

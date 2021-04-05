@@ -7,7 +7,7 @@ const Elements = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="Post Elements" />
+      <SEO title="Elements" />
       <Section>
         <PostContainer>
           <BlogPost dangerouslySetInnerHTML={{ __html: post.html }} />
