@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: disko998/blog
+  name: git-gateway
   branch: master
 
 media_folder: static/assets
@@ -11,11 +10,8 @@ collections:
     label: "Blog"
     folder: "content/blog"
     create: true
-    slug: "index"
-    media_folder: ""
-    public_folder: ""
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{title}}/index"
-    summary: "{{commit_author}}"
     editor:
       preview: true
     fields:
