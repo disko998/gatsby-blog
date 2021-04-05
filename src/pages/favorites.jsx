@@ -3,20 +3,20 @@ import { graphql } from "gatsby"
 
 import { AppContext } from "../Providers"
 import SEO from "../components/seo"
-import { Layout, BlogPosts } from "../components"
+import { Layout, BlogList } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
 const Favorites = ({ data, location }) => {
   const { bookmarks } = React.useContext(AppContext)
-  const posts = data.allMarkdownRemark.nodes.filter(post =>
+  const favoritePosts = data.allMarkdownRemark.nodes.filter(post =>
     bookmarks.includes(post.id)
   )
-  const filteredPosts = useFilterPosts(posts)
+  const filteredPosts = useFilterPosts(favoritePosts)
 
   return (
     <Layout location={location}>
       <SEO title="Favorites" />
-      <BlogPosts posts={filteredPosts} />
+      <BlogList posts={filteredPosts} />
     </Layout>
   )
 }

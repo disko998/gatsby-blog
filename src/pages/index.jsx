@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
-import { Layout, BlogPosts } from "../components"
+import { Layout, BlogList } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
 const BlogIndex = ({ data, location }) => {
@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SEO title="Posts" />
-      <BlogPosts posts={filteredPosts} />
+      <BlogList posts={filteredPosts} />
     </Layout>
   )
 }

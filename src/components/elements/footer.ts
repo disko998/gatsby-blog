@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { rem } from "../../utils/helper"
-import { Tags } from "../Tags"
+import { Tags } from "../blog"
 
 export const Footer = styled.footer`
   min-height: ${rem(300)};

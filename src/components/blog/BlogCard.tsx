@@ -1,8 +1,8 @@
 import React from "react"
-import { PostNode } from "../@types"
+import { PostNode } from "../../@types"
 import { navigate, useStaticQuery, graphql } from "gatsby"
 
-import { Tags, Avatar } from "./index"
+import { Tags, Avatar } from "../index"
 import {
   ArticleCard,
   CardDesc,
@@ -13,8 +13,8 @@ import {
   Thumb,
   CardContent,
   Bookmark,
-} from "./elements"
-import { AppContext } from "../Providers"
+} from "../elements"
+import { AppContext } from "../../Providers"
 
 const maxLength = 140
 

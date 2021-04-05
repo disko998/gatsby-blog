@@ -1,10 +1,10 @@
 import React from "react"
 
-import { PostNode } from "../@types"
-import { Section, Grid, Col } from "./elements"
+import { PostNode } from "../../@types"
+import { Section, Grid, Col } from "../elements"
 import { BlogCard } from "./BlogCard"
 
-export const BlogPosts: React.FC<BlogPostsProp> = ({ posts }) => {
+export const BlogList: React.FC<BlogListProp> = ({ posts }) => {
   return (
     <Section>
       <Grid>
@@ -18,6 +18,6 @@ export const BlogPosts: React.FC<BlogPostsProp> = ({ posts }) => {
   )
 }
 
-type BlogPostsProp = {
+type BlogListProp = {
   posts: PostNode[]
 }
