@@ -14,6 +14,10 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
+## Admin dev login error
+
+https://github.com/netlify/netlify-cms/issues/766#issuecomment-406328310
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the blog starter.
