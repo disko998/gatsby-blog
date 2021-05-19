@@ -18,6 +18,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `blog-hhdxudhxpl`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         enableIdentityWidget: true,

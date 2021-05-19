@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Disqus } from "gatsby-plugin-disqus"
 
 import { Layout, TagsList, SEO, PostsNavigation } from "../components"
 import {
@@ -68,6 +69,16 @@ const BlogPostTemplate = ({ data, location }) => {
             />
 
             <Section>
+              <Disqus
+                config={{
+                  url: location.href,
+                  identifier: markdownRemark.fields.slug,
+                  title: title,
+                }}
+              />
+            </Section>
+
+            <Section>
               <PostsNavigation previous={previous} next={next} />
             </Section>
           </PostContainer>
@@ -102,6 +113,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
