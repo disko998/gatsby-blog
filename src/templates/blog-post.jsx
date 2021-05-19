@@ -1,121 +1,74 @@
 import React from "react"
-import { graphql, navigate } from "gatsby"
+import { graphql } from "gatsby"
 
-import { Layout, Tags, Avatar } from "../components"
-import SEO from "../components/seo"
+import { Layout, TagsList, SEO, PostsNavigation } from "../components"
 import {
   PostHeader,
   Grid,
   Col,
-  ReadTime,
-  PostDate,
-  PostTitle,
-  Author,
-  CardFooter,
   FeaturedImage,
   Section,
   BlogPost,
-  PostNavCard,
-  ArrowText,
   PostContainer,
-  Thumb,
-  PostsNavWrapper,
+  PostTitle,
 } from "../components/elements"
+import {
+  ReadTime,
+  PostDate,
+  CardFooter,
+} from "../components/widgets/blog/BlogCard"
 
 const BlogPostTemplate = ({ data, location }) => {
-  const post = data.markdownRemark
-  const { previous, next, site, avatar } = data
+  const { previous, next, markdownRemark } = data
+  const { description, title, readTime, date, tags, thumbnail } =
+    markdownRemark.frontmatter || {}
 
   return (
     <Layout location={location}>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
+      <SEO title={title} description={description || markdownRemark.excerpt} />
 
       <article
         className="blog-post"
         itemScope
         itemType="http://schema.org/Article"
       >
+        {/* Header */}
         <Section>
           <Grid>
             <Col flex={1.2}>
               <FeaturedImage
                 fadeIn={true}
-                fluid={
-                  post.frontmatter.thumbnail &&
-                  post.frontmatter.thumbnail.childImageSharp.fluid
-                }
+                fluid={thumbnail?.childImageSharp.fluid}
               />
             </Col>
             <Col>
               <PostHeader>
                 <ReadTime>
-                  {post.frontmatter.readTime} read &bull;
-                  <PostDate>{` ${post.frontmatter.date}`}</PostDate>
+                  {readTime} read &bull;
+                  <PostDate>{` ${date}`}</PostDate>
                 </ReadTime>
 
-                <PostTitle itemProp="headline">
-                  {post.frontmatter.title}
-                </PostTitle>
+                <PostTitle itemProp="headline">{title}</PostTitle>
+
                 <CardFooter>
-                  <Avatar src={avatar} />
-                  <Author>{site.siteMetadata.author.name}</Author>
-                  <Tags tags={post.frontmatter.tags} searchPath="/" />
+                  <TagsList tags={tags} />
                 </CardFooter>
               </PostHeader>
             </Col>
           </Grid>
         </Section>
 
+        {/* Content */}
         <Section>
           <PostContainer>
             <BlogPost
               id="blogPost"
-              dangerouslySetInnerHTML={{ __html: post.html }}
+              dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
               itemProp="articleBody"
             />
 
             <Section>
-              <PostsNavWrapper>
-                {previous && (
-                  <PostNavCard
-                    round={!next}
-                    onClick={() => navigate(previous.fields.slug)}
-                  >
-                    <Thumb
-                      zIndex={-1}
-                      hoverEffect
-                      fluid={
-                        previous.frontmatter.thumbnail &&
-                        previous.frontmatter.thumbnail.childImageSharp.fluid
-                      }
-                    />
-                    <ArrowText>previous post</ArrowText>
-                    <h2>{previous.frontmatter.title}</h2>
-                  </PostNavCard>
-                )}
-
-                {next && (
-                  <PostNavCard
-                    round={!previous}
-                    next
-                    onClick={() => navigate(next.fields.slug)}
-                  >
-                    <Thumb
-                      zIndex={-1}
-                      hoverEffect
-                      fluid={
-                        next.frontmatter.thumbnail &&
-                        next.frontmatter.thumbnail.childImageSharp.fluid
-                      }
-                    />
-                    <ArrowText next>next post</ArrowText>
-                    <h2>{next.frontmatter.title}</h2>
-                  </PostNavCard>
-                )}
-              </PostsNavWrapper>
+              <PostsNavigation previous={previous} next={next} />
             </Section>
           </PostContainer>
         </Section>
@@ -124,8 +77,6 @@ const BlogPostTemplate = ({ data, location }) => {
     </Layout>
   )
 }
-
-export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
@@ -206,3 +157,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default BlogPostTemplate

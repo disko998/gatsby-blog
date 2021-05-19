@@ -1,8 +1,51 @@
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-import { rem } from "../../utils/helper"
-import { Tags } from "../blog"
 
-export const Footer = styled.footer`
+import { rem } from "../../utils/helper"
+import { TagsList } from "../widgets"
+import { Container, Grid, Col } from "../elements"
+import { Newsletter } from "../widgets"
+
+const Footer: React.FC = () => {
+  const { site } = useStaticQuery(query)
+
+  return (
+    <FooterWrapper>
+      <Container>
+        <Grid>
+          <Col direction="column" justify="flex-start">
+            <FooterTitle>Latest Posts</FooterTitle>
+          </Col>
+
+          <Col direction="column" justify="flex-start">
+            <FooterTitle>Explore Tags</FooterTitle>
+            <div>
+              <StyledTags size="l" tags={site.siteMetadata.featuredTags} />
+            </div>
+          </Col>
+
+          <Col direction="column">
+            <FooterTitle>Get Interesting News</FooterTitle>
+            <Newsletter />
+          </Col>
+        </Grid>
+      </Container>
+    </FooterWrapper>
+  )
+}
+
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        featuredTags
+      }
+    }
+  }
+`
+
+const FooterWrapper = styled.footer`
   min-height: ${rem(300)};
   background: ${props => props.theme.colors.background};
   display: flex;
@@ -11,7 +54,7 @@ export const Footer = styled.footer`
   padding-bottom: ${p => p.theme.spacing.xxLarge};
 `
 
-export const FooterCard = styled.div`
+const FooterCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +63,7 @@ export const FooterCard = styled.div`
   margin: auto;
 `
 
-export const FooterTitle = styled.h2`
+const FooterTitle = styled.h2`
   position: relative;
   padding-left: 8px;
   margin-bottom: ${p => p.theme.spacing.large};
@@ -57,6 +100,8 @@ export const FooterTitle = styled.h2`
   }
 `
 
-export const StyledTags = styled(Tags)`
+const StyledTags = styled(TagsList)`
   justify-content: center;
 `
+
+export default Footer

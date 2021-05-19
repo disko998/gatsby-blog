@@ -1,8 +1,7 @@
 import React from "react"
+import { NewsletterForm, TextInput, Button } from "../elements"
 
-import { NewsletterForm, TextInput, Button } from "./elements"
-
-export function Newsletter() {
+function Newsletter() {
   const [newsletter, setNewsletter] = React.useState("")
 
   const onChange = React.useCallback(
@@ -39,3 +38,4 @@ export function Newsletter() {
     </div>
   )
 }
+export default Newsletter

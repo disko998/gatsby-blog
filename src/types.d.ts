@@ -1,4 +1,4 @@
-export type PostNode = {
+type PostNode = {
   excerpt: string
   fields: { slug: string }
   frontmatter: {

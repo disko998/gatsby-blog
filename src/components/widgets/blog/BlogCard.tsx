@@ -1,6 +1,77 @@
-import styled from "styled-components"
-import { rem } from "../../utils/helper"
+import React from "react"
 import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
+import { navigate, graphql } from "gatsby"
+import { BsStarFill } from "react-icons/bs"
+import styled from "styled-components"
+
+import { rem } from "../../../utils/helper"
+import TagsList from "../TagsList"
+import { AppContext } from "../../../Providers"
+
+const maxLength = 140
+
+type PostCardProps = {
+  post: PostNode
+}
+
+const BlogCard: React.FC<PostCardProps> = ({ post }) => {
+  //   const { site, avatar } = useStaticQuery(query)
+  const { bookmarks, setBookmarks } = React.useContext(AppContext)
+
+  const toggleBookmark = (e: React.MouseEvent) => {
+    e.stopPropagation()
+
+    if (!bookmarks) {
+      return localStorage.setItem("@BOOKMARKS", JSON.stringify([post.id]))
+    }
+
+    const newBookmarks = bookmarks.includes(post.id)
+      ? bookmarks.filter(b => b !== post.id)
+      : [...bookmarks, post.id]
+
+    localStorage.setItem("@BOOKMARKS", JSON.stringify(newBookmarks))
+    setBookmarks(newBookmarks)
+  }
+
+  return (
+    <ArticleCard onClick={() => navigate(post.fields.slug)}>
+      <Thumb
+        fadeIn={true}
+        fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
+      />
+      <CardContent>
+        <Bookmark
+          onClick={toggleBookmark}
+          isBookmarked={bookmarks.includes(post.id)}
+        >
+          <BsStarFill />
+        </Bookmark>
+        <main>
+          <ReadTime>
+            {post.frontmatter.readTime} read &bull;
+            <PostDate> {post.frontmatter.date}</PostDate>
+          </ReadTime>
+
+          <CardTitle>{post.frontmatter.title}</CardTitle>
+          <CardDescription
+            dangerouslySetInnerHTML={{
+              __html: post.frontmatter.description
+                ? post.frontmatter.description.substring(0, maxLength) + "..."
+                : post.excerpt.substring(0, maxLength) + "...",
+            }}
+            itemProp="description"
+          />
+
+          <CardFooter>
+            {/* <Avatar src={avatar} /> */}
+            {/* <Author>{site.siteMetadata.author.name}</Author> */}
+            <TagsList tags={post.frontmatter.tags} />
+          </CardFooter>
+        </main>
+      </CardContent>
+    </ArticleCard>
+  )
+}
 
 type ThumbProps = GatsbyImageFluidProps & {
   zIndex?: number
@@ -129,3 +200,24 @@ export const Bookmark = styled.span<{ isBookmarked: boolean }>`
     background: rgba(255, 255, 255, 0.2);
   }
 `
+
+const query = graphql`
+  query {
+    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+      childImageSharp {
+        fixed(width: 80, height: 80, quality: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        author {
+          name
+        }
+      }
+    }
+  }
+`
+
+export default BlogCard
