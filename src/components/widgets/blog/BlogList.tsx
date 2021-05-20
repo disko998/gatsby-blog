@@ -1,4 +1,6 @@
 import React from "react"
+import Fade from "react-reveal/Fade"
+import styled from "styled-components"
 
 import { Section, Grid, Col } from "../../elements"
 import { Pagination } from "../../shared"
@@ -17,15 +19,17 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
     <>
       <Section>
         <Grid>
-          {posts.map(post => (
-            <Col key={post.fields.slug}>
-              <BlogCard post={post} />
-            </Col>
+          {posts.map((post, index) => (
+            <AnimWrapper key={post.fields.slug}>
+              <Fade up delay={150 * index}>
+                <BlogCard post={post} />
+              </Fade>
+            </AnimWrapper>
           ))}
         </Grid>
       </Section>
 
-      {page.numberOfPages > 1 && (
+      {page?.numberOfPages > 1 && (
         <Section>
           <Pagination
             currentPage={page.currentPage}
@@ -36,5 +40,11 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
     </>
   )
 }
+
+const AnimWrapper = styled(Col)`
+  .react-reveal {
+    flex: 1;
+  }
+`
 
 export default BlogList

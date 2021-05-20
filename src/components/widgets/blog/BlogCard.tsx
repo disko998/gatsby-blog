@@ -1,5 +1,5 @@
 import React from "react"
-import Img, { GatsbyImageFluidProps, GatsbyImageFixedProps } from "gatsby-image"
+import Img, { GatsbyImageFixedProps } from "gatsby-image"
 import { navigate, graphql } from "gatsby"
 import { BsStarFill } from "react-icons/bs"
 import styled from "styled-components"

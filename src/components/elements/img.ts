@@ -15,10 +15,10 @@ export const Thumbnail = styled(Img)<ThumbProps>`
   bottom: 0;
   z-index: ${p => p.zIndex || 1};
   filter: brightness(40%);
-  transition: filter 0.3s, transform 1s ease-in-out;
+  transition: filter 0.3s, transform 2s ease-in-out;
 
   &:hover {
-    ${p => (p.hoverEffect ? `filter: brightness(50%);` : "")}
+    ${p => p.hoverEffect && `filter: brightness(50%);`}
     transform: scale(1.2);
   }
 `
