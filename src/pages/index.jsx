@@ -1,25 +1,39 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 
-import SEO from "../components/seo"
-import { Layout, BlogList } from "../components"
-import { useFilterPosts } from "../hooks/useFilterPosts"
+import { Layout, BlogList, SEO } from "../components"
 
-const Blog = ({ data, location }) => {
-  const posts = data.allMarkdownRemark.nodes
-  const filteredPosts = useFilterPosts(posts)
+const POST_PER_PAGE = 9
 
+const Blog = ({ location }) => {
   return (
     <Layout location={location}>
       <SEO title="Blogs" />
-      <BlogList posts={filteredPosts} />
+      <StaticQuery
+        query={pageQuery}
+        render={data => (
+          <BlogList
+            posts={data.allMarkdownRemark.nodes}
+            page={{
+              currentPage: 1,
+              numberOfPages: Math.ceil(
+                data.allMarkdownRemark.totalCount / POST_PER_PAGE
+              ),
+            }}
+          />
+        )}
+      />
     </Layout>
   )
 }
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 9
+    ) {
+      totalCount
       nodes {
         excerpt
         id

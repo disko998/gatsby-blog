@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.jsx`)
+  const blogList = path.resolve(`./src/templates/blog-list.jsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -42,13 +43,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
-
   if (posts.length > 0) {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-
-      //   if (post.frontmatter.title === "Elements") return
 
       createPage({
         path: post.fields.slug,
@@ -61,6 +59,28 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
+
+  // Blogs Pagination
+  const postPerPage = 9
+  const numberOfPages = Math.ceil(posts.length / postPerPage)
+
+  Array.from({ length: numberOfPages }).forEach((_, index) => {
+    const isFirstPage = index === 0
+    const currentPage = index + 1
+
+    if (isFirstPage) return
+
+    createPage({
+      path: `page/${currentPage}`,
+      component: blogList,
+      context: {
+        limit: postPerPage,
+        skip: index * postPerPage,
+        currentPage,
+        numberOfPages,
+      },
+    })
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

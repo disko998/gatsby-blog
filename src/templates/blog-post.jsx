@@ -69,22 +69,22 @@ const BlogPostTemplate = ({ data, location }) => {
             />
 
             <Section>
+              <PostsNavigation previous={previous} next={next} />
+            </Section>
+
+            <Section>
               <Disqus
                 config={{
                   url: location.href,
-                  identifier: markdownRemark.fields.slug,
+                  identifier: markdownRemark.id,
                   title: title,
                 }}
               />
             </Section>
-
-            <Section>
-              <PostsNavigation previous={previous} next={next} />
-            </Section>
           </PostContainer>
         </Section>
-        <hr />
       </article>
+      <hr />
     </Layout>
   )
 }
@@ -113,9 +113,6 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
-      fields {
-        slug
-      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

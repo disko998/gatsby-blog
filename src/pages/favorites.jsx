@@ -2,8 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import { AppContext } from "../Providers"
-import SEO from "../components/seo"
-import { Layout, BlogList } from "../components"
+import { Layout, BlogList, SEO } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
 const Favorites = ({ data, location }) => {

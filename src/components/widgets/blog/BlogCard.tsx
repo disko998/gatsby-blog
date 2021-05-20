@@ -7,6 +7,7 @@ import styled from "styled-components"
 import { rem } from "../../../utils/helper"
 import TagsList from "../TagsList"
 import { AppContext } from "../../../Providers"
+import { Thumbnail } from "../../elements"
 
 const maxLength = 140
 
@@ -35,7 +36,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
 
   return (
     <ArticleCard onClick={() => navigate(post.fields.slug)}>
-      <Thumb
+      <Thumbnail
         fadeIn={true}
         fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
       />
@@ -73,26 +74,6 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
   )
 }
 
-type ThumbProps = GatsbyImageFluidProps & {
-  zIndex?: number
-  hoverEffect?: boolean
-}
-
-export const Thumb = styled(Img)<ThumbProps>`
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: ${p => p.zIndex || 1};
-  filter: brightness(40%);
-  transition: all 0.3s;
-
-  &:hover {
-    ${p => (p.hoverEffect ? `filter: brightness(40%);` : "")}
-  }
-`
-
 export const ArticleCard = styled.article`
   position: relative;
   width: 100%;
@@ -107,8 +88,9 @@ export const ArticleCard = styled.article`
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
   }
 
-  &:hover ${Thumb} {
+  &:hover ${Thumbnail} {
     filter: brightness(50%);
+    transform: scale(1.2);
   }
 `
 

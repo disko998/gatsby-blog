@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { rem } from "../../utils/helper"
 import Img, { GatsbyImageFluidProps } from "gatsby-image"
+import { rem } from "../../utils/helper"
 
 export const PostHeader = styled.header`
   display: flex;
