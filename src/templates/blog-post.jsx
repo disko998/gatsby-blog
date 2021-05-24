@@ -75,7 +75,11 @@ const BlogPostTemplate = ({ data, location }) => {
             />
 
             <Section>
-              <SocialShare title={title} description={description} />
+              <SocialShare
+                headerTitle="Share this article"
+                title={title}
+                description={description}
+              />
             </Section>
 
             <Section>

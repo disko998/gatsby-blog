@@ -5,14 +5,24 @@ import { FaFacebookSquare, FaTwitter, FaLinkedin } from "react-icons/fa"
 
 import { __DEV__ } from "../../utils/helper"
 
-export default function SocialShare({ title, description }) {
+type SocialShareProps = {
+  title: string
+  description: string
+  headerTitle?: string
+}
+
+export default function SocialShare({
+  title,
+  description,
+  headerTitle,
+}: SocialShareProps) {
   const siteUrl = __DEV__
     ? `https://www.myblog.com/${title}`
     : globalHistory.location.href
 
   return (
     <SocialContainer>
-      <h3>SHARE THIS ARTICLE</h3>
+      {headerTitle && <HeaderTitle>{headerTitle}</HeaderTitle>}
 
       <ul>
         <li>
@@ -52,6 +62,11 @@ export default function SocialShare({ title, description }) {
   )
 }
 
+const HeaderTitle = styled.h3`
+  text-transform: uppercase;
+  padding-bottom: 30px;
+`
+
 const SocialContainer = styled.div`
   width: 100%;
   display: flex;
@@ -59,14 +74,9 @@ const SocialContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  h5 {
-    text-transform: uppercase;
-  }
-
   ul {
     list-style-type: none;
     display: flex;
-    margin-top: 20px;
 
     li {
       margin: 0 10px;

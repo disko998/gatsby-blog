@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import { rem } from "../../utils/helper"
-import { TagsList } from "../widgets"
+import { SocialShare, TagsList } from "../widgets"
 import { Container, Grid, Col } from "../elements"
 import { Newsletter } from "../widgets"
 
@@ -15,7 +15,8 @@ const Footer: React.FC = () => {
       <Container>
         <Grid>
           <Col direction="column" justify="flex-start">
-            <FooterTitle>Latest Posts</FooterTitle>
+            <FooterTitle>Share This Blog</FooterTitle>
+            <SocialShare title="My blog" description="My blog website" />
           </Col>
 
           <Col direction="column" justify="flex-start">
@@ -52,15 +53,6 @@ const FooterWrapper = styled.footer`
   justify-content: center;
   align-items: center;
   padding-bottom: ${p => p.theme.spacing.xxLarge};
-`
-
-const FooterCard = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: ${rem(450)};
-  margin: auto;
 `
 
 const FooterTitle = styled.h2`
