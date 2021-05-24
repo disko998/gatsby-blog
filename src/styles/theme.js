@@ -11,6 +11,13 @@ export default {
     second: "#323a96",
     gray: "#aaa",
     lightGray: "#d1d1d1",
+
+    //socials
+    facebook: "#3b5998",
+    twitter: "#1da1f2",
+    linkedin: "#0a66c2",
+    google: "#ea4335",
+    instagram: "#c32aa3",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",
