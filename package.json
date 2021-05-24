@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog powered by Gatsby and Markdown",
   "version": "0.1.0",
   "author": "Stefan Diskic <disko998@gmail.com>",
   "dependencies": {
@@ -45,7 +45,9 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+	"blog",
+	"react"
   ],
   "license": "0BSD",
   "main": "n/a",

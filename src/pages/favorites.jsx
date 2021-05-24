@@ -5,7 +5,7 @@ import { AppContext } from "../Providers"
 import { Layout, BlogList, SEO } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
-const Favorites = ({ data, location }) => {
+const Favorites = ({ data }) => {
   const { bookmarks } = React.useContext(AppContext)
   const favoritePosts = data.allMarkdownRemark.nodes.filter(post =>
     bookmarks.includes(post.id)
@@ -13,7 +13,7 @@ const Favorites = ({ data, location }) => {
   const filteredPosts = useFilterPosts(favoritePosts)
 
   return (
-    <Layout location={location}>
+    <Layout>
       <SEO title="Favorites" />
       <BlogList posts={filteredPosts} />
     </Layout>

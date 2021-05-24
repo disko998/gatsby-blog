@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
+    title: "Auditu",
     author: {
-      name: `Stefan Diskic`,
+      name: "Stefan Diskic",
+      email: "disko998@gmail.com",
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `This is personal blog website where you can find some interesting facts about religion, technology, programing, life, languages, etc.`,
+    siteUrl: `https://auditu.com`,
     featuredTags: [
       "javascript",
       "react",

@@ -31,7 +31,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `blog`,
         },
         {
           name: `twitter:card`,
@@ -39,7 +39,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: site.siteMetadata.social?.twitter || ``,
         },
         {
           name: `twitter:title`,

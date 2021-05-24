@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <Grid>
           <Col direction="column" justify="flex-start">
             <FooterTitle>Share This Blog</FooterTitle>
-            <SocialShare title="My blog" description="My blog website" />
+            <SocialShare />
           </Col>
 
           <Col direction="column" justify="flex-start">

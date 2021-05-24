@@ -8,7 +8,7 @@ export default function BlogListPageTemplate({ pageContext, data }) {
 
   return (
     <Layout>
-      <SEO title="Blogs" />
+      <SEO title={`Page ${pageContext.currentPage}`} />
       <BlogList posts={posts} page={pageContext} />
     </Layout>
   )

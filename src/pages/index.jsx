@@ -3,12 +3,13 @@ import { graphql, StaticQuery } from "gatsby"
 
 import { Layout, BlogList, SEO } from "../components"
 
-const POST_PER_PAGE = 9
+const POST_PER_PAGE = process.env.POST_PER_PAGE
 
-const Blog = ({ location }) => {
+const Blog = () => {
   return (
-    <Layout location={location}>
-      <SEO title="Blogs" />
+    <Layout>
+      <SEO title="Home" />
+
       <StaticQuery
         query={pageQuery}
         render={data => (
