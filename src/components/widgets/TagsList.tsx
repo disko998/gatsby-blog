@@ -17,20 +17,13 @@ TagsList.defaultProps = {
 }
 
 function TagsList({ tags, className, size }: TagsProps) {
-  const searchTag = (tag: string) => {
-    navigate(`/?term=${tag}`)
-  }
-
   return (
     <TagListWrapper className={className}>
       {tags.map(tag => (
         <Tag
           key={tag}
           size={size}
-          onClick={(e: React.MouseEvent) => {
-            e.stopPropagation()
-            searchTag(tag)
-          }}
+          onClick={(e: React.MouseEvent) => navigate(`/tag/${tag}`)}
         >
           <HashTag>#</HashTag>
           {tag}

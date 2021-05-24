@@ -3,23 +3,22 @@ import { graphql } from "gatsby"
 
 import { Layout, SEO, BlogList } from "../components"
 
-export default function BlogListTemplate({ pageContext, data }) {
+export default function TagPageTemplate({ pageContext, data }) {
   const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout>
-      <SEO title="Blogs" />
-      <BlogList posts={posts} page={pageContext} />
+      <SEO title={pageContext.tag} />
+      <BlogList posts={posts} />
     </Layout>
   )
 }
 
 export const query = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
+  query tagPageQuery($tag: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: $limit
-      skip: $skip
+      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       nodes {
         excerpt

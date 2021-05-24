@@ -6,16 +6,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.jsx`)
-  const blogList = path.resolve(`./src/templates/blog-list.jsx`)
+  const blogsPage = path.resolve(`./src/templates/blog-list-page.jsx`)
+  const tagPage = path.resolve(`./src/templates/tag-page.jsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
           nodes {
             id
             fields {
@@ -23,6 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
             frontmatter {
               title
+              tags
             }
           }
         }
@@ -43,10 +42,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
+  let tags = []
   if (posts.length > 0) {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+
+      // return only unique tags
+      tags = [...tags, ...post.frontmatter.tags].filter(
+        (value, index, self) => self.indexOf(value) === index
+      )
 
       createPage({
         path: post.fields.slug,
@@ -60,6 +65,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   }
 
+  // Create page for each tag group
+  tags.forEach(tag => {
+    createPage({
+      path: `tag/${tag}`,
+      component: tagPage,
+      context: {
+        tag,
+        otherTags: tags.filter(t => t !== tag),
+      },
+    })
+  })
+
   // Blogs Pagination
   const postPerPage = 9
   const numberOfPages = Math.ceil(posts.length / postPerPage)
@@ -72,7 +89,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     createPage({
       path: `page/${currentPage}`,
-      component: blogList,
+      component: blogsPage,
       context: {
         limit: postPerPage,
         skip: index * postPerPage,
