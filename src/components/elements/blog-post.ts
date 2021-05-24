@@ -28,56 +28,6 @@ export const PostContainer = styled.div`
   margin: auto;
 `
 
-export const PostsNavWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  min-height: ${rem(240)};
-
-  @media ${p => p.theme.breakpoints.mobile} {
-    flex-direction: column;
-  }
-`
-
-export const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
-  flex: 1;
-  height: ${rem(240)};
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: ${p => (p.next ? "flex-end" : "flex-start")};
-  border-radius: ${p => (p.next ? "0 16px 16px 0" : "16px 0 0 16px")};
-  padding: ${p => p.theme.spacing.small} ${p => p.theme.spacing.medium};
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
-  ${p => (p.round ? "border-radius: 16px" : "")}
-
-  @media ${p => p.theme.breakpoints.mobile} {
-    width: 100%;
-    border-radius: 16px;
-    margin: ${p => p.theme.spacing.small} 0;
-  }
-`
-
-export const ArrowText = styled.nav<{ next?: boolean }>`
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: ${p => p.theme.colors.light};
-
-  ${postNav}
-`
-
-function postNav(props) {
-  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px}`
-  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px}`
-
-  return props.next ? nextStyle : prevStyle
-}
-
 // MDX Styles
 export const BlogPost = styled.article`
   width: 100%;
@@ -140,5 +90,16 @@ export const BlogPost = styled.article`
   .gatsby-resp-iframe-wrapper {
     margin: ${p => p.theme.spacing.large} 0;
     margin-bottom: ${p => p.theme.spacing.large} !important;
+  }
+
+  .gatsby-resp-image-link {
+    border-radius: 16px;
+    overflow: hidden;
+    max-height: 600px;
+
+    img {
+      border-radius: 16px;
+      object-fit: cover;
+    }
   }
 `

@@ -118,7 +118,7 @@ export const CardDescription = styled.p`
   line-height: 17px;
   margin: ${p => p.theme.spacing.xSmall} 0;
   overflow: hidden;
-  font-weight: 400;
+  font-weight: 500;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
   color: ${p => p.theme.colors.grayLight};
 `

@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           </Col>
 
           <Col direction="column">
-            <FooterTitle>Get Interesting News</FooterTitle>
+            <FooterTitle>Get Interesting Posts</FooterTitle>
             <Newsletter />
           </Col>
         </Grid>
