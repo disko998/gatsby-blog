@@ -2,7 +2,13 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Disqus } from "gatsby-plugin-disqus"
 
-import { Layout, TagsList, SEO, PostsNavigation } from "../components"
+import {
+  Layout,
+  TagsList,
+  SEO,
+  PostsNavigation,
+  SocialShare,
+} from "../components"
 import {
   PostHeader,
   Grid,
@@ -67,6 +73,14 @@ const BlogPostTemplate = ({ data, location }) => {
               dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
               itemProp="articleBody"
             />
+
+            <Section>
+              <SocialShare
+                headerTitle="Share this article"
+                title={title}
+                description={description}
+              />
+            </Section>
 
             <Section>
               <PostsNavigation previous={previous} next={next} />

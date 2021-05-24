@@ -5,12 +5,19 @@ export default {
   },
   colors: {
     light: "#fff",
-    background: "rgb(15, 14, 21)",
-    dark: "#17151e",
+    background: "rgb(10,10,18)",
+    dark: "#16151F",
     main: "#ff7b7b",
-    second: "#323a96",
+    secondary: "#323a96",
     gray: "#aaa",
     lightGray: "#d1d1d1",
+
+    //socials
+    facebook: "#3b5998",
+    twitter: "#1da1f2",
+    linkedin: "#0a66c2",
+    google: "#ea4335",
+    instagram: "#c32aa3",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",

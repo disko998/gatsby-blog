@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           <Nav>
             <NavItem>
               <NavLink active={location.pathname === "/"} to="/">
-                Blogs
+                Home
               </NavLink>
             </NavItem>
             <NavItem>

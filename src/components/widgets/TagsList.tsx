@@ -17,14 +17,15 @@ TagsList.defaultProps = {
 }
 
 function TagsList({ tags, className, size }: TagsProps) {
+  const onTagClick = (e: React.MouseEvent, tag) => {
+    e.stopPropagation()
+    navigate(`/tag/${tag}`)
+  }
+
   return (
     <TagListWrapper className={className}>
       {tags.map(tag => (
-        <Tag
-          key={tag}
-          size={size}
-          onClick={(e: React.MouseEvent) => navigate(`/tag/${tag}`)}
-        >
+        <Tag key={tag} size={size} onClick={e => onTagClick(e, tag)}>
           <HashTag>#</HashTag>
           {tag}
         </Tag>
