@@ -49,7 +49,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
         </Bookmark>
         <main>
           <ReadTime>
-            {post.frontmatter.readTime} read &bull;
+            {post.fields.readingTime.text} &bull;
             <PostDate> {post.frontmatter.date}</PostDate>
           </ReadTime>
 

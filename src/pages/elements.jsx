@@ -2,11 +2,11 @@ import React from "react"
 import { Layout, SEO } from "../components"
 import { BlogPost, PostContainer, Section } from "../components/elements"
 
-const Elements = ({ location, data }) => {
+const Elements = ({ data }) => {
   const post = data.markdownRemark
 
   return (
-    <Layout location={location}>
+    <Layout>
       <SEO title="Elements" />
       <Section>
         <PostContainer>

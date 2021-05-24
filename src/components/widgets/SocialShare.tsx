@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { globalHistory } from "@reach/router"
 import { FaFacebookSquare, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { useStaticQuery, graphql } from "gatsby"
 
 import { __DEV__ } from "../../utils/helper"
 
@@ -16,6 +17,13 @@ export default function SocialShare({
   description,
   headerTitle,
 }: SocialShareProps) {
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(query)
+
+  title = title || siteMetadata.title
+  description = description || siteMetadata.description
+
   const siteUrl = __DEV__
     ? `https://www.myblog.com/${title}`
     : globalHistory.location.href
@@ -61,6 +69,20 @@ export default function SocialShare({
     </SocialContainer>
   )
 }
+
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        social {
+          twitter
+        }
+      }
+    }
+  }
+`
 
 const HeaderTitle = styled.h3`
   text-transform: uppercase;

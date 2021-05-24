@@ -2,11 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import { BiArrowBack } from "react-icons/bi"
+import { navigate } from "@reach/router"
 
 import { Layout, SEO } from "../components"
 import { Button, Container } from "../components/elements"
 
-const NotFoundPage = ({ data, location, navigate }) => {
+const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (

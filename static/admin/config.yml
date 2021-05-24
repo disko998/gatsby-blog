@@ -20,6 +20,5 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Read Time", name: "readTime", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
