@@ -22,7 +22,10 @@ const Favorites = ({ data, location }) => {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) #   limit: 20
+    {
       nodes {
         excerpt
         id

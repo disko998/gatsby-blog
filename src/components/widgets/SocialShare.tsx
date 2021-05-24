@@ -72,18 +72,20 @@ const SocialContainer = styled.div`
       margin: 0 10px;
 
       a {
-        padding: 10px;
-        border-radius: 50%;
-        background-color: ${p => p.theme.colors.light};
+        padding: 15px;
+        border-radius: 5px;
+        background-color: ${p => p.theme.colors.dark};
         text-decoration: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: ${p => p.theme.colors.dark};
-        transition: color 0.3s;
+        color: ${p => p.theme.colors.light};
+        transition: all 0.3s;
+        border: 2px solid ${p => p.theme.colors.dark};
 
         &:hover {
-          &.facebook {
+          border-color: ${p => p.theme.colors.main};
+          /* &.facebook {
             color: ${p => p.theme.colors.facebook};
           }
 
@@ -97,7 +99,7 @@ const SocialContainer = styled.div`
 
           &.linkedin {
             color: ${p => p.theme.colors.linkedin};
-          }
+          } */
         }
       }
     }

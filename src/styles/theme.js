@@ -5,10 +5,10 @@ export default {
   },
   colors: {
     light: "#fff",
-    background: "rgb(15, 14, 21)",
-    dark: "#17151e",
+    background: "rgb(10,10,18)",
+    dark: "#16151F",
     main: "#ff7b7b",
-    second: "#323a96",
+    secondary: "#323a96",
     gray: "#aaa",
     lightGray: "#d1d1d1",
 
