@@ -16,8 +16,11 @@ const NotFoundPage = ({ data, location, navigate }) => {
       <Container>
         <Wrapper>
           <Title404>
-            404: Page "<Pathname>{location.pathname}</Pathname>" not found 👈 😞
+            404: "<Pathname>{location.pathname}</Pathname>" not found
           </Title404>
+          <p>
+            Sorry, 😔 we couldn’t find what you were looking for. Go back 👇
+          </p>
 
           <BackButton onClick={() => navigate(-1)}>
             <BiArrowBack size={20} />
@@ -40,6 +43,7 @@ const Wrapper = styled.div`
 const Title404 = styled.h1`
   text-align: center;
   font-weight: 900;
+  font-size: 40px;
 `
 
 const Pathname = styled.i`
