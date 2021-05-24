@@ -1,6 +1,6 @@
 type PostNode = {
   excerpt: string
-  fields: { slug: string }
+  fields: { slug: string; readingTime: { text } }
   frontmatter: {
     date: string
     title: string

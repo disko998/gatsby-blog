@@ -26,6 +26,9 @@ export const query = graphql`
         id
         fields {
           slug
+          readingTime {
+            text
+          }
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
@@ -33,7 +36,6 @@ export const query = graphql`
           description
           tags
           title
-          readTime
           thumbnail {
             childImageSharp {
               fluid(maxWidth: 1300) {

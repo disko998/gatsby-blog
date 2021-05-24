@@ -23,14 +23,16 @@ const Favorites = ({ data, location }) => {
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) #   limit: 20
-    {
+      sort: { fields: [frontmatter___date], order: DESC } #   limit: 20
+    ) {
       nodes {
         excerpt
         id
         fields {
           slug
+          readingTime {
+            text
+          }
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
@@ -38,7 +40,6 @@ export const pageQuery = graphql`
           description
           tags
           title
-          readTime
           thumbnail {
             childImageSharp {
               fluid(maxWidth: 1300) {

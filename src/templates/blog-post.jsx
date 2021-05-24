@@ -27,7 +27,7 @@ import {
 
 const BlogPostTemplate = ({ data, location }) => {
   const { previous, next, markdownRemark } = data
-  const { description, title, readTime, date, tags, thumbnail } =
+  const { description, title, date, tags, thumbnail } =
     markdownRemark.frontmatter || {}
 
   return (
@@ -51,7 +51,7 @@ const BlogPostTemplate = ({ data, location }) => {
             <Col>
               <PostHeader>
                 <ReadTime>
-                  {readTime} read &bull;
+                  {markdownRemark.fields.readingTime.text} &bull;
                   <PostDate>{` ${date}`}</PostDate>
                 </ReadTime>
 
@@ -127,13 +127,17 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        readingTime {
+          text
+        }
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
         tags
         author
-        readTime
         avatar {
           childImageSharp {
             fixed(height: 90, width: 90, quality: 100) {
