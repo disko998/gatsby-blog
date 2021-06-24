@@ -1,30 +1,8 @@
 import styled from "styled-components"
-import Img, { GatsbyImageFluidProps } from "gatsby-image"
-import { rem } from "../../utils/helper"
-
-export const PostHeader = styled.header`
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  text-align: left;
-  width: 100%;
-`
-
-export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
-  width: 100%;
-  max-height: 600px;
-  border-radius: 16px;
-  filter: brightness(80%);
-`
-
-export const PostTitle = styled.h1`
-  font-size: ${p => p.theme.spacing.large} !important;
-`
 
 export const PostContainer = styled.div`
   width: 100%;
-  max-width: ${rem(750)};
+  max-width: 46.875rem;
   margin: auto;
 `
 
@@ -49,7 +27,7 @@ export const BlogPost = styled.article`
   blockquote {
     position: relative;
     padding: 32px 20px 32px 64px;
-    font-size: ${rem(30)};
+    font-size: 1.875rem;
     line-height: 38px;
     font-weight: 900;
     color: ${p => p.theme.colors.light};

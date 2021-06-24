@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Disqus } from "gatsby-plugin-disqus"
+import Img from "gatsby-image"
+import styled from "styled-components"
 
 import {
   Layout,
@@ -10,14 +12,11 @@ import {
   SocialShare,
 } from "../components"
 import {
-  PostHeader,
   Grid,
   Col,
-  FeaturedImage,
   Section,
   BlogPost,
   PostContainer,
-  PostTitle,
 } from "../components/elements"
 import {
   ReadTime,
@@ -102,6 +101,26 @@ const BlogPostTemplate = ({ data, location }) => {
     </Layout>
   )
 }
+
+export const PostHeader = styled.header`
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+`
+
+export const FeaturedImage = styled(Img)`
+  width: 100%;
+  max-height: 600px;
+  border-radius: 16px;
+  filter: brightness(80%);
+`
+
+export const PostTitle = styled.h1`
+  font-size: ${p => p.theme.spacing.large} !important;
+`
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
