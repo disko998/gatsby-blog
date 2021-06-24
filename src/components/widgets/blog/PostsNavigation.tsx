@@ -2,8 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import { navigate } from "gatsby"
 
-import { Thumbnail } from "../elements"
-import { rem } from "../../utils/helper"
+import { Thumbnail } from "../../elements"
+import { rem } from "../../../utils/helper"
 
 type PostsNavigationProps = {
   next: PostNode
