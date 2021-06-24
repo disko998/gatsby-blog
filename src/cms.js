@@ -3,7 +3,12 @@ import CMS from "netlify-cms-app"
 
 import { BlogPost } from "./components/elements/blog-post"
 
-const BlogPostPreview = ({ widgetFor }) => {
-  return <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
+const BlogPostPreview = ({ widgetFor, entry }) => {
+  return (
+    <BlogPost title={entry.getIn(["data", "title"])}>
+      <h1>Test 1234</h1>
+      <section dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
+    </BlogPost>
+  )
 }
-CMS.registerPreviewTemplate("article", BlogPostPreview)
+CMS.registerPreviewTemplate("blog", BlogPostPreview)
