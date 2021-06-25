@@ -6,10 +6,13 @@ import { BlogPost } from "./components/elements/blog-post"
 import { GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor }) => {
+  console.log(widgetFor("body"))
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
+      <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }}>
+        <h1>Title</h1>
+      </BlogPost>
     </ThemeProvider>
   )
 }
