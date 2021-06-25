@@ -8,13 +8,13 @@ import { GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor }) => {
   console.log(widgetFor("body"))
-  console.log(ThemeProvider)
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <BlogPost>
-        <Markdown>{widgetFor("body").props.value}</Markdown>
-      </BlogPost>
+      <Markdown options={{ wrapper: BlogPost }}>
+        {widgetFor("body").props.value}
+      </Markdown>
     </ThemeProvider>
   )
 }
