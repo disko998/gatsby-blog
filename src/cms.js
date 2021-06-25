@@ -6,12 +6,14 @@ import { BlogPost } from "./components/elements/blog-post"
 import { GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor }) => {
-  console.log(widgetFor("body"))
+  console.log(widgetFor("body").props.value)
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <h1>Title</h1>
-      <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
+      <BlogPost
+        dangerouslySetInnerHTML={{ __html: widgetFor("body").props.value }}
+        itemProp="articleBody"
+      />
     </ThemeProvider>
   )
 }
