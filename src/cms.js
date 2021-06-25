@@ -12,9 +12,13 @@ const BlogPostPreview = ({ widgetFor }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Markdown options={{ wrapper: BlogPost }}>
+      <BlogPost>
+        <h1>Title</h1>
+        <span>Test desc</span>
+      </BlogPost>
+      {/* <Markdown options={{ wrapper: BlogPost }}>
         {widgetFor("body").props.value}
-      </Markdown>
+      </Markdown> */}
     </ThemeProvider>
   )
 }
