@@ -10,9 +10,8 @@ const BlogPostPreview = ({ widgetFor }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }}>
-        <h1>Title</h1>
-      </BlogPost>
+      <h1>Title</h1>
+      <BlogPost dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
     </ThemeProvider>
   )
 }
