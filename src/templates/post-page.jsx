@@ -29,6 +29,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const { description, title, date, tags, thumbnail } =
     markdownRemark.frontmatter || {}
 
+  console.log(markdownRemark.html)
+
   return (
     <Layout location={location}>
       <SEO title={title} description={description || markdownRemark.excerpt} />

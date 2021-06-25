@@ -1,19 +1,20 @@
 import React from "react"
 import CMS from "netlify-cms-app"
 import { ThemeProvider } from "styled-components"
+import Markdown from "markdown-to-jsx"
 
 import { BlogPost } from "./components/elements/blog-post"
 import { GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor }) => {
-  console.log(widgetFor("body").props.value)
+  console.log(widgetFor("body"))
+  console.log(ThemeProvider)
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <BlogPost
-        dangerouslySetInnerHTML={{ __html: widgetFor("body").props.value }}
-        itemProp="articleBody"
-      />
+      <BlogPost>
+        <Markdown>{widgetFor("body").props.value}</Markdown>
+      </BlogPost>
     </ThemeProvider>
   )
 }
