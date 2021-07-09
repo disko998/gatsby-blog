@@ -1,24 +1,18 @@
 import React from "react"
 import CMS from "netlify-cms-app"
-import { ThemeProvider, StyleSheetManager } from "styled-components"
-import Markdown from "markdown-to-jsx"
+import { ThemeProvider } from "styled-components"
 
 import { BlogPost } from "./components/elements/blog-post"
-import { GlobalStyles, theme } from "./styles"
-
-const iframe = document.querySelector("#preview-pane")
-const iframeHeadElem = iframe.contentDocument.head
+import { CSSInjector, GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor }) => {
-  console.log(widgetFor("body"))
-
   return (
-    <StyleSheetManager target={iframeHeadElem}>
+    <CSSInjector>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <BlogPost>{widgetFor("body")}</BlogPost>
       </ThemeProvider>
-    </StyleSheetManager>
+    </CSSInjector>
   )
 }
 CMS.registerPreviewTemplate("blog", BlogPostPreview)
