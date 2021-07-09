@@ -1,6 +1,6 @@
 import React from "react"
 import Img, { GatsbyImageFixedProps } from "gatsby-image"
-import { navigate, graphql } from "gatsby"
+import { navigate } from "gatsby"
 import { BsStarFill } from "react-icons/bs"
 import styled from "styled-components"
 
@@ -16,7 +16,6 @@ type PostCardProps = {
 }
 
 const BlogCard: React.FC<PostCardProps> = ({ post }) => {
-  //   const { site, avatar } = useStaticQuery(query)
   const { bookmarks, setBookmarks } = React.useContext(AppContext)
 
   const toggleBookmark = (e: React.MouseEvent) => {
@@ -64,8 +63,6 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           />
 
           <CardFooter>
-            {/* <Avatar src={avatar} /> */}
-            {/* <Author>{site.siteMetadata.author.name}</Author> */}
             <TagsList tags={post.frontmatter.tags} />
           </CardFooter>
         </main>
@@ -135,7 +132,6 @@ export const Avatar = styled(Img)<GatsbyImageFixedProps>`
   display: inline-block;
   padding: ${rem(3)};
   margin-right: ${rem(8)};
-  /* border: 2px solid #ff7b7b; */
   border-radius: 50%;
   overflow: hidden;
   width: ${rem(36)};
@@ -180,25 +176,6 @@ export const Bookmark = styled.span<{ isBookmarked: boolean }>`
   &:hover {
     color: ${p => p.theme.colors.main};
     background: rgba(255, 255, 255, 0.2);
-  }
-`
-
-const query = graphql`
-  query {
-    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
-      childImageSharp {
-        fixed(width: 80, height: 80, quality: 100) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        author {
-          name
-        }
-      }
-    }
   }
 `
 

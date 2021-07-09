@@ -6,25 +6,14 @@ import styled from "styled-components"
 
 import {
   Layout,
-  TagsList,
+  BlogPost,
   SEO,
   PostsNavigation,
   SocialShare,
 } from "../components"
-import {
-  Grid,
-  Col,
-  Section,
-  BlogPost,
-  PostContainer,
-} from "../components/elements"
-import {
-  ReadTime,
-  PostDate,
-  CardFooter,
-} from "../components/widgets/blog/BlogCard"
+import { Section, PostContainer } from "../components/elements"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostPage = ({ data, location }) => {
   const { previous, next, markdownRemark } = data
   const { description, title, date, tags, thumbnail } =
     markdownRemark.frontmatter || {}
@@ -33,70 +22,40 @@ const BlogPostTemplate = ({ data, location }) => {
     <Layout>
       <SEO title={title} description={description || markdownRemark.excerpt} />
 
-      <article
-        className="blog-post"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        {/* Header */}
+      <BlogPost
+        date={date}
+        tags={tags}
+        thumbnail={thumbnail?.childImageSharp.fluid}
+        title={title}
+        readingTime={markdownRemark.fields.readingTime.text}
+        description={description}
+        content={markdownRemark.html}
+      />
+
+      <PostContainer>
         <Section>
-          <Grid>
-            <Col flex={1.2}>
-              <FeaturedImage
-                fadeIn={true}
-                fluid={thumbnail?.childImageSharp.fluid}
-              />
-            </Col>
-            <Col>
-              <PostHeader>
-                <ReadTime>
-                  {markdownRemark.fields.readingTime.text} &bull;
-                  <PostDate>{` ${date}`}</PostDate>
-                </ReadTime>
-
-                <PostTitle itemProp="headline">{title}</PostTitle>
-
-                <CardFooter>
-                  <TagsList tags={tags} />
-                </CardFooter>
-              </PostHeader>
-            </Col>
-          </Grid>
+          <SocialShare
+            headerTitle="Share this article"
+            title={title}
+            description={description}
+          />
         </Section>
 
-        {/* Content */}
         <Section>
-          <PostContainer>
-            <BlogPost
-              id="blogPost"
-              dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
-              itemProp="articleBody"
-            />
-
-            <Section>
-              <SocialShare
-                headerTitle="Share this article"
-                title={title}
-                description={description}
-              />
-            </Section>
-
-            <Section>
-              <PostsNavigation previous={previous} next={next} />
-            </Section>
-
-            <Section>
-              <Disqus
-                config={{
-                  url: location.href,
-                  identifier: markdownRemark.id,
-                  title: title,
-                }}
-              />
-            </Section>
-          </PostContainer>
+          <PostsNavigation previous={previous} next={next} />
         </Section>
-      </article>
+
+        <Section>
+          <Disqus
+            config={{
+              url: location.href,
+              identifier: markdownRemark.id,
+              title: title,
+            }}
+          />
+        </Section>
+      </PostContainer>
+
       <hr />
     </Layout>
   )
@@ -206,4 +165,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default BlogPostTemplate
+export default BlogPostPage

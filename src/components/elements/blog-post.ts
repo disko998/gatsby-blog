@@ -7,7 +7,7 @@ export const PostContainer = styled.div`
 `
 
 // Blog Styles
-export const BlogPost = styled.article`
+export const BlogContent = styled.article`
   width: 100%;
   font-size: 18px;
   line-height: 1.7;

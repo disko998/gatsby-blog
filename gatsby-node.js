@@ -4,10 +4,10 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.jsx`)
-  const blogsPage = path.resolve(`./src/templates/blogs-list-page.jsx`)
-  const tagPage = path.resolve(`./src/templates/tag-page.jsx`)
+  // Require templates
+  const blogPostPage = path.resolve(`./src/templates/blog-post-page.jsx`)
+  const blogsListPage = path.resolve(`./src/templates/blogs-list-page.jsx`)
+  const tagBlogsPage = path.resolve(`./src/templates/tag-blogs-page.jsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -55,7 +55,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
       createPage({
         path: post.fields.slug,
-        component: blogPost,
+        component: blogPostPage,
         context: {
           id: post.id,
           previousPostId,
@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   tags.forEach(tag => {
     createPage({
       path: `tag/${tag}`,
-      component: tagPage,
+      component: tagBlogsPage,
       context: {
         tag,
         otherTags: tags.filter(t => t !== tag),
@@ -89,7 +89,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     createPage({
       path: `page/${currentPage}`,
-      component: blogsPage,
+      component: blogsListPage,
       context: {
         limit: postPerPage,
         skip: index * postPerPage,

@@ -4,12 +4,10 @@ import { graphql } from "gatsby"
 import { Layout, SEO, BlogList } from "../components"
 
 export default function BlogListPageTemplate({ pageContext, data }) {
-  const posts = data.allMarkdownRemark.nodes
-
   return (
     <Layout>
       <SEO title={`Page ${pageContext.currentPage}`} />
-      <BlogList posts={posts} page={pageContext} />
+      <BlogList posts={data.allMarkdownRemark.nodes} page={pageContext} />
     </Layout>
   )
 }

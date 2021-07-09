@@ -3,13 +3,11 @@ import { graphql } from "gatsby"
 
 import { Layout, SEO, BlogList } from "../components"
 
-export default function TagPageTemplate({ pageContext, data }) {
-  const posts = data.allMarkdownRemark.nodes
-
+export default function TagBlogsPageTemplate({ pageContext, data }) {
   return (
     <Layout>
       <SEO title={pageContext.tag} />
-      <BlogList posts={posts} />
+      <BlogList posts={data.allMarkdownRemark.nodes} />
     </Layout>
   )
 }
