@@ -30,7 +30,7 @@ const BlogPostTemplate = ({ data, location }) => {
     markdownRemark.frontmatter || {}
 
   return (
-    <Layout location={location}>
+    <Layout>
       <SEO title={title} description={description || markdownRemark.excerpt} />
 
       <article

@@ -6,7 +6,7 @@ export const PostContainer = styled.div`
   margin: auto;
 `
 
-// MDX Styles
+// Blog Styles
 export const BlogPost = styled.article`
   width: 100%;
   font-size: 18px;
