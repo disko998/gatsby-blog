@@ -8,9 +8,22 @@ tags:
   - gatsby
 ---
 
+
+# **Slika**
+
+```javascript
+var name = test
+if (a == b) {
+  console.log(b)
+}
+```
+
+![alef](download-5-.jpeg "Alef")
+
 # **My first netlify blog!!**
 
-<!-- ![alt](img_20201005_030256.jpg "Title") -->
+<!-- !\\[alt](img_20201005_030256.jpg "Title") -->
+
 <img src="img_20201005_030256.jpg" alt="drawing" width="100" height="100px"/>
 
 ## What is Lorem Ipsum?
