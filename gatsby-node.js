@@ -98,6 +98,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   })
+
+  console.log("on create done")
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

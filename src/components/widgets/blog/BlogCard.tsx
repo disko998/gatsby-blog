@@ -8,6 +8,7 @@ import { rem } from "../../../utils/helper"
 import TagsList from "../TagsList"
 import { AppContext } from "../../../Providers"
 import { Thumbnail } from "../../elements"
+import { DateAndReadTime } from "../../shared"
 
 const maxLength = 140
 
@@ -47,10 +48,10 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           <BsStarFill />
         </Bookmark>
         <main>
-          <ReadTime>
-            {post.fields.readingTime.text} &bull;
-            <PostDate> {post.frontmatter.date}</PostDate>
-          </ReadTime>
+          <DateAndReadTime
+            date={post.frontmatter.date}
+            readTime={post.fields.readingTime.text}
+          />
 
           <CardTitle>{post.frontmatter.title}</CardTitle>
           <CardDescription

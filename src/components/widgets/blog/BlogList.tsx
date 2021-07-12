@@ -3,8 +3,7 @@ import Fade from "react-reveal/Fade"
 import styled from "styled-components"
 
 import { Section, Grid, Col } from "../../elements"
-import { Pagination } from "../../shared"
-import BlogCard from "./BlogCard"
+import { BlogCard, Pagination } from "../index"
 
 type BlogListProp = {
   posts: PostNode[]

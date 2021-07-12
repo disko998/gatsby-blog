@@ -52,3 +52,9 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
 `
+
+export const PostContainer = styled.div`
+  width: 100%;
+  max-width: 46.875rem;
+  margin: auto;
+`
