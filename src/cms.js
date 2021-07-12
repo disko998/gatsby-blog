@@ -7,7 +7,11 @@ import { CSSInjector, GlobalStyles, theme } from "./styles"
 
 const BlogPostPreview = ({ widgetFor, entry }) => {
   console.log(widgetFor("body"))
-  console.log(entry)
+  console.log(entry.getIn(["data", "title"]))
+  console.log(entry.getIn(["data", "thumbnail"]))
+  console.log(entry.getIn(["data", "date"]))
+  console.log(entry.getIn(["data", "description"]))
+  console.log(entry.getIn(["data", "tags"]))
   return (
     <CSSInjector>
       <ThemeProvider theme={theme}>
