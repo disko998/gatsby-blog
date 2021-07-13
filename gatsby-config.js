@@ -27,9 +27,10 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         customizeWebpackConfig: (config, { plugins }) => {
+          console.log(config.module.rules[0].use)
           config.module.rules.push({
             test: /\.(ts|tsx)$/,
-            use: "ts-loader", // babel-loader
+            use: "babel-loader",
           })
           return config
         },
