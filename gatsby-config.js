@@ -26,6 +26,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+        customizeWebpackConfig: (config, { plugins }) => {
+          config.module.rules.push({
+            test: /\.(ts|tsx)$/,
+            use: "raw-loader",
+          })
+          return config
+        },
         enableIdentityWidget: true,
         modulePath: `${__dirname}/src/cms.js`,
       },
