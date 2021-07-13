@@ -29,7 +29,7 @@ module.exports = {
         customizeWebpackConfig: (config, { plugins }) => {
           config.module.rules.push({
             test: /\.(ts|tsx)$/,
-            use: "raw-loader",
+            use: "ts-loader", // babel-loader
           })
           return config
         },
