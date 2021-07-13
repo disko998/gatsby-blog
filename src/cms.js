@@ -11,7 +11,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
   console.log(entry.getIn(["data", "thumbnail"]))
   console.log(entry.getIn(["data", "date"]))
   console.log(entry.getIn(["data", "description"]))
-  console.log(entry.getIn(["data", "tags"]))
+  console.log(entry.getIn(["data", "tags"]).toJS())
   return (
     <CSSInjector>
       <ThemeProvider theme={theme}>
