@@ -34,6 +34,11 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
     setBookmarks(newBookmarks)
   }
 
+  const onTagClick = (e, tag) => {
+    e.stopPropagation()
+    navigate(`/tag/${tag}`)
+  }
+
   return (
     <ArticleCard onClick={() => navigate(post.fields.slug)}>
       <Thumbnail
@@ -64,7 +69,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           />
 
           <CardFooter>
-            <TagsList tags={post.frontmatter.tags} />
+            <TagsList tags={post.frontmatter.tags} onClick={onTagClick} />
           </CardFooter>
         </main>
       </CardContent>

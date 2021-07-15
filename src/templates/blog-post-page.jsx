@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import { Disqus } from "gatsby-plugin-disqus"
 
 import {
@@ -16,6 +16,11 @@ const BlogPostPage = ({ data, location }) => {
   const { description, title, date, tags, thumbnail } =
     markdownRemark.frontmatter || {}
 
+  const onTagClick = (e, tag) => {
+    e.stopPropagation()
+    navigate(`/tag/${tag}`)
+  }
+
   return (
     <Layout>
       <SEO title={title} description={description || markdownRemark.excerpt} />
@@ -28,6 +33,7 @@ const BlogPostPage = ({ data, location }) => {
         readingTime={markdownRemark.fields.readingTime.text}
         description={description}
         content={markdownRemark.html}
+        onTagClick={onTagClick}
       />
 
       <PostContainer>

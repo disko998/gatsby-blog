@@ -2,18 +2,20 @@ import React from "react"
 import Img, { FluidObject, GatsbyImageFluidProps } from "gatsby-image"
 import styled from "styled-components"
 
-import { Grid, Col, Section, PostContainer } from "../../elements"
-import { DateAndReadTime } from "../../shared"
+import { Grid, Col, Section, PostContainer } from "../../elements/layout"
+import DateAndReadTime from "../../shared/DateAndReadTime"
 import TagsList from "../TagsList"
 
-type BlogPostProps = {
-  thumbnail: FluidObject
-  tags: string[]
-  readingTime: string
-  date: string
-  title: string
-  content: string
-}
+// type BlogPostProps = {
+//   thumbnail: FluidObject
+//   tags: string[]
+//   readingTime: string
+//   date: string
+//   title: string
+//   content: string
+//   description?: string
+//   onTagClick: (e: any, tag: string) => void
+// }
 
 const BlogPost = ({
   thumbnail,
@@ -22,7 +24,8 @@ const BlogPost = ({
   date,
   title,
   content,
-}: BlogPostProps) => {
+  onTagClick,
+}) => {
   return (
     <article itemScope itemType="http://schema.org/Article">
       <Section>
@@ -34,7 +37,7 @@ const BlogPost = ({
             <Header>
               <DateAndReadTime readTime={readingTime} date={date} />
               <Title itemProp="headline">{title}</Title>
-              <TagsList tags={tags} />
+              <TagsList tags={tags} onClick={onTagClick} />
             </Header>
           </Col>
         </Grid>
@@ -61,7 +64,7 @@ export const Header = styled.header`
   width: 100%;
 `
 
-export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
+export const FeaturedImage = styled(Img)`
   width: 100%;
   max-height: 600px;
   border-radius: 16px;

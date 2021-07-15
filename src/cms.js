@@ -11,6 +11,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <BlogPost
+          readingTime="2min"
           content={widgetFor("body")}
           title={entry.getIn(["data", "title"])}
           thumbnail={entry.getIn(["data", "thumbnail"])}
