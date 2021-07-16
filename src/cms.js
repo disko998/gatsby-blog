@@ -1,7 +1,6 @@
 import React from "react"
 import CMS from "netlify-cms-app"
 import { ThemeProvider } from "styled-components"
-import styled from "styled-components"
 
 import { CSSInjector, GlobalStyles, theme } from "./styles"
 import BlogPost from "./components/widgets/blog/BlogPost"

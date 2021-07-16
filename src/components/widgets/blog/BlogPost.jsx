@@ -48,7 +48,7 @@ const BlogPost = ({
         <PostContainer>
           {html ? (
             <BlogContent
-              dangerouslySetInnerHTML={{ __html: content }}
+              dangerouslySetInnerHTML={{ __html: html }}
               itemProp="articleBody"
             />
           ) : (
