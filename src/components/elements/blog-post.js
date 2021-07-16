@@ -1,8 +1,7 @@
+import Img from "gatsby-image"
 import styled from "styled-components"
-import Img, { GatsbyImageFluidProps } from "gatsby-image"
-import { rem } from "../../utils/helper"
 
-export const PostHeader = styled.header`
+export const Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -11,25 +10,32 @@ export const PostHeader = styled.header`
   width: 100%;
 `
 
-export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
+export const FeaturedImage = styled(Img)`
   width: 100%;
   max-height: 600px;
   border-radius: 16px;
   filter: brightness(80%);
 `
 
-export const PostTitle = styled.h1`
+export const FeaturedImageNative = styled.img`
+  width: 100%;
+  max-height: 600px;
+  border-radius: 16px;
+  filter: brightness(80%);
+`
+
+export const Title = styled.h1`
   font-size: ${p => p.theme.spacing.large} !important;
 `
 
 export const PostContainer = styled.div`
   width: 100%;
-  max-width: ${rem(750)};
+  max-width: 46.875rem;
   margin: auto;
 `
 
-// MDX Styles
-export const BlogPost = styled.article`
+// Blog post styles
+export const BlogContent = styled.article`
   width: 100%;
   font-size: 18px;
   line-height: 1.7;
@@ -49,7 +55,7 @@ export const BlogPost = styled.article`
   blockquote {
     position: relative;
     padding: 32px 20px 32px 64px;
-    font-size: ${rem(30)};
+    font-size: 1.875rem;
     line-height: 38px;
     font-weight: 900;
     color: ${p => p.theme.colors.light};

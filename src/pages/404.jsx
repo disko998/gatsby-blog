@@ -16,12 +16,11 @@ const NotFoundPage = ({ data, location }) => {
 
       <Container>
         <Wrapper>
-          <Title404>
-            404: "<Pathname>{location.pathname}</Pathname>" not found
-          </Title404>
-          <p>
-            Sorry, 😔 we couldn’t find what you were looking for. Go back 👇
-          </p>
+          <Title404>404</Title404>
+          <Message>
+            Sorry, we couldn’t find "<Pathname>{location.pathname}</Pathname>"
+            😔
+          </Message>
 
           <BackButton onClick={() => navigate(-1)}>
             <BiArrowBack size={20} />
@@ -33,6 +32,16 @@ const NotFoundPage = ({ data, location }) => {
   )
 }
 
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
+
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -43,13 +52,17 @@ const Wrapper = styled.div`
 
 const Title404 = styled.h1`
   text-align: center;
-  font-weight: 900;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 60px;
 `
 
 const Pathname = styled.i`
-  font-weight: normal;
+  /* font-weight: normal; */
   color: ${p => p.theme.colors.main};
+`
+
+const Message = styled.p`
+  font-size: 20px;
 `
 
 const BackButton = styled(Button)`
@@ -61,16 +74,6 @@ const BackButton = styled(Button)`
 
   span {
     margin-left: 10px;
-  }
-`
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
   }
 `
 

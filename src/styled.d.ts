@@ -16,6 +16,7 @@ declare module "styled-components" {
       background: string
       secondary: string
       gray: string
+      lightGray: string
     }
 
     breakpoints: {

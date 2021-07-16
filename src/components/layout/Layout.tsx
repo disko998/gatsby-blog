@@ -9,8 +9,6 @@ interface LayoutProps extends Omit<PageProps, "children"> {
   children?: JSX.Element | JSX.Element[]
 }
 
-export const LocationContext = React.createContext(null)
-
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <LayoutWrapper>

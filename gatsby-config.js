@@ -26,9 +26,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+        // customizeWebpackConfig: (config, { plugins }) => {
+        //   config.module.rules.push({
+        //     test: /\.(ts|tsx)$/,
+        //     use: "ts-loader",
+        //   })
+        //   return config
+        // },
         enableIdentityWidget: true,
+        modulePath: `${__dirname}/src/cms.js`,
+        htmlTitle: "CMS | Blog",
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-typescript",
+    //   options: {
+    //     isTSX: true,
+    //     allExtensions: true,
+    //   },
+    // },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,

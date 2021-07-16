@@ -12,17 +12,19 @@ const Blog = () => {
 
       <StaticQuery
         query={pageQuery}
-        render={data => (
-          <BlogList
-            posts={data.allMarkdownRemark.nodes}
-            page={{
-              currentPage: 1,
-              numberOfPages: Math.ceil(
-                data.allMarkdownRemark.totalCount / POST_PER_PAGE
-              ),
-            }}
-          />
-        )}
+        render={data => {
+          const { nodes, totalCount } = data.allMarkdownRemark
+
+          return (
+            <BlogList
+              posts={nodes}
+              page={{
+                currentPage: 1,
+                numberOfPages: Math.ceil(totalCount / POST_PER_PAGE),
+              }}
+            />
+          )
+        }}
       />
     </Layout>
   )

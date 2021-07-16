@@ -1,6 +1,6 @@
 import React from "react"
 import { Layout, SEO } from "../components"
-import { BlogPost, PostContainer, Section } from "../components/elements"
+import { BlogContent, PostContainer, Section } from "../components/elements"
 
 const Elements = ({ data }) => {
   const post = data.markdownRemark
@@ -9,9 +9,9 @@ const Elements = ({ data }) => {
     <Layout>
       <SEO title="Elements" />
       <Section>
-        <PostContainer>
-          <BlogPost dangerouslySetInnerHTML={{ __html: post.html }} />
-        </PostContainer>
+        {/* <PostContainer>
+          <BlogContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        </PostContainer> */}
       </Section>
     </Layout>
   )

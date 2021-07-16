@@ -13,7 +13,7 @@ export default function Pagination({
   numberOfPages,
 }: PaginationProps) {
   const onPageChange = ({ selected }: { selected: number }) => {
-    selected = selected + 1
+    selected += 1
     navigate(selected === 1 ? "/" : `/page/${selected}`)
   }
 
