@@ -18,7 +18,7 @@ function TagsList({ tags, className, size, onClick }) {
   return (
     <TagListWrapper className={className}>
       {tags.map(tag => (
-        <Tag key={tag} size={size} onClick={e => onClick(e, tag)}>
+        <Tag key={tag} size={size} onClick={e => onClick?.(e, tag)}>
           <HashTag>#</HashTag>
           {tag}
         </Tag>

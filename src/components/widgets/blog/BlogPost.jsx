@@ -1,45 +1,49 @@
 import React from "react"
-import { FluidObject } from "gatsby-image"
 
 import {
-  Grid,
-  Col,
-  Section,
   PostContainer,
   FeaturedImage,
   BlogContent,
   Header,
   Title,
-} from "../../elements"
+  FeaturedImageNative,
+} from "../../elements/blog-post"
+import { Grid, Col, Section } from "../../elements/layout"
 import DateAndReadTime from "../../shared/DateAndReadTime"
 import TagsList from "../TagsList"
 
-type BlogPostProps = {
-  thumbnail: FluidObject
-  tags: string[]
-  readingTime: string
-  date: string
-  title: string
-  html: string
-  description?: string
-  onTagClick: (e: any, tag: string) => void
-}
+// type BlogPostProps = {
+//   thumbnail: FluidObject
+//   tags: string[]
+//   readingTime: string
+//   date: string
+//   title: string
+//   html: string
+//   description?: string
+//   onTagClick: (e: any, tag: string) => void
+// }
 
 const BlogPost = ({
   thumbnail,
+  thumbnailNative,
   tags,
   readingTime,
   date,
   title,
   html,
+  children,
   onTagClick,
-}: BlogPostProps) => {
+}) => {
   return (
     <article itemScope itemType="http://schema.org/Article">
       <Section>
         <Grid>
           <Col flex={1.2}>
-            <FeaturedImage fadeIn={true} fluid={thumbnail} />
+            {thumbnail ? (
+              <FeaturedImage fadeIn={true} fluid={thumbnail} />
+            ) : (
+              <FeaturedImageNative src={thumbnailNative} />
+            )}
           </Col>
           <Col>
             <Header>
@@ -53,10 +57,14 @@ const BlogPost = ({
 
       <Section>
         <PostContainer>
-          <BlogContent
-            dangerouslySetInnerHTML={{ __html: html }}
-            itemProp="articleBody"
-          />
+          {html ? (
+            <BlogContent
+              dangerouslySetInnerHTML={{ __html: html }}
+              itemProp="articleBody"
+            />
+          ) : (
+            <BlogContent itemProp="articleBody">{children}</BlogContent>
+          )}
         </PostContainer>
       </Section>
     </article>
