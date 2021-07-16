@@ -17,6 +17,13 @@ export const FeaturedImage = styled(Img)`
   filter: brightness(80%);
 `
 
+export const FeaturedImageNative = styled.img`
+  width: 100%;
+  max-height: 600px;
+  border-radius: 16px;
+  filter: brightness(80%);
+`
+
 export const Title = styled.h1`
   font-size: ${p => p.theme.spacing.large} !important;
 `
