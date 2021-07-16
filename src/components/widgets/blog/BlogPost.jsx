@@ -25,7 +25,7 @@ import TagsList from "../TagsList"
 
 const BlogPost = ({
   thumbnail,
-  thumbnailNative,
+  thumbnailUri,
   tags,
   readingTime,
   date,
@@ -42,7 +42,7 @@ const BlogPost = ({
             {thumbnail ? (
               <FeaturedImage fadeIn={true} fluid={thumbnail} />
             ) : (
-              <FeaturedImageNative src={thumbnailNative} />
+              <FeaturedImageNative src={thumbnailUri} />
             )}
           </Col>
           <Col>

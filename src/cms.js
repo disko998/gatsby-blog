@@ -7,7 +7,6 @@ import { Container } from "./components/elements/layout"
 import BlogPost from "./components/widgets/blog/BlogPost"
 
 const BlogPostPreview = ({ widgetFor, entry }) => {
-  console.log(entry.getIn(["data", "thumbnail"]))
   return (
     <CSSInjector>
       <ThemeProvider theme={theme}>
@@ -15,10 +14,10 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
         <Container>
           <BlogPost
             title={entry.getIn(["data", "title"])}
-            thumbnailNative={entry.getIn(["data", "thumbnail"])}
-            tags={entry.getIn(["data", "tags"]).toJS() || []}
+            thumbnailUri={entry.getIn(["data", "thumbnail"])}
+            tags={entry.getIn(["data", "tags"])?.toJS() || []}
             readingTime="2min"
-            date={entry.getIn(["data", "date"])}
+            date={new Date(entry.getIn(["data", "date"]))?.toLocaleDateString()}
           >
             {widgetFor("body")}
           </BlogPost>
