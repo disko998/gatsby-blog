@@ -29,7 +29,7 @@ const BlogPost = ({
 }) => {
   return (
     <article itemScope itemType="http://schema.org/Article">
-      <Section>
+      {/* <Section>
         <Grid>
           <Col flex={1.2}>
             <FeaturedImage fadeIn={true} fluid={thumbnail} />
@@ -42,7 +42,7 @@ const BlogPost = ({
             </Header>
           </Col>
         </Grid>
-      </Section>
+      </Section> */}
 
       <Section>
         <PostContainer>
