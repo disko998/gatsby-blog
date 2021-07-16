@@ -1,64 +1,5 @@
-import React from "react"
-import Img, { FluidObject, GatsbyImageFluidProps } from "gatsby-image"
+import Img from "gatsby-image"
 import styled from "styled-components"
-
-import { Grid, Col, Section, PostContainer } from "../../elements/layout"
-import DateAndReadTime from "../../shared/DateAndReadTime"
-import TagsList from "../TagsList"
-
-// type BlogPostProps = {
-//   thumbnail: FluidObject
-//   tags: string[]
-//   readingTime: string
-//   date: string
-//   title: string
-//   content: string
-//   description?: string
-//   onTagClick: (e: any, tag: string) => void
-// }
-
-const BlogPost = ({
-  thumbnail,
-  tags,
-  readingTime,
-  date,
-  title,
-  body,
-  html,
-  onTagClick,
-}) => {
-  return (
-    <article itemScope itemType="http://schema.org/Article">
-      {/* <Section>
-        <Grid>
-          <Col flex={1.2}>
-            <FeaturedImage fadeIn={true} fluid={thumbnail} />
-          </Col>
-          <Col>
-            <Header>
-              <DateAndReadTime readTime={readingTime} date={date} />
-              <Title itemProp="headline">{title}</Title>
-              <TagsList tags={tags} onClick={onTagClick} />
-            </Header>
-          </Col>
-        </Grid>
-      </Section> */}
-
-      <Section>
-        <PostContainer>
-          {html ? (
-            <BlogContent
-              dangerouslySetInnerHTML={{ __html: html }}
-              itemProp="articleBody"
-            />
-          ) : (
-            <BlogContent itemProp="articleBody">{body}</BlogContent>
-          )}
-        </PostContainer>
-      </Section>
-    </article>
-  )
-}
 
 export const Header = styled.header`
   display: flex;
@@ -80,8 +21,14 @@ export const Title = styled.h1`
   font-size: ${p => p.theme.spacing.large} !important;
 `
 
+export const PostContainer = styled.div`
+  width: 100%;
+  max-width: 46.875rem;
+  margin: auto;
+`
+
 // Blog post styles
-const BlogContent = styled.article`
+export const BlogContent = styled.article`
   width: 100%;
   font-size: 18px;
   line-height: 1.7;
@@ -155,5 +102,3 @@ const BlogContent = styled.article`
     }
   }
 `
-
-export default BlogPost

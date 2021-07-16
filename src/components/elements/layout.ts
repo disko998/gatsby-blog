@@ -14,7 +14,7 @@ export const Container = styled.div`
   padding: 0 ${p => p.theme.spacing.small};
 `
 
-export const Grid = styled.div`
+export const Grid = styled.div<{ column?: string }>`
   width: 100%;
   padding: ${p => p.theme.spacing.medium} 0;
   display: flex;
@@ -26,14 +26,14 @@ export const Grid = styled.div`
   }
 `
 
-// type ColProps = {
-//   flex?: number
-//   justify?: string
-//   align?: string
-//   direction?: string
-// }
+type ColProps = {
+  flex?: number
+  justify?: string
+  align?: string
+  direction?: string
+}
 
-export const Col = styled.div`
+export const Col = styled.div<ColProps>`
   height: inherit;
   flex: ${p => p.flex || 1};
   min-width: ${p => p.theme.layouts.minColWidth};
@@ -51,10 +51,4 @@ export const Section = styled.section`
 export const Row = styled.div`
   display: flex;
   align-items: center;
-`
-
-export const PostContainer = styled.div`
-  width: 100%;
-  max-width: 46.875rem;
-  margin: auto;
 `
