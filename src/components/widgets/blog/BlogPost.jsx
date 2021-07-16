@@ -23,7 +23,8 @@ const BlogPost = ({
   readingTime,
   date,
   title,
-  content,
+  body,
+  html,
   onTagClick,
 }) => {
   return (
@@ -45,10 +46,14 @@ const BlogPost = ({
 
       <Section>
         <PostContainer>
-          <BlogContent
-            dangerouslySetInnerHTML={{ __html: content }}
-            itemProp="articleBody"
-          />
+          {html ? (
+            <BlogContent
+              dangerouslySetInnerHTML={{ __html: content }}
+              itemProp="articleBody"
+            />
+          ) : (
+            <BlogContent itemProp="articleBody">{body}</BlogContent>
+          )}
         </PostContainer>
       </Section>
     </article>

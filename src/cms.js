@@ -11,16 +11,15 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
     <CSSInjector>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <BlogContent dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
-        {/* <BlogPost
+        <BlogPost
           readingTime="2min"
-          content={widgetFor("body")}
+          body={widgetFor("body")}
           title={entry.getIn(["data", "title"])}
           thumbnail={entry.getIn(["data", "thumbnail"])}
           date={entry.getIn(["data", "date"])}
           description={entry.getIn(["data", "description"])}
           tags={entry.getIn(["data", "tags"]).toJS()}
-        /> */}
+        />
       </ThemeProvider>
     </CSSInjector>
   )

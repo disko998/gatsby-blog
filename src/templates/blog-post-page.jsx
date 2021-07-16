@@ -32,7 +32,7 @@ const BlogPostPage = ({ data, location }) => {
         title={title}
         readingTime={markdownRemark.fields.readingTime.text}
         description={description}
-        content={markdownRemark.html}
+        html={markdownRemark.html}
         onTagClick={onTagClick}
       />
 
