@@ -3,14 +3,16 @@ import CMS from "netlify-cms-app"
 import { ThemeProvider } from "styled-components"
 
 import { CSSInjector, GlobalStyles, theme } from "./styles"
-import { BlogContent } from "./components/elements/blog-post"
+import { BlogContent, PostContainer } from "./components/elements/blog-post"
 
 const BlogPostPreview = ({ widgetFor, entry }) => {
   return (
     <CSSInjector>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <BlogContent>{widgetFor("body")}</BlogContent>
+        <PostContainer>
+          <BlogContent>{widgetFor("body")}</BlogContent>
+        </PostContainer>
       </ThemeProvider>
     </CSSInjector>
   )
