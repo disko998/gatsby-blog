@@ -11,7 +11,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
     <CSSInjector>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <BlogContent>{widgetFor("body")}</BlogContent>
+        <BlogContent dangerouslySetInnerHTML={{ __html: widgetFor("body") }} />
         {/* <BlogPost
           readingTime="2min"
           content={widgetFor("body")}
