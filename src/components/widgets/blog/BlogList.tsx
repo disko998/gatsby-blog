@@ -23,7 +23,7 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
       <Section>
         <Grid>
           <Col>
-            <Img fixed={imageSharp.fixed} />
+            <Img fixed={imageSharp?.fixed} />
             <EmptyTitle>No items</EmptyTitle>
           </Col>
         </Grid>

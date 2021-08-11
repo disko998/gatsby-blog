@@ -16,7 +16,7 @@ const NotFoundPage = ({ data, location }) => {
       <SEO title="404: Not Found" />
 
       <Wrapper>
-        <Image404 fadeIn fluid={data.imageSharp.fluid} />
+        <Image404 fadeIn fluid={data.imageSharp?.fluid} />
 
         <Title404>
           "<Pathname>{location.pathname}</Pathname>" Not found!
