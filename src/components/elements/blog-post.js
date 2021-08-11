@@ -1,7 +1,7 @@
 import Img from "gatsby-image"
 import styled from "styled-components"
 
-export const Header = styled.header`
+export const PostHeader = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -24,7 +24,7 @@ export const FeaturedImageNative = styled.img`
   filter: brightness(80%);
 `
 
-export const Title = styled.h1`
+export const PostTitle = styled.h1`
   font-size: ${p => p.theme.spacing.large} !important;
 `
 
@@ -32,6 +32,15 @@ export const PostContainer = styled.div`
   width: 100%;
   max-width: 46.875rem;
   margin: auto;
+`
+
+export const PostDescription = styled.p`
+  font-size: 16px;
+  line-height: 17px;
+  margin: ${p => p.theme.spacing.small} 0;
+  overflow: hidden;
+  font-weight: 500;
+  color: ${p => p.theme.colors.grayLight};
 `
 
 // Blog post styles

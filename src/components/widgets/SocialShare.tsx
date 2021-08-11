@@ -7,8 +7,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import { __DEV__ } from "../../utils/helper"
 
 type SocialShareProps = {
-  title: string
-  description: string
+  title?: string
+  description?: string
   headerTitle?: string
 }
 

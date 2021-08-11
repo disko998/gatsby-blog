@@ -7,16 +7,13 @@ function Newsletter() {
 
   React.useEffect(() => {
     if (showMessage) {
-      setTimeout(() => setShowMessage(false), 2000)
+      setTimeout(() => setShowMessage(false), 3000)
     }
   }, [showMessage])
 
-  const onChange = React.useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      setNewsletter(e.target.value)
-    },
-    []
-  )
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setNewsletter(e.target.value)
+  }
 
   const onSubmit = React.useCallback(
     (e: React.MouseEvent) => {
@@ -32,17 +29,14 @@ function Newsletter() {
   return (
     <div>
       <p style={{ textAlign: "center" }}>
-        {showMessage
-          ? "Thanks for subscriptions!"
-          : "Subscribe to our newsletter and we’ll send you the emails of latest posts."}
+        Subscribe to our newsletter and we’ll send you the emails of latest
+        posts.
       </p>
       <NewsletterForm>
-        <TextInput
-          value={newsletter}
-          onChange={onChange}
-          placeholder="Email Address"
-        />
-        <Button onClick={onSubmit}>Join</Button>
+        <TextInput value={newsletter} onChange={onChange} placeholder="Email" />
+        <Button onClick={onSubmit}>
+          {showMessage ? "Subscribed!" : "Join"}
+        </Button>
       </NewsletterForm>
     </div>
   )

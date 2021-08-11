@@ -3,9 +3,10 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import { BiArrowBack } from "react-icons/bi"
 import { navigate } from "@reach/router"
+import Img from "gatsby-image"
 
 import { Layout, SEO } from "../components"
-import { Button, Container } from "../components/elements"
+import { Button } from "../components/elements"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -14,33 +15,21 @@ const NotFoundPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="404: Not Found" />
 
-      <Container>
-        <Wrapper>
-          <Title404>404</Title404>
-          <Message>
-            Sorry, we couldn’t find "<Pathname>{location.pathname}</Pathname>"
-            😔
-          </Message>
+      <Wrapper>
+        <Image404 fadeIn fluid={data.imageSharp.fluid} />
 
-          <BackButton onClick={() => navigate(-1)}>
-            <BiArrowBack size={20} />
-            <span>Go back</span>
-          </BackButton>
-        </Wrapper>
-      </Container>
+        <Title404>
+          "<Pathname>{location.pathname}</Pathname>" Not found!
+        </Title404>
+
+        <BackButton onClick={() => navigate(-1)}>
+          <BiArrowBack size={20} />
+          <span>Go back</span>
+        </BackButton>
+      </Wrapper>
     </Layout>
   )
 }
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
 
 const Wrapper = styled.div`
   display: flex;
@@ -52,17 +41,24 @@ const Wrapper = styled.div`
 
 const Title404 = styled.h1`
   text-align: center;
-  font-weight: 800;
-  font-size: 60px;
+  font-weight: bold;
+  font-size: 30px;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    font-size: 25px;
+  }
 `
 
 const Pathname = styled.i`
-  /* font-weight: normal; */
   color: ${p => p.theme.colors.main};
 `
 
-const Message = styled.p`
-  font-size: 20px;
+const Image404 = styled(Img)`
+  width: 400px;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    width: 300px;
+  }
 `
 
 const BackButton = styled(Button)`
@@ -74,6 +70,21 @@ const BackButton = styled(Button)`
 
   span {
     margin-left: 10px;
+  }
+`
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    imageSharp(id: { eq: "30805173-525b-547a-95a0-55d2e60a03ca" }) {
+      fluid(maxWidth: 1300) {
+        ...GatsbyImageSharpFluid
+      }
+    }
   }
 `
 

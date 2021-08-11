@@ -1,11 +1,11 @@
 import React from "react"
 
-export const AppContext = React.createContext<IAppContext>({
+export const BookmarkContext = React.createContext<IBookmarkContext>({
   bookmarks: [],
   setBookmarks: () => {},
 })
 
-export const AppProvider = ({ children }) => {
+export const BookmarkProvider = ({ children }) => {
   const [bookmarks, setBookmarks] = React.useState([])
 
   React.useEffect(() => {
@@ -17,13 +17,13 @@ export const AppProvider = ({ children }) => {
   }, [])
 
   return (
-    <AppContext.Provider value={{ bookmarks, setBookmarks }}>
+    <BookmarkContext.Provider value={{ bookmarks, setBookmarks }}>
       {children}
-    </AppContext.Provider>
+    </BookmarkContext.Provider>
   )
 }
 
-type IAppContext = {
+type IBookmarkContext = {
   bookmarks: string[]
   setBookmarks: (b: string[]) => void
 }

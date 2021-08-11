@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           <Nav>
             <NavItem>
               <NavLink active={location.pathname === "/"} to="/">
-                Home
+                Blogs
               </NavLink>
             </NavItem>
             <NavItem>
@@ -27,14 +27,6 @@ const Navbar: React.FC = () => {
                 to="/favorites"
               >
                 Favorites
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                active={location.pathname === "/elements"}
-                to="/elements"
-              >
-                Elements
               </NavLink>
             </NavItem>
           </Nav>

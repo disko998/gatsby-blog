@@ -18,6 +18,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
             tags={entry.getIn(["data", "tags"])?.toJS() || []}
             readingTime="2min"
             date={new Date(entry.getIn(["data", "date"]))?.toLocaleDateString()}
+            description={entry.getIn(["data", "description"])}
           >
             {widgetFor("body")}
           </BlogPost>
