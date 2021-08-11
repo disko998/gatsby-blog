@@ -6,7 +6,7 @@ import { navigate } from "@reach/router"
 import Img from "gatsby-image"
 
 import { Layout, SEO } from "../components"
-import { Button, Container } from "../components/elements"
+import { Button } from "../components/elements"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -50,7 +50,6 @@ const Title404 = styled.h1`
 `
 
 const Pathname = styled.i`
-  /* font-weight: normal; */
   color: ${p => p.theme.colors.main};
 `
 
