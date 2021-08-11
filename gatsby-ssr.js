@@ -4,15 +4,15 @@ import "prismjs/themes/prism-tomorrow.css"
 
 import Theme from "./src/styles/theme"
 import GlobalStyles from "./src/styles/global"
-import { AppProvider } from "./src/Providers"
+import { BookmarkProvider } from "./src/Providers"
 
 export const wrapRootElement = ({ element }) => {
   return (
-    <AppProvider>
+    <BookmarkProvider>
       <ThemeProvider theme={Theme}>
         <GlobalStyles />
         {element}
       </ThemeProvider>
-    </AppProvider>
+    </BookmarkProvider>
   )
 }

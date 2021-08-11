@@ -6,7 +6,7 @@ import styled from "styled-components"
 
 import { rem } from "../../../utils/helper"
 import TagsList from "../TagsList"
-import { AppContext } from "../../../Providers"
+import { BookmarkContext } from "../../../Providers"
 import { Thumbnail } from "../../elements"
 import { DateAndReadTime } from "../../shared"
 
@@ -17,7 +17,7 @@ type PostCardProps = {
 }
 
 const BlogCard: React.FC<PostCardProps> = ({ post }) => {
-  const { bookmarks, setBookmarks } = React.useContext(AppContext)
+  const { bookmarks, setBookmarks } = React.useContext(BookmarkContext)
 
   const toggleBookmark = (e: React.MouseEvent) => {
     e.stopPropagation()

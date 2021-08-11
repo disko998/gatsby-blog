@@ -1,5 +1,4 @@
 import React from "react"
-// import { navigate } from "gatsby"
 import styled from "styled-components"
 
 // type TagsProps = {

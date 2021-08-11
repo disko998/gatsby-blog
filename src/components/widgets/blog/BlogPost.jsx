@@ -33,6 +33,7 @@ const BlogPost = ({
   html,
   children,
   onTagClick,
+  description,
 }) => {
   return (
     <article itemScope itemType="http://schema.org/Article">

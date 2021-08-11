@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, navigate } from "gatsby"
 import styled from "styled-components"
 
 import { rem } from "../../utils/helper"
@@ -9,6 +9,11 @@ import { Newsletter } from "../widgets"
 
 const Footer: React.FC = () => {
   const { site } = useStaticQuery(query)
+
+  const onTagClick = (e, tag) => {
+    e.stopPropagation()
+    navigate(`/tag/${tag}`)
+  }
 
   return (
     <FooterWrapper>
@@ -22,7 +27,11 @@ const Footer: React.FC = () => {
           <Col direction="column" justify="flex-start">
             <FooterTitle>Explore Tags</FooterTitle>
             <div>
-              <StyledTags size="l" tags={site.siteMetadata.featuredTags} />
+              <StyledTags
+                size="l"
+                tags={site.siteMetadata.featuredTags}
+                onClick={onTagClick}
+              />
             </div>
           </Col>
 

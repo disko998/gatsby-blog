@@ -1,12 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import { AppContext } from "../Providers"
+import { BookmarkContext } from "../Providers"
 import { Layout, BlogList, SEO } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 
 const Favorites = ({ data }) => {
-  const { bookmarks } = React.useContext(AppContext)
+  const { bookmarks } = React.useContext(BookmarkContext)
   const favoritePosts = data.allMarkdownRemark.nodes.filter(post =>
     bookmarks.includes(post.id)
   )
