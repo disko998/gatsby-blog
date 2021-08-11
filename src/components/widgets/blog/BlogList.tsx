@@ -16,14 +16,14 @@ type BlogListProp = {
 }
 
 const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
-  const { imageSharp } = useStaticQuery(query)
+  const { file } = useStaticQuery(query)
 
   if (!posts.length) {
     return (
       <Section>
         <Grid>
           <Col>
-            <Img fixed={imageSharp?.fixed} />
+            <Img fixed={file.childImageSharp?.fixed} />
             <EmptyTitle>No items</EmptyTitle>
           </Col>
         </Grid>
@@ -69,9 +69,11 @@ const EmptyTitle = styled.h1`
 
 const query = graphql`
   query {
-    imageSharp(id: { eq: "0bab8473-cf96-5084-82d0-22751b9ac237" }) {
-      fixed(width: 300, height: 300) {
-        ...GatsbyImageSharpFixed
+    file(relativePath: { eq: "mirage-list-is-empty.png" }) {
+      childImageSharp {
+        fixed(width: 300, height: 300) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }
