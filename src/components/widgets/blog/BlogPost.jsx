@@ -4,9 +4,10 @@ import {
   PostContainer,
   FeaturedImage,
   BlogContent,
-  Header,
-  Title,
+  PostHeader,
+  PostTitle,
   FeaturedImageNative,
+  PostDescription,
 } from "../../elements/blog-post"
 import { Grid, Col, Section } from "../../elements/layout"
 import DateAndReadTime from "../../shared/DateAndReadTime"
@@ -47,11 +48,12 @@ const BlogPost = ({
             )}
           </Col>
           <Col>
-            <Header>
+            <PostHeader>
               <DateAndReadTime readTime={readingTime} date={date} />
-              <Title itemProp="headline">{title}</Title>
+              <PostTitle itemProp="headline">{title}</PostTitle>
               <TagsList tags={tags} onClick={onTagClick} />
-            </Header>
+              <PostDescription>{description}</PostDescription>
+            </PostHeader>
           </Col>
         </Grid>
       </Section>
