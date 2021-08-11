@@ -19,12 +19,12 @@ const Footer: React.FC = () => {
     <FooterWrapper>
       <Container>
         <Grid>
-          <Col direction="column" justify="flex-start">
+          <Col justify="flex-start">
             <FooterTitle>Share This Blog</FooterTitle>
             <SocialShare />
           </Col>
 
-          <Col direction="column" justify="flex-start">
+          <Col justify="flex-start">
             <FooterTitle>Explore Tags</FooterTitle>
             <div>
               <StyledTags
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
             </div>
           </Col>
 
-          <Col direction="column">
+          <Col>
             <FooterTitle>Get Interesting Posts</FooterTitle>
             <Newsletter />
           </Col>

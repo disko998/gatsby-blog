@@ -35,13 +35,13 @@ export const Grid = styled.div`
 
 export const Col = styled.div`
   height: inherit;
+  display: flex;
   flex: ${p => p.flex || 1};
   min-width: ${p => p.theme.layouts.minColWidth};
   justify-content: ${p => p.justify || "center"};
   align-items: ${p => p.align || "center"};
   padding: ${p => p.theme.spacing.small};
-  display: flex;
-  flex-direction: ${p => p.direction || "row"};
+  flex-direction: ${({ row }) => (row ? "row" : "column")};
 `
 
 export const Section = styled.section`

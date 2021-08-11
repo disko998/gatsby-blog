@@ -42,7 +42,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
   return (
     <ArticleCard onClick={() => navigate(post.fields.slug)}>
       <Thumbnail
-        fadeIn={true}
+        fadeIn
         fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
       />
       <CardContent>
