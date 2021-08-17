@@ -71,20 +71,6 @@ export const pageQuery = graphql`
     $previousPostId: String
     $nextPostId: String
   ) {
-    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
-      childImageSharp {
-        fixed(width: 80, height: 80, quality: 100) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        author {
-          name
-        }
-      }
-    }
     markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
@@ -99,13 +85,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
-        avatar {
-          childImageSharp {
-            fixed(height: 90, width: 90, quality: 100) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 800) {
