@@ -8,7 +8,7 @@ const POST_PER_PAGE = process.env.POST_PER_PAGE
 const Blog = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Blogs" />
 
       <StaticQuery
         query={pageQuery}
