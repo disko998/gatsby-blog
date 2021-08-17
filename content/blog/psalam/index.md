@@ -1,10 +1,13 @@
 ---
 title: Шестопсалмије
-description: "Шестопсалмије чита отац Предраг Поповић"
-date: "2020-12-28T16:06:06+0000"
-tags: ["bible", "christianity", "religion", "orthodox", "srb"]
-readTime: 1 min
 thumbnail: ./thumb.jpg
+date: 2020-12-28T16:06:06+0000
+description: Шестопсалмије чита отац Предраг Поповић
+tags:
+  - bible
+  - orthodox christianity
+  - religion
+readTime: 1 min
 ---
 
 ## Шестопсалмије, чита отац [Предраг Поповић](https://www.youtube.com/channel/UCemJnziIY4jC8HfH1vqxhzw)
