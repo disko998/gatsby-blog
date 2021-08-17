@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import { Layout, SEO, BlogList } from "../components"
 
-export default function TagBlogsPageTemplate({ pageContext, data }) {
+export default function BlogsTagPageTemplate({ pageContext, data }) {
   return (
     <Layout>
       <SEO title={pageContext.tag} />
@@ -29,7 +29,6 @@ export const query = graphql`
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
-          author
           description
           tags
           title

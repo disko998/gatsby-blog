@@ -7,7 +7,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Require templates
   const blogPostPage = path.resolve(`./src/templates/blog-post-page.jsx`)
   const blogsListPage = path.resolve(`./src/templates/blogs-list-page.jsx`)
-  const tagBlogsPage = path.resolve(`./src/templates/tag-blogs-page.jsx`)
+  const blogsTagPage = path.resolve(`./src/templates/blogs-tag-page.jsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   tags.forEach(tag => {
     createPage({
       path: `tag/${tag}`,
-      component: tagBlogsPage,
+      component: blogsTagPage,
       context: {
         tag,
         otherTags: tags.filter(t => t !== tag),
