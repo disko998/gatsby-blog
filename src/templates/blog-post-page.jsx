@@ -99,7 +99,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
-        author
         avatar {
           childImageSharp {
             fixed(height: 90, width: 90, quality: 100) {
