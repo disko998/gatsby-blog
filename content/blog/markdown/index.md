@@ -1,20 +1,19 @@
 ---
 title: Markdown Cheat Sheet
-thumbnail: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.designtrends.com%2Fwp-content%2Fuploads%2F2016%2F01%2F04085621%2FA-Cold-Sunset-Background.jpg&f=1&nofb=1
+thumbnail: thumb.png
 date: 2021-07-16T01:46:59.993Z
 description: Markdown is a lightweight markup language for creating formatted
   text using a plain-text editor. I created small cheat sheet with all markup
   elements in one place for you!
 tags:
-  - gatsby
-  - react.js
+  - web development
+  - react
   - markdown
 readTime: 30 sec
 ---
-
-Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
-
-This website is built with **Gatsby.js** witch uses **React.js** a **JavaScript** framework for building web applications. The interesting fact is that this website also uses markdown files for every blog post. I posted some elements you will encounter throughout this website and their markup language.
+This website is built with **Gatsby.js** which uses **React** a **JavaScript** framework for building static websites. Gatsby.js shines when you use it for something like portfolio, eCommerce or blog websites as this website does, witch unedr the hood uses markdown files to display blogs. But let's talk a little bit about markdowns  and see why and how are they use at all...\
+\
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor. They are widly used for editing blogs, forums, documentation as most developers are familiar with **README.ME** files. This is essentially a simpliar way (more appealing to human readers) to tell computer how to disaply some content without actually having to write code like **HTML.** All you have to learn is simple markup language syntax and your ready to go, so let's dive into markup...
 
 # Header 1
 
@@ -28,16 +27,18 @@ This website is built with **Gatsby.js** witch uses **React.js** a **JavaScript*
 
 ###### Header 6
 
-    # Text
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
+```
+# Text
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
 
 **bold text**
 
-_italicized text_
+*italicized text*
 
 ~~The world is flat.~~
 
@@ -48,26 +49,31 @@ Here's a sentence with a footnote. [^1]
 > A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian
 > supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste.
 
-    **bold text**
+```
+**bold text**
 
-    _italicized text_
+_italicized text_
 
-    ~~The world is flat.~~
+~~The world is flat.~~
 
-    [^1]: This is the footnote.
+[^1]: This is the footnote.
 
-    [link](https://www.example.com)
+[link](https://www.example.com)
 
-    > A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal.
+> A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal.
+```
 
 # Table & Lists
 
 1. First item
-   - First item
+
+   * First item
 2. Second item
-   - Second item
+
+   * Second item
 3. Third item
-   - Third item
+
+   * Third item
 
 ```markdown
 1. First item
@@ -78,9 +84,9 @@ Here's a sentence with a footnote. [^1]
    - Third item
 ```
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+* Write the press release
+* Update the website
+* Contact the media
 
 ```markdown
 - [x] Write the press release
@@ -102,9 +108,9 @@ Here's a sentence with a footnote. [^1]
 
 # Media
 
-<!-- ![alt text](salty_egg.jpg)
+<!-- !\\[alt text](salty_egg.jpg)
 
-    ![alt text](salty_egg.jpg) -->
+    !\\[alt text](salty_egg.jpg) -->
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/tpiyEe_CqB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
