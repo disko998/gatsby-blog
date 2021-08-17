@@ -16,7 +16,7 @@ const NotFoundPage = ({ data, location }) => {
       <SEO title="404: Not Found" />
 
       <Wrapper>
-        <Image404 fadeIn fluid={data.imageSharp.fluid} />
+        <Image404 fadeIn fluid={data.file.childImageSharp?.fluid} />
 
         <Title404>
           "<Pathname>{location.pathname}</Pathname>" Not found!
@@ -80,9 +80,11 @@ export const pageQuery = graphql`
         title
       }
     }
-    imageSharp(id: { eq: "30805173-525b-547a-95a0-55d2e60a03ca" }) {
-      fluid(maxWidth: 1300) {
-        ...GatsbyImageSharpFluid
+    file(relativePath: { eq: "surr-404.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1300) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
