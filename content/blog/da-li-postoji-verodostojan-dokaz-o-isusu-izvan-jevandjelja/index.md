@@ -1,5 +1,5 @@
 ---
-title: Da li postoji verodostojan dokaz o Isusu izvan jevandjelja?
+title: Da li postoji dokaz o Isusu izvan Novog zaveta?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
 date: 2021-10-30T13:00:57.913Z
 description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija?
@@ -10,17 +10,17 @@ tags:
   - isus
   - istorija
 ---
-Jasno je da u Novom zavetu postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista. Medjutim mnogi navode da su to samo religiske knjige i da nisu od istoriskog znacaja, iako kao istoričari znamo da se možemo  osloniti na pisce Novog zaveta kako pouzdane istoričare 1. veka zbog njihove proverene preciznosti i detaljima o kojima pišu.\
+Jasno je da u Novom zavetu postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista. Medjutim mnogi navode da su to samo religiske knjige i da nisu od istoriskog znacaja, iako kao istoričari znamo da se možemo osloniti na pisce Novog zaveta kako pouzdane istoričare 1. veka zbog njihove proverene preciznosti i detaljima o kojima pišu.\
 \
-Ali da li postoje i drugi dokazi koji to potvrdjuju? Da li postoje spisi van Novog zaveta koji potvrdjuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? Ovde cemo citirati jedne od najpouzdanijih istoričara i ličnosti 1. i 2. veka  n.e. 
+Ali da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? Ovde cemo citirati jedne od najpouzdanijih istoričara i ličnosti 1. i 2. veka  n.e. 
 
-# 1. Josif Flavije
+### 1. Josif Flavije
 
-Josif je bio veoma značajan jevrejski istoričar prvoga veka. Rodjen je 37 godine i napisao najvećim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo se zvalo **"Starine" (The Antiquities 94 n.e.)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
+[Yosef ben Matityahu (37 - 100)](https://sr.wikipedia.org/sr-el/%D0%88%D0%BE%D1%81%D0%B8%D1%84_%D0%A4%D0%BB%D0%B0%D0%B2%D0%B8%D1%98%D0%B5) je bio veoma značajan jevrejski istoričar prvoga veka. Rodjen je 37. godine i napisao najvećim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo je **"Starine" (The Antiquities 94 n.e.)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
 
 </br>
 
-Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji, medjutim on je postao veoma popularan medju hričćanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
+Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji, medjutim on je postao veoma popularan među hričćanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
 \
 U Starinama se prvi put pojavljuje dokaz o Isusu van Jevandjelja. Ovde se opisuje kako je visoki sveštenik zvani Ananija iskoristio smrt rimskog guvernera Festa da bi ubio Jakova.
 
@@ -40,31 +40,82 @@ Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavlja
 
 Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju da Pilat isprva ne želi da osudi Isusa, Isus i njegovi sledbenici nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
 
-# 2. Tacit
+</br>
 
-Je najznačajniji Rimski istoričar prvog veka. Tacit je verovatno zabeležio najvažniji podatak o Hristu van Novog zaveta. Godine 115. on izričito izjavljuje da je Neron progonio hričćane kao žrtvene jarce da bi skrenuo pažnju sa sebe zbog velikog pozara u Rimu 64. godine. 
+Iz ovog teksta možemo da zaključimo sledeće: *Isus je živeo u Palestini, bio je mudar čovek i učitelj, činio čuda, optužen od jevrejskih vođa, razapet u vreme Ponitije Pilata i imao sledbenike zvane hrišćani.*
+
+### 2. Tacit
+
+[Cornelius Tacitus (55 - 115)](https://sr.wikipedia.org/wiki/%D0%A2%D0%B0%D1%86%D0%B8%D1%82) je najznačajniji Rimski istoričar prvog veka. Tacit je verovatno zabeležio najvažniji podatak o Hristu van Novog zaveta. Godine 115. on izričito izjavljuje da je Neron progonio hričćane kao žrtvene jarce da bi skrenuo pažnju sa sebe zbog velikog požara u Rimu 64. godine. 
 
 > Neron je utvrdio krivicu i naneo najteža mučenja klasi omrženoj zbog svojih gnusnih dela, koju je narod zvao hrišćani. Hrist od koga ime potiče, je pretrpeo strogu kaznu tokom vladavine Tiberija or ruke jednog od naših prokuratora Pontije Pilata, i jedno naj štetnije praznoverje, za trenutak prekinuo time, zatim se ponovo pojavljuje, ne samo u Judeji prvom izvoru zla, vecu i u Rimu... Shodno tome prvo su svi koji su priznavali krivicu bačeni u zatvor, zatim je na osnovu njihovih informacija, veliki broj ljudi osuđen, ne toliko zbog zločina paljenja grad, koliko zbog mržnje prema ljudskom rodu.
 
-Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verovanju prvih hrišćana, da je Isus razapet a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takođe vidimo da su prvi hrišćani bili spremni da umru za svoja "praznoverja" najtežom smrću.
+Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verovanju prvih hrišćana: *da je Isus je razapet za vreme Pilata, a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takođe vidimo da je Isus ziveo u Judeji i da su prvi hrišćani bili spremni da umru za svoja "praznoverja" najtežom smrću.*
 
-# 3. Plinije mladji
+### 3. Mara bar-Serapion
 
-Je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. U njegovoj prepisci sa njim on govori o hriscanima koje je utamnicio:
+Negde posle 70. godine n.e, Siriski filozof Mara Bar-Serapion, piše ohrabrujuće pismo svom sinu, poredeći život i progon Hrista kao drugih filozofa koji su proganjani zbog svojih ideja.
 
-> Upitao sam ih da li su hriscani i ako bi priznali, ponovio bih pitanje drugi i trci put, uz upozorenje na kaznu koja ih ceka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubedjen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
+> Kakve koristi su imali Atinjani ubivši Sokrata? Glad i kuga su ih dočekali kao presuda za njihov zločin. Ili ljudi iz Samosa za spaljivanje Pitagore? Za jedan tren njihova zemlja je prekrivena peskom. Ili jevreji tako što su ubili njihovog mudrog kralja? Nakon toga je njihovo carstvo je uništeno. Bog je s pravom osvetio ove ljude...Mudri kralj... živeo je učenjima koja je sprovodio.
+
+Iz ovog teksta, možemo dodati na naše razumevanje Hrista: *Bio je mudara čovek koji je umro za svoja verovanja i jevrejsko vođstvo je nekako odgovorno za njegovu smrt.*
+
+### 4. Plinije mladji
+
+[Gaius Plinius Caecilius Secundus (63-113)](https://sh.wikipedia.org/wiki/Plinije_Mla%C4%91i) je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. U njegovoj prepisci sa njim on govori o hrišćanima koje je utamničio:
+
+> Upitao sam ih da li su hrišćani i ako bi priznali, ponovio bih pitanje drugi i treći put, uz upozorenje na kaznu koja ih čeka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubedjen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
 >
-> Oni su takodje izjavljivali da se njihova ukupna krivica ili greska svodi samo na sledecem:  oni su se redovno sastajali pre zore odredjenog dana kako bi pevali Hristu u cast, kao da je Bogu, kao i da bi se obavezali zakletvom, ne sa bilo kakvim zlocinackim ciljem, vec kako bi se uzdrzavali od kradje, placke i preljube... Nisam otkrio nista sem da je vrsta kulta koji je dosegao neobicno velike razmere.
+>   </br>
+>
+> Oni su takođe izjavljivali da se njihova ukupna krivica ili greška svodi samo na sledećem: oni su se redovno sastajali pre zore određenog dana kako bi pevali Hristu u čast, kao da je Bog, kao i da bi se obavezali zakletvom, ne sa bilo kakvim zločinačkim ciljem, vec kako bi se uzdržavali od krađe, plačke i preljube... Nisam otkrio ništa sem da je to vrsta kulta koji je dosegao neobično velike razmere.
 
-Napisan je verovatno 111. godine, svedoci o brzom sirenju hriscanstva i u gradovima i u seoskim podrucijima medju ljudima svih klasaa, medju robinjama i rimskim gradjanima jer on kaze da je slao ljude koji su rimski gradjani u Rim na sudjenje. I tu se govori o obozavanju Hrista kao boga, da su se hriscani drzali svoji moralnih nacela i da ih nije bilo lako odvratiti od svojih uverenja.
+Napisan je verovatno 111. godine, i svedoči o brzom širenju hrišćanstva u gradovima i seoskim područijima, među ljudima svih klasa, među robovima i rimskim građanima. Plinije govori i kako je slao ljude koji su rimski građani u Rim na suđenje.
 
-# 4. Dan kada se zemlja pomracila
+</br>
 
-Jedan od argumenata skeptika jeste podatak iz Jevandjelja da je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Priznacete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom dogadjaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
+Rani dokument o prvim hrišćanima: *prvi hrišćcani su verovali da je Isus Bog, držali su velike moralne standarde, redovno su se sastajali da obožavaju Hista i nije ih bilo lako odvratiti od njihovih verovanja.*
 
-> Ovaj fenomen je ocigledno bio vidljiv i u Atini, Rimu i drugim mediteranskim gradovima. Po Tertulijanu to je bio "kosmicki" ili "svetski" dogadjaj. Flegon grcki pisac iz Karije, pisuci hronologiju, ubrzo posle 137. godine, izvestio je da se cetvrte godine 202. olimpijade (tj. 33. godine), odigralo najvece "pomracenje sunca" i da je nastupila noc sestog casa dana (tj. u podne), tako da su se i zvezde pojavile na nebu. U Bitniji se odigrao veliki zemljotres i mnogo toga je sruseno u Nikeji.
+### 5. Celzus
 
-# 5. Talmud
+[Celzus](https://en.wikipedia.org/wiki/Celsus) je bio grčki filozof i oponent hrišćanstva u 2. veku n.e. Njegov kritika Biblije (175–177) samo potvrdjuje i pordupire Novozavetne autore. Njegovo pisanje je obilno i aludira na 80 različitih bibliskih citata. Pored toga on priznaje da se i u 2. veku verovalo u Isusova čuda.
+
+> Isus je došao iz jednog sela u Judeji i bio je sin siromašne Jevrejke koja je zarađivala za život radom svojih ruku. Njegovu majku je izbacio njen muž, koji je po zanatu bio stolar, nakon što je osuđena za preljubu sa vojnikom po imenu Pantera. Tako oterana od muža, i lutajući u sramoti, rodila je Isusa, kopile. Isus je, zbog svog siromaštva, bio unajmljen da ode u Egipat. Dok je tamo stekao određene (magijske) moći kojima se Egipćani ponose da poseduju. Vratio se kući veoma ushićen posedovanjem ovih moći, i proglasio se za Boga.
+
+</br>
+
+Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to moglo da bude natprirodno objašnjenje i nudi ideju da je Isus bio vanbračni sin čoveka po imenu Pantera (ideja pozajmljena od Jevreja koji su se u to vreme protivili Isusu). Ali u pisanju ovog izveštaja, Celzus potvrđuje nekoliko važnih tvrdnji: *Isus je imao zemaljskog oca koji je bio stolar, posedovao je neobične magijske moći i tvrdio da je Bog.*
+
+### 6. Dan kada se zemlja pomracila
+
+Jos jedan od argumenata skeptika jeste podatak iz Jevandjelja da je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Prizna'ete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom događaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
+
+> Ovaj fenomen je očigledno bio vidljiv i u Atini, Rimu i drugim mediteranskim gradovima. Po Tertulijanu to je bio "kosmički" ili "svetski" događaj. Flegon grčki pisac iz Karije, pišuci hronologiju, ubrzo posle 137. godine, izvestio je da se četvrte godine 202. olimpijade (tj. 33. godine), odigralo najvece "pomračenje sunca" i da je nastupila noć šestog časa dana (tj. u podne), tako da su se i zvezde pojavile na nebu. U Bitniji se odigrao veliki zemljotres i mnogo toga je srušeno u Nikeji.
+
+**Talus (52 n.e.)** je možda najraniji sekularni pisac koji je pominjao Isusa i toliko je star da njegovi spisi više i ne postoje. Ali Julije Afrikanus, koji piše oko 221. godine nove ere, citira Talusa koji je prethodno pokušao da objasni tamu koja se pojavila na Isusovom raspeću:
+
+> Na ceo svet je pritiskala najstrašnija tama; i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Ta tama Talus, u trećoj knjizi svoje Istorije, naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
+
+Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Isus je živeo, bio je razapet, a na mestu Njegovog raspeća došlo je do zemljotresa i tame.*
+
+</br>
+
+Flegon (80-140 AD)
+Na sličan način kao Talus, Julije Afrikanac takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine nove ere. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
+
+„Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. (Africanus, Hronografija, 18:1)
+
+Flegon pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji):
+
+„Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. (Origen protiv Celza, knjiga 2, poglavlje 14)
+
+„A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” (Origen protiv Celza, knjiga 2, poglavlje 33)
+
+„Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima. (Origen protiv Celza, knjiga 2, poglavlje 59)
+
+Iz ovih izveštaja možemo nešto dodati našem razumevanju: Isus je imao sposobnost da tačno predvidi budućnost, bio je razapet pod vladavinom Tiberija Cezara i pokazao je svoje rane nakon što je uskrsnuo.
+
+### 5. Talmud
 
 Talmud vazno rabinsko delo zavrseno oko 500. godine koje sadrzi i Misnu sastavljenu oko 200. godine. Mnogi rabini ne govore detaljno o jereticima, ali postoje par odeljaka koji govore Isusu, nazivaju ga laznim mesijom koji se bavio magijom i koji je pravedno osudjen na smrt. Oni takodje ponavljaju glasine da je Isus sin rimskog vojnika i Marije ukazivajuci da postoji nesto neobicno u veizi njegovog rodjenja.
 
@@ -72,7 +123,7 @@ Talmud vazno rabinsko delo zavrseno oko 500. godine koje sadrzi i Misnu sastavlj
 
 Jevrejska tradicionalna literatura iako spominje Isusa oskudno, podrzava Jevanjdjelje da je on iscelitelj i cudotvorac iako pripisuje te aktivnosti magiji. Pored toga govori da je bio ucitelj i imao ucenike (petoricu), i da bar u najranijem periodu nisu svi mudraci odlucili da li je bio "jeretik" ili "obmanjivac".
 
-# 6. Ostali dokazi
+### 6. Ostali dokazi
 
 Kada ljudi zapocnu religiozni pokret cesto se dogodi da tek posle vise godina ljudi beleze podatke pismeno dok se prvenstveno prenosila oralnio. Ali je cinjenica da imamo bolje istoriske dokumente o Isusu nego osnivacu bilo koje druge religije.
 
