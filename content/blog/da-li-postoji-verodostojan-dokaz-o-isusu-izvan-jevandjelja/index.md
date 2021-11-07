@@ -100,20 +100,23 @@ Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći v
 
 </br>
 
-Flegon (80-140 AD)
-Na sličan način kao Talus, Julije Afrikanac takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine nove ere. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
+**Flegon (80-140 n.e.)** na sličan način kao Talus, Julije Afrikanus takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine nove ere. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
 
-„Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. (Africanus, Hronografija, 18:1)
+> „Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. (Africanus, Hronografija, 18:1)
 
 Flegon pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji):
 
-„Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. (Origen protiv Celza, knjiga 2, poglavlje 14)
+> Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. (Origen protiv Celza, knjiga 2, poglavlje 14)
+>
+> </br>
+>
+> „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” (Origen protiv Celza, knjiga 2, poglavlje 33)
+>
+> </br>
+>
+> „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima. (Origen protiv Celza, knjiga 2, poglavlje 59)
 
-„A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” (Origen protiv Celza, knjiga 2, poglavlje 33)
-
-„Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima. (Origen protiv Celza, knjiga 2, poglavlje 59)
-
-Iz ovih izveštaja možemo nešto dodati našem razumevanju: Isus je imao sposobnost da tačno predvidi budućnost, bio je razapet pod vladavinom Tiberija Cezara i pokazao je svoje rane nakon što je uskrsnuo.
+Iz ovih izveštaja možemo nešto dodati našem razumevanju: *Isus je imao sposobnost da tačno predvidi budućnost, bio je razapet pod vladavinom Tiberija Cezara i pokazao je svoje rane nakon što je uskrsnuo.*
 
 ### 5. Talmud
 
