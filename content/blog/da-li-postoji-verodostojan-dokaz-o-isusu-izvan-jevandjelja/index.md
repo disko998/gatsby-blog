@@ -166,7 +166,7 @@ Na primer knjige o Budi koji je ziveo u 6. veku pre Hrista, zapisane su tek posl
 
 </br>
 
-Apostol Pavle, započevši sa pisanjem svojih novozavetnih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdju (verovatno 2-3 godine posle raspeća). Među naj ranijim spisima su i poslanica očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao sto su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i druge. Na kraju moram spomenuti Jevandjelja kao četiri nezavisna istoriska dokumenta koja opisuju isti dogadja na identičan način.
+Apostol Pavle, započevši sa pisanjem svojih novozavetnih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdju (verovatno 2-3 godine posle raspeća). Među naj ranijim spisima su i poslanica očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i druge. Na kraju moram spomenuti Jevandjelja kao četiri nezavisna istoriska dokumenta koja opisuju isti dogadja na identičan način.
 
 </br>
 
