@@ -10,43 +10,43 @@ tags:
   - isus
   - istorija
 ---
-U jevandjeljima postoje odlicni dokazi o zivotu, ucenjima, smrti i Isusovom vaskrsenju. Medjutim da li postoje drugi dokazi koji to potvrdjuju? Da li postoje spisi van Jevandjelja koji potvrdjuju ili podupiru bilo koje sustinske stvari o Isusu ili ranom hriscanstvu?
+Jasno je da u Novom zavetu postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista. Medjutim mnogi navode da su to samo religiske knjige i da nisu od istoriskog znacaja, iako kao istoričari znamo da se možemo  osloniti na pisce Novog zaveta kako pouzdane istoričare 1. veka zbog njihove proverene preciznosti i detaljima o kojima pišu.\
+\
+Ali da li postoje i drugi dokazi koji to potvrdjuju? Da li postoje spisi van Novog zaveta koji potvrdjuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? Ovde cemo citirati jedne od najpouzdanijih istoričara i ličnosti 1. i 2. veka  n.e. 
 
 # 1. Josif Flavije
 
-Josif je bio veoma znacajan jevrejski istoricar prvoga veka. Rodjen je 37 godine i napisao najvecim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo se zvalo **"Starine" (The Antiquities)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
+Josif je bio veoma značajan jevrejski istoričar prvoga veka. Rodjen je 37 godine i napisao najvećim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo se zvalo **"Starine" (The Antiquities 94 n.e.)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
 
 </br>
 
-Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji medjutim on je postao veoma popularan medju hriscanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
+Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji, medjutim on je postao veoma popularan medju hričćanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
 \
-U Starinama se prvi put pojavljuje dokaz o Isusu van Jevandjelja. Ovde se opisuje kako je visoki svestenik zvani Ananija iskoristio smrt rimskog guvernera Festa da bi ubio Jakova.
+U Starinama se prvi put pojavljuje dokaz o Isusu van Jevandjelja. Ovde se opisuje kako je visoki sveštenik zvani Ananija iskoristio smrt rimskog guvernera Festa da bi ubio Jakova.
 
+> Sazvao je sastanak Sinedriona i izveo pred njega čoveka zvanog Jakov, Isusovog brata, koji je zvan Hrist i određene druge ljude. Optužio ga je da je prekršio zakon i predao ih da budu kamenovani.
 
-
-> Sazvao je sastanak Sinedriona i izveo pred njega coveka zvanog Jakov, Isusovog brata, koji je zvan Hrist (Mesija) i odredjene druge ljude. Optuzio ga je da je prekrsio zakon i predao ih da budu kamenovani.
-
-Nijedan naucnik nije uspesno opovrgao ovaj tekst. Da je ovo bilo kasnije dodavanje hristcana verovatno bi pohvalnije govorilo o Jakovu tako da ovde imate pozivanje na Isusovog brata koji je verovatno bio preobracen posle Hristovog vaskrsenja ako uporedite sa ***Jovan 7:5 i 1*** gde se vidi da njegova braca nisu iskazivala vere u njega ranije.
+Nijedan naučnik nije uspešno opovrgao ovaj tekst. Da je ovo bilo kasnije dodavanje hrišćana verovatno bi pohvalnije govorilo o Jakovu, tako da ovde imate pozivanje na Isusovog brata koji je verovatno bio preobraćen posle Hristovog vaskrsenja ako uporedite sa **Jovan 7:5** gde se vidi da njegova braća nisu iskazivala vere u njega ranije.
 
 </br>
 
-Postoji jos jedan odeljak o Isusu koji se zove **"Svedocanstva Flavijeva"** takodje je jedan od najosporavanih u drevnoj literaturi.
+Postoji jos jedan odeljak o Isusu u delu koje se zove **"Svedočanstva Flavijeva (Testimonium Flavianum)"** takođe je jedan od najosporavanijih u drevnoj literaturi.
 
-> Negde tamo u to vreme ziveo je Isus, mudar cove ako zaista neko uopste moze da ga nazove covekom. Jer je on bio onaj koji je cinio zadivljujuca cuda i bio ucitelj ljudi koji su rado prihvatili istinu. On je pridobio moge Jevreje i puno Grka. On je bio Hrist. Kada ga je pilat, posle saslusanja, optuzen od ljudi najveceg polozaja medju nama, osudio na razapinjanje na krst, oni koji su mu isprva dosli nisu se odredkli svoje ljubavi prema njemu. Treceg dana pokazao im se opet ozivevsi jer su Bozji proroci prorokovali ove i bezbrojne druge cudesne stvari o njemu. A pleme hriscana tako nazvanih po njemu, jos uvek do ovog dana nije iscezlo.
+> Negde tamo u to vreme živeo je Isus, mudar čovek ako zaista neko uopšte može da ga nazove čovekom. Jer je on bio onaj koji je činio zadivljujuća čuda i bio učitelj ljudi koji su rado prihvatili istinu. On je pridobio mnoge Jevreje i puno Grka. On je bio Hrist. Kada ga je pilat, posle saslučanja, optužen od ljudi najveceg položaja medju nama, osudio na razapinjanje na krst, oni koji su mu isprva došli nisu se odredkli svoje ljubavi prema njemu. Treceg dana pokazao im se opet oživevši jer su Božji proroci prorokovali ove i bezbrojne druge čudesne stvari o njemu. A pleme hrišćana tako nazvanih po njemu, jos uvek do ovog dana nije isčezlo.
 
-Iako ovi podaci pruzaju neke znacajne potvrde o Isusu, neki skeptici postavljaju pitanje zasto Josif Favije nije rekao nista vise o tako vaznoj licnosti prvog veka?  Neocekivano je da ga on spominje usput, dok se vise spominju druge mesijanske licnosti i Jovana Krstitelj.
+Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavljaju pitanje žasto Josif Favije nije rekao ništa vise o tako važnoj ličnosti prvog veka? Neočekivano je da ga on spominje usput, dok se vise spominju druge mesijanske ličnosti i Jovana Krstitelj.
 
 </br>
 
-Odgovor na pitanje je da su za njega bila vaznije politicka pitanja i borba protiv Rima pa je zbog toga Jovan Krstitelj izgledao kao veca politicka pretnja nego Isus. Setimo se da se Isus nije cak ni protivio placanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto mozemo primetiti i u Jevandjeljima kada pilat ne zeli da osudi Hrista, Isus i njegovi sledbenici nisu izgledali znacajno iako gledajuci iz ovog perioda unazad jesu.
+Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju da Pilat isprva ne želi da osudi Isusa, Isus i njegovi sledbenici nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
 
 # 2. Tacit
 
-Je najznacajniji Rimski istoricar prvog veka. Tacit je verovatno zabelezio najvazniji podatak o Hristu van Novog zaveta. Godine 115. on izricito izjavljuje da je Neron progonio hriscane kao zrtvene jarce da bi skrenuo zrtvu sa sebe zbog velikog pozara u Rimu 64. godine. 
+Je najznačajniji Rimski istoričar prvog veka. Tacit je verovatno zabeležio najvažniji podatak o Hristu van Novog zaveta. Godine 115. on izričito izjavljuje da je Neron progonio hričćane kao žrtvene jarce da bi skrenuo pažnju sa sebe zbog velikog pozara u Rimu 64. godine. 
 
-> Neron je utvrdio krivicu i naneo najteza mucenja klasi omrzenoj zbog svojih gnusnih dela, koju je narod zvao hriscani. Hrist od koga ime potice, je pretrpeo strogu kaznu tokom vladavine Tiberija or ruke jednog od nasih prokuratora Pontije Pilata, i jedno naj stetnije praznoverje, za trnutak prekinuo time, zatim se ponovo pojavljuje, ne samo u Judeji prvom izvoru zla, vecu i u Rimu... Shodno tome prvo su svi koji su priznavali krivicu baceni u zatvor, zatim je na osnovu njihovih informacija, veliki broj ljudi osudjen, ne toliko zbog zlocina paljenja grad, koliko zbog mrznje prema ljudskom rodu.
+> Neron je utvrdio krivicu i naneo najteža mučenja klasi omrženoj zbog svojih gnusnih dela, koju je narod zvao hrišćani. Hrist od koga ime potiče, je pretrpeo strogu kaznu tokom vladavine Tiberija or ruke jednog od naših prokuratora Pontije Pilata, i jedno naj štetnije praznoverje, za trenutak prekinuo time, zatim se ponovo pojavljuje, ne samo u Judeji prvom izvoru zla, vecu i u Rimu... Shodno tome prvo su svi koji su priznavali krivicu bačeni u zatvor, zatim je na osnovu njihovih informacija, veliki broj ljudi osuđen, ne toliko zbog zločina paljenja grad, koliko zbog mržnje prema ljudskom rodu.
 
-Tacit koji nije imao simpatije prema hriscanima ovde nesvesno svedoci o verovanju prvih hriscana, da je Isus razapet a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takodje vidimo da su prvi hricani bili spremni da umru za svoja "praznoverja" najtezom smrcu.
+Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verovanju prvih hrišćana, da je Isus razapet a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takođe vidimo da su prvi hrišćani bili spremni da umru za svoja "praznoverja" najtežom smrću.
 
 # 3. Plinije mladji
 
@@ -58,7 +58,7 @@ Je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. 
 
 Napisan je verovatno 111. godine, svedoci o brzom sirenju hriscanstva i u gradovima i u seoskim podrucijima medju ljudima svih klasaa, medju robinjama i rimskim gradjanima jer on kaze da je slao ljude koji su rimski gradjani u Rim na sudjenje. I tu se govori o obozavanju Hrista kao boga, da su se hriscani drzali svoji moralnih nacela i da ih nije bilo lako odvratiti od svojih uverenja.
 
-# 4. Dan kada se zemlja pomracila 
+# 4. Dan kada se zemlja pomracila
 
 Jedan od argumenata skeptika jeste podatak iz Jevandjelja da je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Priznacete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom dogadjaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
 
