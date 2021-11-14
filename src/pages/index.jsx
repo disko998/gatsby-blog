@@ -5,7 +5,7 @@ import { Layout, BlogList, SEO } from "../components"
 
 const POST_PER_PAGE = process.env.POST_PER_PAGE
 
-const Blog = () => {
+const BlogListPage = () => {
   return (
     <Layout>
       <SEO title="Blogs" />
@@ -64,4 +64,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default Blog
+export default BlogListPage

@@ -6,7 +6,7 @@ import styled from "styled-components"
 
 import { rem } from "../../../utils/helper"
 import TagsList from "../TagsList"
-import { BookmarkContext } from "../../../Providers"
+import { BookmarkContext } from "../../../providers"
 import { Thumbnail } from "../../elements"
 import { DateAndReadTime } from "../../shared"
 
