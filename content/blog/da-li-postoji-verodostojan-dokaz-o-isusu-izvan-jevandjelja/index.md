@@ -1,28 +1,30 @@
 ---
-title: Da li postoji dokaz o Isusu izvan Novog zaveta?
+title: Da li postoje dokazi o Isusu izvan Biblije?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
-date: 2021-10-30T13:00:57.913Z
-description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija?
-  Jedno od pitanja koje skeptici najcesce postavljaju. Moj odgovor je DA, a
-  kolicina i kvalitet dokaza ce vas mozda iznenaditi.
+date: 2021-11-14T16:23:36.638Z
+description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija? Šta
+  nam mogu reći ostali u većini slučajeva neprijateljski nastorjeni izvori o
+  Isusovom životu i ranom hršćanstvu?
 tags:
-  - biblija
-  - isus
-  - istorija
+  - Biblija
+  - Isus
+  - Istorija
 ---
-Jasno je da u Novom zavetu postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista. Medjutim mnogi navode da su to samo religiske knjige i da nisu od istoriskog znacaja, iako kao istoričari znamo da se možemo osloniti na pisce Novog zaveta kako pouzdane istoričare 1. veka zbog njihove proverene preciznosti i detaljima o kojima pišu.\
-\
-Ali da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? Ovde cemo citirati jedne od najpouzdanijih istoričara i ličnosti 1. i 2. veka  n.e. 
-
-### 1. Josif Flavije
-
-[Yosef ben Matityahu (37 - 100)](https://sr.wikipedia.org/sr-el/%D0%88%D0%BE%D1%81%D0%B8%D1%84_%D0%A4%D0%BB%D0%B0%D0%B2%D0%B8%D1%98%D0%B5) je bio veoma značajan jevrejski istoričar prvoga veka. Rodjen je 37. godine i napisao najvećim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo je **"Starine" (The Antiquities 94 n.e.)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
+Možda će za nekog biti iznenađenje ali Novi zavet nije jedini istoriski izvor koji govri o Isusu Hristu. Novi zavet se sastoji od četiri nezavisna dokumenta očevidaca događaja koje zovemo Jevanđelje i brojne druge spise i poslanice apostola gde postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista, da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? 
 
 </br>
 
-Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji, medjutim on je postao veoma popularan među hričćanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
+Ovde cemo citirati jedne od najpouzdanijih jevreskih i paganskih ali i u većini slučajeva neprijateljski nastorjenih izvora prema hrišćanima u 1. i 2. veka n.e.
+
+### 1. Josif Flavije
+
+[Yosef ben Matityahu (37 - 100)](https://sr.wikipedia.org/sr-el/%D0%88%D0%BE%D1%81%D0%B8%D1%84_%D0%A4%D0%BB%D0%B0%D0%B2%D0%B8%D1%98%D0%B5) je bio veoma značajan jevrejski istoričar prvoga veka. Rođen je 37. godine i napisao najvećim delom svoja 4 dela do kraja prvog veka. On je bio farisej, njegovo najpoznatije delo je **"Starine" (The Antiquities 94 n.e.)** i predstavljalo je istoriju jevrejskog naroda od nastanka pa do njegovog vremena. 
+
+</br>
+
+Zbog njegove naklonosti prema Rimljanima njega su mrzeli njegovi sunarodnici Jevreji, međutim on je postao veoma popularan među hričćanima zbog svojih radova u kojima se pozivao na Jakova, Isusovog brata i na samog Isusa.\
 \
-U Starinama se prvi put pojavljuje dokaz o Isusu van Jevandjelja. Ovde se opisuje kako je visoki sveštenik zvani Ananija iskoristio smrt rimskog guvernera Festa da bi ubio Jakova.
+U Starinama se prvi put pojavljuje dokaz o Isusu van Jevanđelja. Ovde se opisuje kako je visoki sveštenik zvani Ananija iskoristio smrt rimskog guvernera Festa da bi ubio Jakova.
 
 > Sazvao je sastanak Sinedriona i izveo pred njega čoveka zvanog Jakov, Isusovog brata, koji je zvan Hrist i određene druge ljude. Optužio ga je da je prekršio zakon i predao ih da budu kamenovani.
 
@@ -32,13 +34,13 @@ Nijedan naučnik nije uspešno opovrgao ovaj tekst. Da je ovo bilo kasnije dodav
 
 Postoji jos jedan odeljak o Isusu u delu koje se zove **"Svedočanstva Flavijeva (Testimonium Flavianum)"** takođe je jedan od najosporavanijih u drevnoj literaturi.
 
-> Negde tamo u to vreme živeo je Isus, mudar čovek ako zaista neko uopšte može da ga nazove čovekom. Jer je on bio onaj koji je činio zadivljujuća čuda i bio učitelj ljudi koji su rado prihvatili istinu. On je pridobio mnoge Jevreje i puno Grka. On je bio Hrist. Kada ga je pilat, posle saslučanja, optužen od ljudi najveceg položaja medju nama, osudio na razapinjanje na krst, oni koji su mu isprva došli nisu se odredkli svoje ljubavi prema njemu. Treceg dana pokazao im se opet oživevši jer su Božji proroci prorokovali ove i bezbrojne druge čudesne stvari o njemu. A pleme hrišćana tako nazvanih po njemu, jos uvek do ovog dana nije isčezlo.
+> Negde tamo u to vreme živeo je Isus, mudar čovek ako zaista neko uopšte može da ga nazove čovekom. Jer je on bio onaj koji je činio zadivljujuća čuda i bio učitelj ljudi koji su rado prihvatili istinu. On je pridobio mnoge Jevreje i puno Grka. On je bio Hrist. Kada ga je pilat, posle saslušanja, optužen od ljudi najvećeg položaja medju nama, osudio na razapinjanje na krst, oni koji su mu isprva došli nisu se odredkli svoje ljubavi prema njemu. Trećeg dana pokazao im se opet oživevši jer su Božji proroci prorokovali ove i bezbrojne druge čudesne stvari o njemu. A pleme hrišćana tako nazvanih po njemu, jos uvek do ovog dana nije isčezlo.
 
 Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavljaju pitanje žasto Josif Favije nije rekao ništa vise o tako važnoj ličnosti prvog veka? Neočekivano je da ga on spominje usput, dok se vise spominju druge mesijanske ličnosti i Jovana Krstitelj.
 
 </br>
 
-Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju da Pilat isprva ne želi da osudi Isusa, Isus i njegovi sledbenici nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
+Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju da Pilat isprva ne želi da osudi Hrista, Isus i njegovi sledbenici za njih nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
 
 </br>
 
@@ -54,7 +56,7 @@ Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verov
 
 ### 3. Mara bar-Serapion
 
-Negde posle 70. godine n.e, Siriski filozof Mara Bar-Serapion, piše ohrabrujuće pismo svom sinu, poredeći život i progon Hrista kao drugih filozofa koji su proganjani zbog svojih ideja.
+Negde posle 70. godine n.e, Siriski filozof [Mara Bar-Serapion](https://en.wikipedia.org/wiki/Mara_bar_Serapion_on_Jesus), piše ohrabrujuće pismo svom sinu, poredeći život i progon Hrista kao drugih filozofa koji su proganjani zbog svojih ideja.
 
 > Kakve koristi su imali Atinjani ubivši Sokrata? Glad i kuga su ih dočekali kao presuda za njihov zločin. Ili ljudi iz Samosa za spaljivanje Pitagore? Za jedan tren njihova zemlja je prekrivena peskom. Ili jevreji tako što su ubili njihovog mudrog kralja? Nakon toga je njihovo carstvo je uništeno. Bog je s pravom osvetio ove ljude...Mudri kralj... živeo je učenjima koja je sprovodio.
 
@@ -64,7 +66,7 @@ Iz ovog teksta, možemo dodati na naše razumevanje Hrista: *Bio je mudara čov
 
 [Gaius Plinius Caecilius Secundus (63-113)](https://sh.wikipedia.org/wiki/Plinije_Mla%C4%91i) je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. U njegovoj prepisci sa njim on govori o hrišćanima koje je utamničio:
 
-> Upitao sam ih da li su hrišćani i ako bi priznali, ponovio bih pitanje drugi i treći put, uz upozorenje na kaznu koja ih čeka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubedjen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
+> Upitao sam ih da li su hrišćani i ako bi priznali, ponovio bih pitanje drugi i treći put, uz upozorenje na kaznu koja ih čeka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubeđen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
 >
 >   </br>
 >
@@ -88,15 +90,15 @@ Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to mo
 
 ### 6. Dan kada se zemlja pomračila
 
-Jos jedan od argumenata skeptika jeste podatak iz Jevandjelja da je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Prizna'ete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom događaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
+Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja kako je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Priznaćete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom događaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
 
-> Ovaj fenomen je očigledno bio vidljiv i u Atini, Rimu i drugim mediteranskim gradovima. Po Tertulijanu to je bio "kosmički" ili "svetski" događaj. Flegon grčki pisac iz Karije, pišuci hronologiju, ubrzo posle 137. godine, izvestio je da se četvrte godine 202. olimpijade (tj. 33. godine), odigralo najvece "pomračenje sunca" i da je nastupila noć šestog časa dana (tj. u podne), tako da su se i zvezde pojavile na nebu. U Bitniji se odigrao veliki zemljotres i mnogo toga je srušeno u Nikeji.
+> Ovaj fenomen je očigledno bio vidljiv i u Atini, Rimu i drugim mediteranskim gradovima. Po Tertulijanu to je bio "kosmički" ili "svetski" događaj. Flegon grčki pisac iz Karije, pišući hronologiju, ubrzo posle 137. godine, izvestio je da se četvrte godine 202. olimpijade (tj. 33. godine), odigralo najvece "pomračenje sunca" i da je nastupila noć šestog časa dana (tj. u podne), tako da su se i zvezde pojavile na nebu. U Bitniji se odigrao veliki zemljotres i mnogo toga je srušeno u Nikeji.
 
 **Talus (52 n.e.)** je možda najraniji sekularni pisac koji je pominjao Isusa i toliko je star da njegovi spisi više i ne postoje. Ali Julije Afrikanus, koji piše oko 221. godine nove ere, citira Talusa koji je prethodno pokušao da objasni tamu koja se pojavila na Isusovom raspeću:
 
-> Na ceo svet je pritiskala najstrašnija tama; i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Ta tama Talus, u trećoj knjizi svoje Istorije, naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
+> Na ceo svet je pritiskala najstrašnija tama, i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Tu tamu Talus, u trećoj knjizi svoje Istorij naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
 
-Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Isus je živeo, bio je razapet, a na mestu Njegovog raspeća došlo je do zemljotresa i tame.*
+Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestu Isusovog raspeća došlo je do zemljotresa i tame.*
 
 </br>
 
@@ -108,11 +110,7 @@ Flegon pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji):
 
 > Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. (Origen protiv Celza, knjiga 2, poglavlje 14)
 >
-> </br>
->
 > „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” (Origen protiv Celza, knjiga 2, poglavlje 33)
->
-> </br>
 >
 > „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima. (Origen protiv Celza, knjiga 2, poglavlje 59)
 
@@ -128,11 +126,7 @@ Naučnici veruju da postoji niz talmudskih spisa koji se odnose na Isusa, a za m
 
 > Isus je praktikovao magiju i odveo Izrael na stranputicu“ (b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)
 >
-> </br>
->
 > Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. (b. Sanhedrin 103a; up. b. Berakhot 17b)
->
-> </br>
 >
 > Naši rabini su poučavali da je Isus imao pet učenika: Mataja, Nakaija, Nezera, Bunija i Toda. Doveli su Mataija (na suđenje). Rekao je: „Mora li Matai biti ubijen? Jer je napisano: ’Kada ću (mathai) doći i pojaviti se pred Bogom?“ (Psalam 92:2) Rekli su mu: „Da, Matai treba da bude ubijen, jer je napisano: ’Kad (mathai) umre ime će njegovo propasti“ (Psalam 41:5). Doveli su Nakaija. Rekao im je: „Mora li Nakai biti ubijen? Jer je napisano: „Nevin (naki) i pravednik neće ubiti“ (Izlazak 23:7). Rekli su mu: „Da, Nakaj mora biti ubijen, jer je napisano: ’Na tajnim mestima ubija nevine (naki)“ (Psalam 10:8). (b. Sanhedrin 43a; odlomak se nastavlja na sličan način za Nezer, Buni i Todah)
 
