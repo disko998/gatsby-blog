@@ -98,37 +98,43 @@ Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja kako je na zemlji 
 
 > Na ceo svet je pritiskala najstrašnija tama, i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Tu tamu Talus, u trećoj knjizi svoje Istorij naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
 
-Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestu Isusovog raspeća došlo je do zemljotresa i tame.*
+Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestuNjegovogg raspeća došlo je do zemljotresa i tame.*
 
 </br>
 
 **Flegon (80-140 n.e.)** na sličan način kao Talus, Julije Afrikanus takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine nove ere. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
 
-> „Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. (Africanus, Hronografija, 18:1)
+> „Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. *(Africanus, Hronografija, 18:1)*
 
-Flegon pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji):
+Flegona pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji):
 
-> Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. (Origen protiv Celza, knjiga 2, poglavlje 14)
+> Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. *(Origen protiv Celza, knjiga 2, poglavlje 14)*
 >
-> „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” (Origen protiv Celza, knjiga 2, poglavlje 33)
+> </br>
 >
-> „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima. (Origen protiv Celza, knjiga 2, poglavlje 59)
+> „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” *(Origen protiv Celza, knjiga 2, poglavlje 33)*
+>
+> </br>
+>
+> „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima *(Origen protiv Celza, knjiga 2, poglavlje 59)*
 
-Iz ovih izveštaja možemo nešto dodati našem razumevanju: *Isus je imao sposobnost da tačno predvidi budućnost, bio je razapet pod vladavinom Tiberija Cezara i pokazao je svoje rane nakon što je uskrsnuo.*
+Iz ovih izveštaja možemo nešto dodati našem razumevanju Isusa: *Isus je imao sposobnost da tačno predvidi budućnost, bio je razapet pod vladavinom Tiberija Cezara i pokazao je svoje rane nakon što je vaskrsao.*
 
 ### 5. Talmud
 
-Talmud važno rabinsko delo završeno oko 500. godine koje sadrži i Mišnu sastavljenu oko dvestote godine n.e. Mnogi rabini ne govore detaljno o jereticima, ali postoje par odeljaka koji govore Isusu, nazivaju ga lažnim mesijom koji se bavio magijom i koji je pravedno osudjen na smrt. Oni takodje ponavljaju glasine da je Isus sin rimskog vojnika i Marije ukazivajući da postoji nešto neobično u vezi njegovog rođenja.
+Talmud važno rabinsko delo završeno oko 500. godine koje sadrži i Mišnu sastavljenu oko dvestote godine n.e. Mnogi rabini ne govore detaljno o jereticima, ali postoje par odeljaka koji govore Isusu, nazivaju ga lažnim mesijom koji se bavio magijom i koji je pravedno osuđen na smrt. Oni takođe ponavljaju glasine da je Isus sin rimskog vojnika i Marije ukazivajući da postoji nešto neobično u vezi njegovog rođenja.
 
 </br>
 
 Naučnici veruju da postoji niz talmudskih spisa koji se odnose na Isusa, a za mnoge od ovih spisa se kaže da koriste šifrovane reči da opisuju Isusa (kao što su „Valam” ili „Ben Stada” ili „izvesni”). Ali za naše svrhe bićemo veoma konzervativni i ograničićemo naše ispitivanje na odlomke koji se odnose na Isusa na direktniji način:
 
-> Isus je praktikovao magiju i odveo Izrael na stranputicu“ (b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)
+> Isus je praktikovao magiju i odveo Izrael na stranputicu“ *(b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)*
 >
-> Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. (b. Sanhedrin 103a; up. b. Berakhot 17b)
+> Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. *(b. Sanhedrin 103a; up. b. Berakhot 17b)*
 >
-> Naši rabini su poučavali da je Isus imao pet učenika: Mataja, Nakaija, Nezera, Bunija i Toda. Doveli su Mataija (na suđenje). Rekao je: „Mora li Matai biti ubijen? Jer je napisano: ’Kada ću (mathai) doći i pojaviti se pred Bogom?“ (Psalam 92:2) Rekli su mu: „Da, Matai treba da bude ubijen, jer je napisano: ’Kad (mathai) umre ime će njegovo propasti“ (Psalam 41:5). Doveli su Nakaija. Rekao im je: „Mora li Nakai biti ubijen? Jer je napisano: „Nevin (naki) i pravednik neće ubiti“ (Izlazak 23:7). Rekli su mu: „Da, Nakaj mora biti ubijen, jer je napisano: ’Na tajnim mestima ubija nevine (naki)“ (Psalam 10:8). (b. Sanhedrin 43a; odlomak se nastavlja na sličan način za Nezer, Buni i Todah)
+> </br>
+>
+> Naši rabini su poučavali da je Isus imao pet učenika: Mataja, Nakaija, Nezera, Bunija i Toda. Doveli su Mataija (na suđenje). Rekao je: „Mora li Matai biti ubijen? Jer je napisano: ’Kada ću (matai) doći i pojaviti se pred Bogom?“ (Psalam 92:2) Rekli su mu: „Da, Matai treba da bude ubijen, jer je napisano: ’Kad (matai) umre ime će njegovo propasti“ (Psalam 41:5). Doveli su Nakaija. Rekao im je: „Mora li Nakai biti ubijen? Jer je napisano: „Nevin i pravednik neće ubiti“ (Izlazak 23:7). Rekli su mu: „Da, Nakai mora biti ubijen, jer je napisano: ’Na tajnim mestima ubija nevine“ (Psalam 10:8). *(b. Sanhedrin 43a; odlomak se nastavlja na sličan način za Nezer, Buni i Todah)*
 
 I ovo, možda najpoznatiji od talmudskih pasusa o Isusu:
 
@@ -138,30 +144,34 @@ I ovo, možda najpoznatiji od talmudskih pasusa o Isusu:
 
 Samo iz ovih odlomaka u kojima se Isus pominje po imenu, možemo zaključiti sledeće: *Isus je imao magijske moći, odvodio je Jevreje od njihovih verovanja, imao je učenike koji su stradali za svoju veru (od kojih se jedan zvao Mataj) i pogubljen je na dan pre Pashe.*
 
-## Rezime dokaza
+# Rezime dokaza
 
 Hajde da razmotrimo šta smo naučili iz neprijateljskih paganskih i jevrejskih izvora koji opisuju Isusa. Daćemo sve od sebe da odbacimo antihrišćansku pristrasnost koju vidimo u izvorima, baš kao što smo odbacili prohrišćansku pristrasnost za koju mislimo da bi mogla da postoji u nekim verzijama pisanja Josifa Flavija. Mnogi elementi biblijskog zapisa su potvrđeni ovim neprijateljskim izveštajima, uprkos činjenici da poriču natprirodnu moć Isusa:
 
 </br>
 
-*Isus je rođen i živeo u Palestini. Rođen je, navodno, od device i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Iscelio je hrome. Tačno je predvideo budućnost. Progonili su ga Jevreji zbog onoga što je rekao, a izdao ga je Juda Iskarioto. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskrslim iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Jedan od njih se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa, čak i nakon Njegove smrti.*
+*Isus je rođen i živeo u Palestini. Rođen je, navodno, od device i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Iscelio je hrome. Tačno je predvideo budućnost. Progonili su ga Jevrejski lideri zbog onoga što je rekao. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskro iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Jedan od njih se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa kao Boga, čak i nakon Njegove smrti.*
 
 </br>
 
-Nije loše, s obzirom da ove informacije potiču iz drevnih izveštaja koji su neprijateljski prema biblijskom zapisu. Dok ovi nehrišćanski izvori različito tumače tvrdnje hrišćanstva, oni potvrđuju početne, dokazne tvrdnje biblijskih autora (slično kao i oni koji tumače dokaze vezane za Kenedijevo ubistvo i napade na kulu bliznakinju dolaze do različitih zaključaka, ali potvrđuju osnovne činjenice istorijskih događaja). Da li postoje dokazi za Isusa izvan Biblije? Da, i drevna nehrišćanska tumačenja (i kritički komentari) izveštaja o Jevanđelju služe za jačanje osnovnih tvrdnji Novog zaveta.
+Nije loše, s obzirom da ove informacije potiču iz drevnih izveštaja koji su neprijateljski prema biblijskom zapisu. Dok ovi nehrišćanski izvori različito tumače tvrdnje hrišćanstva, oni potvrđuju početne, dokazne tvrdnje biblijskih autora (slično kao i oni koji tumače dokaze vezane za Kenedijevo ubistvo i napade na kule bliznakinje dolaze do različitih zaključaka, ali potvrđuju osnovne činjenice istorijskih događaja). Da li postoje dokazi za Isusa izvan Biblije? Da, i drevna nehrišćanska tumačenja (i kritički komentari) izveštaja u Jevanđelju služe za jačanje osnovnih tvrdnji Novog zaveta.
+
+</br>
+
+![](ff-028-1024x729.jpeg)
 
 ## Ostali dokazi
 
-Kada ljudi započnu religiozni pokret, često se dogodi da tek posle više godina krenu da beleze podatke pismeno dok se prvenstveno prenosi oralnio. Ali činjenica je da imamo bolje istoriske dokumente o Isusu nego osnivaču bilo koje druge religije.
+Kada ljudi započnu religiozni pokret, često se dogodi da tek posle više godina krenu da beleže podatke pismeno dok se prvenstveno prenosi usmeno. Ali činjenica je da imamo bolje istoriske podatke o Isusu nego osnivaču bilo koje druge religije.
 
 </br>
 
-Na primer knjige o Budi koji je ziveo u 6. veku pre Hrista, zapisane su tek posle hrišćanske ere, a prva biografija Bude zapisana je u prvom veku. Iako imamo Muhamedove izreke koji je živeo od 570. do 632. godine, u Kuranu, njegova biografija nije zapisana do 767. godine vise od jednog veka posle njegove smrti. Tako da je situacija sa Isusom jedinstvena gledajući koliko mozemo da naučimo o njemu nezavisno od Novog zaveta.
+Na primer knjige o Budi koji je živeo u 6. veku pre Hrista, zapisane su tek posle hrišćanske ere, a prva biografija Bude zapisana je u prvom veku. Iako imamo Muhamedove izreke koji je živeo od 570. do 632. godine, u Kuranu, njegova biografija nije zapisana do 767. godine vise od jednog veka posle njegove smrti. Tako da je situacija sa Isusom jedinstvena gledajući koliko mozemo da naučimo o njemu nezavisno od Novog zaveta.
 
 </br>
 
-Apostol Pavle, započevši sa pisanjem svojih novozavetnih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdju (verovatno 2-3 godine posle raspeća). Među naj ranijim spisima su i poslanica očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i druge. Na kraju moram spomenuti Jevandjelja kao četiri nezavisna istoriska dokumenta koja opisuju isti dogadja na identičan način.
+Apostol Pavle, započevši sa pisanjem svojih novozavetnih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdnju (verovatno 2-3 godine posle raspeća). Među naj ranijim spisima su i poslanice očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i druge. Na kraju moram spomenuti Jevanđelja kao četiri nezavisna istoriska dokumenta koja opisuju isti dogadja na identičan način.
 
 </br>
 
-Dakle sastavite sve to i imate ubedljive dokaze koji potvrđuju sve suštinske stvari koje pronalazimo u Isusovim biografijama. Čak i kada bi ste bacili i poslednju kopiju i dalje bi ste imali zadivljujuću sliku, u stvari portret Sina Božjeg.
+Dakle sastavite sve to i imate ubedljive dokaze koji potvrđuju sve suštinske stvari koje pronalazimo u Isusovim biografijama. Čak i kada bi ste bacili i poslednju kopiju Jevanđelja i dalje bi ste imali zadivljujuću sliku, u stvari portret Sina Božjeg.
