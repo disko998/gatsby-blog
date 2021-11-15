@@ -56,7 +56,7 @@ const PostsNavWrapper = styled.div`
   align-items: center;
   min-height: ${rem(240)};
 
-  @media ${p => p.theme.breakpoints.mobile} {
+  @media ${p => p.theme.breakpoints.smallTablet} {
     flex-direction: column;
   }
 `
@@ -64,6 +64,7 @@ const PostsNavWrapper = styled.div`
 const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
   flex: 1;
   height: ${rem(240)};
+  min-height: ${rem(240)};
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -76,7 +77,7 @@ const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
   z-index: 2;
   ${p => (p.round ? "border-radius: 16px" : "")}
 
-  @media ${p => p.theme.breakpoints.mobile} {
+  @media ${p => p.theme.breakpoints.smallTablet} {
     width: 100%;
     border-radius: 16px;
     margin: ${p => p.theme.spacing.small} 0;
@@ -90,12 +91,12 @@ const ArrowText = styled.nav<{ next?: boolean }>`
   text-transform: uppercase;
   color: ${p => p.theme.colors.light};
 
-  ${postNav}
+  ${postNavArrows}
 `
 
-function postNav(props) {
-  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px}`
-  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px}`
+function postNavArrows(props) {
+  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px; font-size: 30px;}`
+  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px; font-size: 30px;}`
 
   return props.next ? nextStyle : prevStyle
 }

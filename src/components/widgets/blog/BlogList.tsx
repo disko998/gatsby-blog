@@ -4,16 +4,18 @@ import styled from "styled-components"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-import { Section, Grid, Col } from "../../elements"
+import { Section, Grid, Col, Center } from "../../elements"
 import { BlogCard, Pagination } from "../index"
 
 type BlogListProp = {
   posts: PostNode[]
-  page: {
+  page?: {
     currentPage: number
     numberOfPages: number
   }
 }
+
+const ANIMATION_DELAY = 150
 
 const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
   const { file } = useStaticQuery(query)
@@ -21,12 +23,9 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
   if (!posts.length) {
     return (
       <Section>
-        <Grid>
-          <Col>
-            <Img fixed={file.childImageSharp?.fixed} />
-            <EmptyTitle>No items</EmptyTitle>
-          </Col>
-        </Grid>
+        <Center>
+          <Img fixed={file.childImageSharp?.fixed} />
+        </Center>
       </Section>
     )
   }
@@ -36,11 +35,11 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
       <Section>
         <Grid>
           {posts.map((post, index) => (
-            <AnimWrapper key={post.fields.slug} row>
-              <Fade up delay={150 * index}>
+            <ColumnWrapper key={post.fields.slug}>
+              <Fade up delay={ANIMATION_DELAY * index}>
                 <BlogCard post={post} />
               </Fade>
-            </AnimWrapper>
+            </ColumnWrapper>
           ))}
         </Grid>
       </Section>
@@ -57,14 +56,10 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
   )
 }
 
-const AnimWrapper = styled(Col)`
+const ColumnWrapper = styled(Col)`
   .react-reveal {
-    flex: 1;
+    width: 100%;
   }
-`
-
-const EmptyTitle = styled.h1`
-  margin: 30px 0;
 `
 
 const query = graphql`

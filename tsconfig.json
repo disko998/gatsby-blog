@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /* or at least ES2015 */,
+    "module": "ESNext" /* or at least ES2015 */,
+    "lib": ["dom"] /* <-- required! */,
+    "jsx": "preserve" /* <-- required! */,
+    "moduleResolution": "node" /* <-- required! */,
+    "baseUrl": "./src",
+    "rootDir": "src",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "exclude": [
+    "gatsby-config.js",
+    "gatsby-browser.js",
+    "gatsby-node.js",
+    "gatsby-ssr.js",
+    "content/*",
+    "public/*"
+  ]
+}

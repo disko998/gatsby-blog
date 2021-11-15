@@ -61,7 +61,6 @@ const FooterWrapper = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: ${p => p.theme.spacing.xxLarge};
 `
 
 const FooterTitle = styled.h2`

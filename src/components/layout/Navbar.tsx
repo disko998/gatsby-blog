@@ -49,6 +49,14 @@ const NavContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-self: center;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    flex-direction: column;
+
+    & > * {
+      margin: 20px 0;
+    }
+  }
 `
 
 const Logo = styled(Link)`
@@ -63,16 +71,26 @@ const Logo = styled(Link)`
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  text-align: center;
 `
 
 const Nav = styled.ul`
   list-style-type: none;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const NavItem = styled.li`
-  margin-right: ${p => p.theme.spacing.medium};
+  margin: 0 ${p => p.theme.spacing.small};
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    margin: 0 ${p => p.theme.spacing.xSmall};
+  }
 `
 
 const NavLink = styled(Link)<{ active?: boolean }>`

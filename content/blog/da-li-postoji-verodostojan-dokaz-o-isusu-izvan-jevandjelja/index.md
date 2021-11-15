@@ -60,15 +60,15 @@ Negde posle 70. godine n.e, Siriski filozof [Mara Bar-Serapion](https://en.wikip
 
 > Kakve koristi su imali Atinjani ubivši Sokrata? Glad i kuga su ih dočekali kao presuda za njihov zločin. Ili ljudi iz Samosa za spaljivanje Pitagore? Za jedan tren njihova zemlja je prekrivena peskom. Ili jevreji tako što su ubili njihovog mudrog kralja? Nakon toga je njihovo carstvo je uništeno. Bog je s pravom osvetio ove ljude...Mudri kralj... živeo je učenjima koja je sprovodio.
 
-Iz ovog teksta, možemo dodati na naše razumevanje Hrista: *Bio je mudara čovek koji je umro za svoja verovanja i jevrejsko vođstvo je nekako odgovorno za njegovu smrt.*
+Iz ovog teksta, možemo dodati na naše razumevanje Hrista: *Bio je mudara čovek koji je umro za svoja verovanja i jevrejsko vođstvo je nekako odgovorno za njegovu smrt.*
 
 ### 4. Plinije mladji
 
-[Gaius Plinius Caecilius Secundus (63-113)](https://sh.wikipedia.org/wiki/Plinije_Mla%C4%91i) je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. U njegovoj prepisci sa njim on govori o hrišćanima koje je utamničio:
+[Gaius Plinius Caecilius Secundus (63-113)](https://sh.wikipedia.org/wiki/Plinije_Mla%C4%91i) je bio guverner Bitnije na severozapadu Turske, takodje prijatelj cara Trajana. U njegovoj prepisci sa njim on govori o hrišćanima koje je utamničio:
 
 > Upitao sam ih da li su hrišćani i ako bi priznali, ponovio bih pitanje drugi i treći put, uz upozorenje na kaznu koja ih čeka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubeđen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
 >
->   </br>
+>   </br>
 >
 > Oni su takođe izjavljivali da se njihova ukupna krivica ili greška svodi samo na sledećem: oni su se redovno sastajali pre zore određenog dana kako bi pevali Hristu u čast, kao da je Bog, kao i da bi se obavezali zakletvom, ne sa bilo kakvim zločinačkim ciljem, vec kako bi se uzdržavali od krađe, plačke i preljube... Nisam otkrio ništa sem da je to vrsta kulta koji je dosegao neobično velike razmere.
 
@@ -76,7 +76,7 @@ Napisan je verovatno 111. godine, i svedoči o brzom širenju hrišćanstva u gr
 
 </br>
 
-Rani dokument o prvim hrišćanima: *prvi hrišćcani su verovali da je Isus Bog, držali su velike moralne standarde, redovno su se sastajali da obožavaju Hista i nije ih bilo lako odvratiti od njihovih verovanja.*
+Rani dokument o prvim hrišćanima: *prvi hrišćcani su verovali da je Isus Bog, držali su velike moralne standarde, redovno su se sastajali da obožavaju Hista i nije ih bilo lako odvratiti od njihovih verovanja.*
 
 ### 5. Celzus
 

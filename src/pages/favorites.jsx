@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import { BookmarkContext } from "../Providers"
+import { BookmarkContext } from "../providers"
 import { Layout, BlogList, SEO } from "../components"
 import { useFilterPosts } from "../hooks/useFilterPosts"
 

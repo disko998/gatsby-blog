@@ -10,7 +10,7 @@ export default createGlobalStyle`
 	body, html {
 		font-family: ${props => props.theme.fonts.main};
 		background-color: ${props => props.theme.colors.background};
-		color: ${props => props.theme.colors.gray};
+		color: ${props => props.theme.colors.text};
 		text-overflow: ellipsis;
 	}
 
@@ -26,7 +26,7 @@ export default createGlobalStyle`
 
 	&::selection {
     color: ${p => p.theme.colors.light};
-    background-color: rgba(255,123,123,.7);
+    background-color:  ${p => p.theme.colors.selection};
 	}
 
 
