@@ -1,20 +1,19 @@
 ---
-title: Da li postoje dokazi o Isusu izvan Biblije?
+title: Ko je bio Istoriski Isus?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
 date: 2021-11-14T16:23:36.638Z
 description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija? Šta
-  nam mogu reći ostali u većini slučajeva neprijateljski nastorjeni izvori o
-  Isusovom životu i ranom hršćanstvu?
+  nam mogu reći ostali istoriski izvori o Isusovom životu i ranom hršćanstvu?
 tags:
   - Biblija
   - Isus
   - Istorija
 ---
-Možda će za nekog biti iznenađenje ali Novi zavet nije jedini istoriski izvor koji govri o Isusu Hristu. Novi zavet se sastoji od četiri nezavisna dokumenta očevidaca događaja koje zovemo Jevanđelje i brojne druge spise i poslanice apostola gde postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista, da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? 
+Možda će za nekoga to biti iznenađenje ali Novi zavet nije jedini istoriski izvor koji govri o Isusu Hristu. Novi zavet se sastoji od četiri nezavisna dokumenta očevidaca događaja koje zovemo Jevanđelje i brojne druge spise i poslanice apostola gde postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista, ali da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? 
 
 </br>
 
-Ovde cemo citirati jedne od najpouzdanijih jevreskih i paganskih ali i u većini slučajeva neprijateljski nastorjenih izvora prema hrišćanima u 1. i 2. veka n.e.
+Ovde cemo ćitirati jedne od najpouzdanijih jevreskih i paganskih ali i u većini slučajeva i neprijateljski nastorjenih izvora prema hrišćanima 1. i 2. veka n.e.
 
 ### 1. Josif Flavije
 
@@ -36,7 +35,7 @@ Postoji jos jedan odeljak o Isusu u delu koje se zove **"Svedočanstva Flavijeva
 
 > Negde tamo u to vreme živeo je Isus, mudar čovek ako zaista neko uopšte može da ga nazove čovekom. Jer je on bio onaj koji je činio zadivljujuća čuda i bio učitelj ljudi koji su rado prihvatili istinu. On je pridobio mnoge Jevreje i puno Grka. On je bio Hrist. Kada ga je pilat, posle saslušanja, optužen od ljudi najvećeg položaja medju nama, osudio na razapinjanje na krst, oni koji su mu isprva došli nisu se odredkli svoje ljubavi prema njemu. Trećeg dana pokazao im se opet oživevši jer su Božji proroci prorokovali ove i bezbrojne druge čudesne stvari o njemu. A pleme hrišćana tako nazvanih po njemu, jos uvek do ovog dana nije isčezlo.
 
-Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavljaju pitanje žasto Josif Favije nije rekao ništa vise o tako važnoj ličnosti prvog veka? Neočekivano je da ga on spominje usput, dok se vise spominju druge mesijanske ličnosti i Jovana Krstitelj.
+Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavljaju pitanje žasto Josif Favije nije rekao ništa vise o tako važnoj ličnosti prvog veka? Neočekivano je da ga on spominje usput, dok se više spominju druge mesijanske ličnosti i Jovana Krstitelj.
 
 </br>
 
@@ -44,7 +43,7 @@ Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borb
 
 </br>
 
-Iz ovog teksta možemo da zaključimo sledeće: *Isus je živeo u Palestini, bio je mudar čovek i učitelj, činio čuda, optužen od jevrejskih vođa, razapet u vreme Ponitije Pilata i imao sledbenike zvane hrišćani.*
+Iz ovog teksta možemo da zaključimo sledeće: *Isus je živeo u Judeji, bio je mudar čovek i učitelj, činio čuda, optužen od jevrejskih vođa, razapet u vreme Ponitije Pilata, imao brata zvanog Jakov i sledbenike zvane hrišćani koji su podnosili stradanje za rad vere u njega.*
 
 ### 2. Tacit
 
@@ -52,7 +51,7 @@ Iz ovog teksta možemo da zaključimo sledeće: *Isus je živeo u Palestini, bio
 
 > Neron je utvrdio krivicu i naneo najteža mučenja klasi omrženoj zbog svojih gnusnih dela, koju je narod zvao hrišćani. Hrist od koga ime potiče, je pretrpeo strogu kaznu tokom vladavine Tiberija or ruke jednog od naših prokuratora Pontije Pilata, i jedno naj štetnije praznoverje, za trenutak prekinuo time, zatim se ponovo pojavljuje, ne samo u Judeji prvom izvoru zla, vecu i u Rimu... Shodno tome prvo su svi koji su priznavali krivicu bačeni u zatvor, zatim je na osnovu njihovih informacija, veliki broj ljudi osuđen, ne toliko zbog zločina paljenja grad, koliko zbog mržnje prema ljudskom rodu.
 
-Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verovanju prvih hrišćana: *da je Isus je razapet za vreme Pilata, a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takođe vidimo da je Isus ziveo u Judeji i da su prvi hrišćani bili spremni da umru za svoja "praznoverja" najtežom smrću.*
+Tacit koji nije imao simpatije prema hrišćanima ovde nesvesno svedoči o verovanju prvih hrišćana: *Isus je razapet za vreme cara Trajana od ruke Pontije Pilata, a zatim vaskrsnut. Dakle on kaze da je to "praznoverje" na trenutak prekinuto, a zatim se ponovo pojavljuje. Takođe vidimo da je Isus ziveo u Judeji i da su prvi hrišćani bili spremni da umru za svoja "praznoverja" najtežom smrću.*
 
 ### 3. Mara bar-Serapion
 
@@ -68,11 +67,9 @@ Iz ovog teksta, možemo dodati na naše razumevanje Hrista: *Bio je mudara čove
 
 > Upitao sam ih da li su hrišćani i ako bi priznali, ponovio bih pitanje drugi i treći put, uz upozorenje na kaznu koja ih čeka. Ako su bili uporni naredio sam da ih odvedu na pogubljenje. Bezobzira na prirodu njihovog priznanja, ubeđen sam da njihova tvrdoglavost i nepokolebljiva upornost ne trebaju da prodju nekaznjeno...
 >
->   </br>
->
 > Oni su takođe izjavljivali da se njihova ukupna krivica ili greška svodi samo na sledećem: oni su se redovno sastajali pre zore određenog dana kako bi pevali Hristu u čast, kao da je Bog, kao i da bi se obavezali zakletvom, ne sa bilo kakvim zločinačkim ciljem, vec kako bi se uzdržavali od krađe, plačke i preljube... Nisam otkrio ništa sem da je to vrsta kulta koji je dosegao neobično velike razmere.
 
-Napisan je verovatno 111. godine, i svedoči o brzom širenju hrišćanstva u gradovima i seoskim područijima, među ljudima svih klasa, među robovima i rimskim građanima. Plinije govori i kako je slao ljude koji su rimski građani u Rim na suđenje.
+Ovo nam svedoči o brzom širenju hrišćanstva u gradovima i seoskim područijima, među ljudima svih klasa, među robovima i rimskim građanima. Plinije govori i kako je slao ljude koji su rimski građani u Rim na suđenje.
 
 </br>
 
@@ -86,11 +83,11 @@ Rani dokument o prvim hrišćanima: *prvi hrišćcani su verovali da je Isus Bog
 
 </br>
 
-Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to moglo da bude natprirodno objašnjenje i nudi ideju da je Isus bio vanbračni sin čoveka po imenu Pantera (ideja pozajmljena od Jevreja koji su se u to vreme protivili Isusu). Ali u pisanju ovog izveštaja, Celzus potvrđuje nekoliko važnih tvrdnji: *Isus je imao zemaljskog oca koji je bio stolar, posedovao je neobične magijske moći i tvrdio da je Bog.*
+Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to moglo da bude natprirodno objašnjenje i nudi ideju da je Isus bio vanbračni sin čoveka po imenu Pantera (ideja pozajmljena od Jevreja koji su se u to vreme protivili Isusu). Ali u pisanju ovog izveštaja, Celzus potvrđuje nekoliko važnih tvrdnji: *da postoji nešto neobično u vezi sa njegovim ocem,* *Isus je imao zemaljskog oca koji je bio stolar, bio je u Egiptu, posedovao je neobične magijske moći i tvrdio da je Bog.*
 
 ### 6. Dan kada se zemlja pomračila
 
-Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja kako je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Priznaćete ako se ovo stvarno desilo trebali bi smo imati jos neki nezavisan podatak o ovom događaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
+Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja, da je na zemlji nastala tama tokom perioda vremena dok je Isus visio na krstu. Priznaćete ako se ovo stvarno desilo trebali bi smo imati još neki istoriski podatak o ovom događaju. U svojoj knjizi "Pontije Pilat" (Ponrius Pilate) Pol Mejer (Paul Maier) kaze:
 
 > Ovaj fenomen je očigledno bio vidljiv i u Atini, Rimu i drugim mediteranskim gradovima. Po Tertulijanu to je bio "kosmički" ili "svetski" događaj. Flegon grčki pisac iz Karije, pišući hronologiju, ubrzo posle 137. godine, izvestio je da se četvrte godine 202. olimpijade (tj. 33. godine), odigralo najvece "pomračenje sunca" i da je nastupila noć šestog časa dana (tj. u podne), tako da su se i zvezde pojavile na nebu. U Bitniji se odigrao veliki zemljotres i mnogo toga je srušeno u Nikeji.
 
@@ -98,7 +95,7 @@ Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja kako je na zemlji 
 
 > Na ceo svet je pritiskala najstrašnija tama, i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Tu tamu Talus, u trećoj knjizi svoje Istorij naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
 
-Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestuNjegovogg raspeća došlo je do zemljotresa i tame.*
+Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestu Njegovog raspeća došlo je do zemljotresa i tame.*
 
 </br>
 
@@ -130,6 +127,8 @@ Naučnici veruju da postoji niz talmudskih spisa koji se odnose na Isusa, a za m
 
 > Isus je praktikovao magiju i odveo Izrael na stranputicu“ *(b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)*
 >
+> </br>
+>
 > Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. *(b. Sanhedrin 103a; up. b. Berakhot 17b)*
 >
 > </br>
@@ -142,15 +141,15 @@ I ovo, možda najpoznatiji od talmudskih pasusa o Isusu:
 
 > Učilo se: Na dan uoči Pashe obesili su Isusa. Glasnik je išao pred njim četrdeset dana (objavljujući): „Biće kamenovan, jer se bavio magijom i namamio Izrael da zaluta. Neka se javi svako ko zna bilo šta u njegovu korist i založi se za njega.” Ali ništa se nije našlo u njegovu korist, te su ga obesili na dan uoči Pashe. (b. Sinedrion 43a)
 
-Samo iz ovih odlomaka u kojima se Isus pominje po imenu, možemo zaključiti sledeće: *Isus je imao magijske moći, odvodio je Jevreje od njihovih verovanja, imao je učenike koji su stradali za svoju veru (od kojih se jedan zvao Mataj) i pogubljen je na dan pre Pashe.*
+Samo iz ovih odlomaka u kojima se Isus pominje po imenu, možemo zaključiti sledeće: *Isus je imao magijske moći, odvodio je Jevreje od njihovih verovanja, imao je učenike koji su stradali za svoju veru (od kojih se jedan zvao Matai) i pogubljen je na dan pre Pashe.*
 
-# Rezime dokaza
+## Rezime dokaza
 
-Hajde da razmotrimo šta smo naučili iz neprijateljskih paganskih i jevrejskih izvora koji opisuju Isusa. Daćemo sve od sebe da odbacimo antihrišćansku pristrasnost koju vidimo u izvorima, baš kao što smo odbacili prohrišćansku pristrasnost za koju mislimo da bi mogla da postoji u nekim verzijama pisanja Josifa Flavija. Mnogi elementi biblijskog zapisa su potvrđeni ovim neprijateljskim izveštajima, uprkos činjenici da poriču natprirodnu moć Isusa:
+Hajde da razmotrimo šta smo naučili iz neprijateljskih nastrojenih izvora koji opisuju Isusa. Daćemo sve od sebe da odbacimo antihrišćansku pristrasnost koju vidimo u izvorima, baš kao što smo odbacili prohrišćansku pristrasnost za koju mislimo da bi mogla da postoji u nekim verzijama pisanja Josifa Flavija. Mnogi elementi biblijskog zapisa su potvrđeni ovim neprijateljskim izveštajima, uprkos činjenici da poriču natprirodnu moć Isusa:
 
 </br>
 
-*Isus je rođen i živeo u Palestini. Rođen je, navodno, od device i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Iscelio je hrome. Tačno je predvideo budućnost. Progonili su ga Jevrejski lideri zbog onoga što je rekao. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskro iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Jedan od njih se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa kao Boga, čak i nakon Njegove smrti.*
+*Isus je rođen i živeo u Judeji. Rođen je, navodno, od mlade jevrejke i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Iscelio je hrome. Tačno je predvideo budućnost. Progonili su ga Jevrejski lideri zbog onoga što je rekao. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskro iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Imao je brata zvanog Jakov i jedan od učenika se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa kao Boga, čak i nakon Njegove smrti.*
 
 </br>
 
@@ -170,7 +169,7 @@ Na primer knjige o Budi koji je živeo u 6. veku pre Hrista, zapisane su tek pos
 
 </br>
 
-Apostol Pavle, započevši sa pisanjem svojih novozavetnih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdnju. Među naj ranijim spisima su i poslanice očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i druge. Na kraju moram spomenuti Jevanđelja kao četiri nezavisna istoriska dokumenta koja opisuju isti dogadja na identičan način.
+Apostol Pavle je započeo sa pisanjem svojih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdnju. Među naj ranijim spisima su i poslanice očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i mnoge druge.
 
 </br>
 
