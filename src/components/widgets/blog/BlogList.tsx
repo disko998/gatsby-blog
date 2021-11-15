@@ -9,7 +9,7 @@ import { BlogCard, Pagination } from "../index"
 
 type BlogListProp = {
   posts: PostNode[]
-  page: {
+  page?: {
     currentPage: number
     numberOfPages: number
   }
@@ -44,7 +44,7 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
         </Grid>
       </Section>
 
-      {page.numberOfPages > 1 && (
+      {page?.numberOfPages > 1 && (
         <Section>
           <Pagination
             currentPage={page.currentPage}
@@ -58,7 +58,7 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
 
 const ColumnWrapper = styled(Col)`
   .react-reveal {
-    flex: 1;
+    width: 100%;
   }
 `
 

@@ -25,5 +25,5 @@ export const ReadTime = styled.time`
 `
 
 export const PostDate = styled(ReadTime)`
-  color: ${p => p.theme.colors.lightGray};
+  color: ${p => p.theme.colors.text};
 `

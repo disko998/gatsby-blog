@@ -39,8 +39,7 @@ const Tag = styled.li`
     p.size === "l"
       ? "3px solid rgba(255,255,255,.1)"
       : `2px solid ${p.theme.colors.gray}`};
-  color: ${p =>
-    p.size === "l" ? p.theme.colors.gray : p.theme.colors.lightGray};
+  color: ${p => p.theme.colors.text};
   transition: ${p => p.theme.animation.main};
   margin: 0.1875rem;
   border-radius: 30px;
@@ -51,7 +50,6 @@ const Tag = styled.li`
   white-space: nowrap;
   font-weight: ${p => (p.size === "l" ? 700 : 500)};
   cursor: pointer;
-  /* text-transform: capitalize; */
 
   &:hover {
     border-color: ${p => p.theme.colors.main};

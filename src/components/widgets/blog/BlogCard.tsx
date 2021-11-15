@@ -45,6 +45,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
         fadeIn
         fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
       />
+
       <CardContent>
         <Bookmark
           onClick={toggleBookmark}
@@ -59,6 +60,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           />
 
           <CardTitle>{post.frontmatter.title}</CardTitle>
+
           <CardDescription
             dangerouslySetInnerHTML={{
               __html: post.frontmatter.description

@@ -7,9 +7,11 @@ declare module "styled-components" {
     fonts: {
       main: string
       code: string
+      quote: string
     }
 
     colors: {
+      text: string
       main: string
       dark: string
       light: string
@@ -22,6 +24,7 @@ declare module "styled-components" {
     breakpoints: {
       mobile: string
       tablet: string
+      smallTablet: string
     }
 
     spacing: {
@@ -46,7 +49,6 @@ declare module "styled-components" {
 
     layouts: {
       containerWidth: string
-      minColWidth: string
     }
   }
 }

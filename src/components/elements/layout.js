@@ -20,7 +20,7 @@ export const Grid = styled.div`
   display: flex;
   flex-flow: ${p => (p.column ? "column" : "row")} wrap;
 
-  @media ${p => p.theme.breakpoints.mobile} {
+  @media ${({ theme, brake }) => brake || theme.breakpoints.smallTablet} {
     flex-flow: column;
     padding: ${p => p.theme.spacing.small} 0;
   }
@@ -37,15 +37,27 @@ export const Col = styled.div`
   height: inherit;
   display: flex;
   flex: ${p => p.flex || 1};
-  min-width: ${p => p.theme.layouts.minColWidth};
   justify-content: ${p => p.justify || "center"};
   align-items: ${p => p.align || "center"};
   padding: ${p => p.theme.spacing.small};
   flex-direction: ${({ row }) => (row ? "row" : "column")};
+  min-width: 380px;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    min-width: 100%;
+  }
+
+  @media ${p => p.theme.breakpoints.tablet} {
+    margin: ${p => p.theme.spacing.small} 0;
+  }
 `
 
 export const Section = styled.section`
   margin: ${p => p.theme.spacing.xxLarge} 0;
+
+  @media ${p => p.theme.breakpoints.tablet} {
+    margin: ${p => p.theme.spacing.large} 0;
+  }
 `
 
 export const Row = styled.div`

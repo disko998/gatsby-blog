@@ -1,4 +1,5 @@
 import React from "react"
+import { useTheme } from "styled-components"
 
 import {
   PostContainer,
@@ -26,7 +27,7 @@ import TagsList from "../TagsList"
 
 const BlogPost = ({
   thumbnail,
-  thumbnailUri,
+  src,
   tags,
   readingTime,
   date,
@@ -36,17 +37,20 @@ const BlogPost = ({
   onTagClick,
   description,
 }) => {
+  const { breakpoints } = useTheme()
+
   return (
     <article itemScope itemType="http://schema.org/Article">
       <Section>
-        <Grid>
+        <Grid brake={breakpoints.tablet}>
           <Col flex={1.2}>
-            {thumbnail ? (
-              <FeaturedImage fadeIn={true} fluid={thumbnail} />
+            {src ? (
+              <FeaturedImageNative src={src} />
             ) : (
-              <FeaturedImageNative src={thumbnailUri} />
+              <FeaturedImage fadeIn={true} fluid={thumbnail} />
             )}
           </Col>
+
           <Col>
             <PostHeader>
               <DateAndReadTime readTime={readingTime} date={date} />

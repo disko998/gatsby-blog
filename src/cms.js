@@ -13,10 +13,10 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
         <GlobalStyles />
         <Container>
           <BlogPost
+            readingTime="2 min"
             title={entry.getIn(["data", "title"])}
-            thumbnailUri={entry.getIn(["data", "thumbnail"])}
+            src={entry.getIn(["data", "thumbnail"])}
             tags={entry.getIn(["data", "tags"])?.toJS() || []}
-            readingTime="0 min"
             date={new Date(entry.getIn(["data", "date"]))?.toLocaleDateString()}
             description={entry.getIn(["data", "description"])}
           >

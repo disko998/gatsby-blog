@@ -1,14 +1,18 @@
 export default {
   fonts: {
-    main: "Inter, sans-serif",
+    main: "Roboto, sans-serif",
     code: "Roboto Mono, monospace",
+    quote: "Courgette, serif",
   },
   colors: {
-    light: "#fff",
-    background: "rgb(10,10,18)",
-    dark: "#16151F",
     main: "#ff7b7b",
     secondary: "#323a96",
+    selection: "rgba(255,123,123,.7)",
+    background: "rgb(10,10,18)",
+    text: "#d1d1d1",
+
+    light: "#fff",
+    dark: "#16151F",
     gray: "#aaa",
     lightGray: "#d1d1d1",
 
@@ -20,8 +24,9 @@ export default {
     instagram: "#c32aa3",
   },
   breakpoints: {
-    mobile: "only screen and (max-width: 50rem)",
-    tablet: "only screen and (max-width: 65rem)",
+    mobile: "only screen and (max-width: 500px)",
+    tablet: "only screen and (max-width: 1040px)",
+    smallTablet: "only screen and (max-width: 800px)",
   },
   spacing: {
     xxSmall: ".25rem",
@@ -42,7 +47,5 @@ export default {
   },
   layouts: {
     containerWidth: `${1300 / 16}rem`,
-    minColWidth: `${350 / 16}rem`,
-    boxRadius: "16px",
   },
 }

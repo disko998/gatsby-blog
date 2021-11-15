@@ -44,7 +44,7 @@ const Title404 = styled.h1`
   font-weight: bold;
   font-size: 30px;
 
-  @media ${p => p.theme.breakpoints.mobile} {
+  @media ${p => p.theme.breakpoints.smallTablet} {
     font-size: 25px;
   }
 `
@@ -56,7 +56,7 @@ const Pathname = styled.i`
 const Image404 = styled(Img)`
   width: 400px;
 
-  @media ${p => p.theme.breakpoints.mobile} {
+  @media ${p => p.theme.breakpoints.smallTablet} {
     width: 300px;
   }
 `

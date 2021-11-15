@@ -25,7 +25,11 @@ export const FeaturedImageNative = styled.img`
 `
 
 export const PostTitle = styled.h1`
-  font-size: ${p => p.theme.spacing.large} !important;
+  font-size: 3rem !important;
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    font-size: 2.3rem !important;
+  }
 `
 
 export const PostContainer = styled.div`
@@ -35,19 +39,28 @@ export const PostContainer = styled.div`
 `
 
 export const PostDescription = styled.p`
-  font-size: 16px;
-  line-height: 17px;
+  font-size: 20px;
+  line-height: 1.5;
   margin: ${p => p.theme.spacing.small} 0;
   overflow: hidden;
-  font-weight: 500;
   color: ${p => p.theme.colors.grayLight};
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    font-size: 16px;
+  }
 `
 
 // Blog post styles
 export const BlogContent = styled.article`
   width: 100%;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.5;
+  font-size: 20px;
+  color: ${p => p.theme.colors.grayLight};
+
+  @media ${p => p.theme.breakpoints.mobile} {
+    font-size: 16px;
+  }
 
   & > * {
     margin-top: 1.5rem;
@@ -64,18 +77,32 @@ export const BlogContent = styled.article`
   blockquote {
     position: relative;
     padding: 32px 20px 32px 64px;
-    font-size: 1.875rem;
+    font-size: 25px;
     line-height: 38px;
     font-weight: 900;
     color: ${p => p.theme.colors.light};
+    font-family: ${p => p.theme.fonts.quote};
+
+    @media ${p => p.theme.breakpoints.mobile} {
+      font-size: 18px;
+      line-height: 1.5;
+    }
 
     &::before {
+      font-weight: 900;
+      font-style: normal;
+      font-family: ${p => p.theme.fonts.main};
       content: "\\201C";
       position: absolute;
       top: 0.59em;
       left: -0.01em;
-      font-size: 4em;
+      font-size: 5em;
       color: ${p => p.theme.colors.main};
+
+      @media ${p => p.theme.breakpoints.mobile} {
+        font-size: 6em;
+        top: 0em;
+      }
     }
   }
 
