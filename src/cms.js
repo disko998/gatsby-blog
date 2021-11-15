@@ -15,7 +15,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
           <BlogPost
             readingTime="2 min"
             title={entry.getIn(["data", "title"])}
-            src={entry.getIn(["data", "thumbnail"])}
+            src={`/assets/${entry.getIn(["data", "thumbnail"])}`}
             tags={entry.getIn(["data", "tags"])?.toJS() || []}
             date={new Date(entry.getIn(["data", "date"]))?.toLocaleDateString()}
             description={entry.getIn(["data", "description"])}

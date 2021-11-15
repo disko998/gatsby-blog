@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
+# publish_mode: editorial_workflow
 site_url: https://aditu-blog.netlify.app/
 media_folder: static/assets
 public_folder: /assets
