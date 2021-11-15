@@ -2,7 +2,7 @@ import React from "react"
 import CMS from "netlify-cms-app"
 import { ThemeProvider } from "styled-components"
 
-import { CSSInjector, GlobalStyles, theme } from "./styles"
+import { CSSInjector, GlobalStyles, theme, LoadFonts } from "./styles"
 import { Container } from "./components/elements/layout"
 import BlogPost from "./components/widgets/blog/BlogPost"
 
@@ -10,6 +10,7 @@ const BlogPostPreview = ({ widgetFor, entry }) => {
   return (
     <CSSInjector>
       <ThemeProvider theme={theme}>
+        <LoadFonts />
         <GlobalStyles />
         <Container>
           <BlogPost
