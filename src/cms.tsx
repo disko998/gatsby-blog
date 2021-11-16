@@ -58,6 +58,7 @@ CMS.init({
         fields: [
           { label: "Title", name: "title", widget: "string" },
           { label: "Thumbnail", name: "thumbnail", widget: "image" },
+          { label: "Hide", name: "hide", widget: "boolean", default: false },
           { label: "Publish Date", name: "date", widget: "datetime" },
           { label: "Description", name: "description", widget: "string" },
           { label: "Tags", name: "tags", widget: "list" },
