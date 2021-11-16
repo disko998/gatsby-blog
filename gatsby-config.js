@@ -1,21 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: "Auditu",
+    description: "Some description",
+    siteUrl: "https://benel.netlify.app",
     author: {
       name: "Stefan Diskic",
       email: "disko998@gmail.com",
     },
-    description: `This is personal blog website where you can find some interesting facts about religion, technology, programing, life, languages, etc.`,
-    siteUrl: `https://auditu.com`,
-    featuredTags: [
-      "javascript",
-      "react",
-      "nodejs",
-      "bible",
-      "hebrew",
-      "web development",
-    ],
+    featuredTags: ["JavaScript", "React", "Bible", "Hebrew", "web development"],
   },
+
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",

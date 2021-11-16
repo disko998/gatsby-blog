@@ -3,9 +3,9 @@ import CMS from "netlify-cms-app"
 import { ThemeProvider } from "styled-components"
 import { hr } from "netlify-cms-locales"
 
-import { CSSInjector, GlobalStyles, theme } from "./styles"
-import { Container } from "./components/elements/layout"
-import BlogPost from "./components/widgets/blog/BlogPost"
+import { CSSInjector, GlobalStyles, theme } from "styles"
+import { Container } from "components/elements/layout"
+import BlogPost from "components/widgets/blog/BlogPost"
 
 const BlogPostPreview = ({ widgetFor, entry, getAsset }) => {
   return (
@@ -31,15 +31,13 @@ const BlogPostPreview = ({ widgetFor, entry, getAsset }) => {
 
 CMS.init({
   config: {
-    display_url: "your-site.com",
-    site_url: "https://aditu-blog.netlify.app/",
+    site_url: window.location.origin,
     logo_url: "https://your-site.com/images/logo.svg",
     locale: "en", // hr
 
     backend: {
       name: "git-gateway",
       branch: "master",
-      site_domain: "cms.netlify.com",
     },
     local_backend: process.env.NODE_ENV === "development",
     publish_mode: "editorial_workflow",
@@ -54,7 +52,8 @@ CMS.init({
         folder: "content/blog",
         create: true,
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
-        path: "{{title}}/index",
+        path: "blog/{{title}}",
+        preview_path: "blog/{{slug}}",
         editor: { preview: true },
         fields: [
           { label: "Title", name: "title", widget: "string" },
