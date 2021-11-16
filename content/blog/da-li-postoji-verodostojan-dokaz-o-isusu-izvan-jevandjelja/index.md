@@ -1,5 +1,5 @@
 ---
-title: Ko je bio Istoriski Isus?
+title: Ko je bio Istoriski Isus
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
 date: 2021-11-14T16:23:36.638Z
 description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija? Šta
@@ -107,11 +107,7 @@ Flegona pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji)
 
 > Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. *(Origen protiv Celza, knjiga 2, poglavlje 14)*
 >
-> </br>
->
 > „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” *(Origen protiv Celza, knjiga 2, poglavlje 33)*
->
-> </br>
 >
 > „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima *(Origen protiv Celza, knjiga 2, poglavlje 59)*
 
@@ -127,11 +123,7 @@ Naučnici veruju da postoji niz talmudskih spisa koji se odnose na Isusa, a za m
 
 > Isus je praktikovao magiju i odveo Izrael na stranputicu“ *(b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)*
 >
-> </br>
->
 > Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. *(b. Sanhedrin 103a; up. b. Berakhot 17b)*
->
-> </br>
 >
 > Naši rabini su poučavali da je Isus imao pet učenika: Mataja, Nakaija, Nezera, Bunija i Toda. Doveli su Mataija (na suđenje). Rekao je: „Mora li Matai biti ubijen? Jer je napisano: ’Kada ću (matai) doći i pojaviti se pred Bogom?“ (Psalam 92:2) Rekli su mu: „Da, Matai treba da bude ubijen, jer je napisano: ’Kad (matai) umre ime će njegovo propasti“ (Psalam 41:5). Doveli su Nakaija. Rekao im je: „Mora li Nakai biti ubijen? Jer je napisano: „Nevin i pravednik neće ubiti“ (Izlazak 23:7). Rekli su mu: „Da, Nakai mora biti ubijen, jer je napisano: ’Na tajnim mestima ubija nevine“ (Psalam 10:8). *(b. Sanhedrin 43a; odlomak se nastavlja na sličan način za Nezer, Buni i Todah)*
 
