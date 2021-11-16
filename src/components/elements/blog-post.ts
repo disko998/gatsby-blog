@@ -1,4 +1,4 @@
-import Img from "gatsby-image"
+import Img, { GatsbyImageFluidProps } from "gatsby-image"
 import styled from "styled-components"
 
 export const PostHeader = styled.header`
@@ -10,7 +10,7 @@ export const PostHeader = styled.header`
   width: 100%;
 `
 
-export const FeaturedImage = styled(Img)`
+export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
   width: 100%;
   max-height: 600px;
   border-radius: 16px;
@@ -43,7 +43,7 @@ export const PostDescription = styled.p`
   line-height: 1.5;
   margin: ${p => p.theme.spacing.small} 0;
   overflow: hidden;
-  color: ${p => p.theme.colors.grayLight};
+  color: ${p => p.theme.colors.lightGray};
 
   @media ${p => p.theme.breakpoints.mobile} {
     font-size: 16px;
@@ -56,7 +56,7 @@ export const BlogContent = styled.article`
   font-size: 18px;
   line-height: 1.5;
   font-size: 20px;
-  color: ${p => p.theme.colors.grayLight};
+  color: ${p => p.theme.colors.lightGray};
 
   @media ${p => p.theme.breakpoints.mobile} {
     font-size: 16px;

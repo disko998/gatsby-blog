@@ -1,3 +1,4 @@
+import { FluidObject } from "gatsby-image"
 import React from "react"
 import { useTheme } from "styled-components"
 
@@ -14,16 +15,18 @@ import { Grid, Col, Section } from "../../elements/layout"
 import DateAndReadTime from "../../shared/DateAndReadTime"
 import TagsList from "../TagsList"
 
-// type BlogPostProps = {
-//   thumbnail: FluidObject
-//   tags: string[]
-//   readingTime: string
-//   date: string
-//   title: string
-//   html: string
-//   description?: string
-//   onTagClick: (e: any, tag: string) => void
-// }
+type BlogPostProps = {
+  thumbnail?: FluidObject
+  src?: string
+  tags: string[]
+  readingTime: string
+  date: string
+  title: string
+  html?: string
+  children?: React.ReactNode
+  description?: string
+  onTagClick?: (e: any, tag: string) => void
+}
 
 const BlogPost = ({
   thumbnail,
@@ -36,7 +39,7 @@ const BlogPost = ({
   children,
   onTagClick,
   description,
-}) => {
+}: BlogPostProps) => {
   const { breakpoints } = useTheme()
 
   return (

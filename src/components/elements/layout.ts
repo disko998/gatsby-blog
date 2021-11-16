@@ -14,7 +14,12 @@ export const Container = styled.div`
   padding: 0 ${p => p.theme.spacing.small};
 `
 
-export const Grid = styled.div`
+type GridProps = {
+  column?: boolean
+  brake?: string
+}
+
+export const Grid = styled.div<GridProps>`
   width: 100%;
   padding: ${p => p.theme.spacing.medium} 0;
   display: flex;
@@ -26,14 +31,15 @@ export const Grid = styled.div`
   }
 `
 
-// type ColProps = {
-//   flex?: number
-//   justify?: string
-//   align?: string
-//   direction?: string
-// }
+type ColProps = {
+  flex?: number
+  justify?: string
+  align?: string
+  direction?: string
+  row?: boolean
+}
 
-export const Col = styled.div`
+export const Col = styled.div<ColProps>`
   height: inherit;
   display: flex;
   flex: ${p => p.flex || 1};

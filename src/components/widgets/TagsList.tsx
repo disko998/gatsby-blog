@@ -1,19 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 
-// type TagsProps = {
-//   tags: string[]
-//   className?: string
-//   size?: "s" | "l"
-// }
+type TagsProps = {
+  tags: string[]
+  className?: string
+  size?: "s" | "l"
+  onClick: (e: React.MouseEvent<HTMLElement, MouseEvent>, tag: string) => void
+}
 
 TagsList.defaultProps = {
   size: "s",
   tags: [],
-  className: "",
 }
 
-function TagsList({ tags, className, size, onClick }) {
+function TagsList({ tags, className, size, onClick }: TagsProps) {
   return (
     <TagListWrapper className={className}>
       {tags.map(tag => (
@@ -33,7 +33,7 @@ const TagListWrapper = styled.ul`
   flex: 1;
 `
 
-const Tag = styled.li`
+const Tag = styled.li<{ size: "s" | "l" }>`
   padding: ${p => (p.size === "l" ? `5px 11px` : `1px 8px`)};
   border: ${p =>
     p.size === "l"

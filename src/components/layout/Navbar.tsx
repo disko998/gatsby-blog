@@ -29,6 +29,13 @@ const Navbar: React.FC = () => {
                 Favorites
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavCustomButton
+                onClick={() => (document.location.href = "/admin/")}
+              >
+                Login
+              </NavCustomButton>
+            </NavItem>
           </Nav>
         </NavContent>
       </Container>
@@ -93,33 +100,43 @@ const NavItem = styled.li`
   }
 `
 
+const navLinkStyle = p => {
+  return `
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	color: ${p.active ? p.theme.colors.main : p.theme.colors.light};
+  
+	&::before {
+	  content: "";
+	  position: absolute;
+	  display: block;
+	  margin: auto;
+	  height: 5px;
+	  width: 5px;
+	  border-radius: 50%;
+	  background-color: ${p.theme.colors.main};
+	  top: -5px;
+	  left: 0;
+	  right: 0;
+	  opacity: 0;
+	  transition: opacity 0.3s;
+	}
+  
+	&:hover::before {
+	  opacity: 1;
+	}
+	`
+}
+
+const NavCustomButton = styled.div<{ active?: boolean }>`
+  ${navLinkStyle}
+`
+
 const NavLink = styled(Link)<{ active?: boolean }>`
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  color: ${p => (p.active ? p.theme.colors.main : p.theme.colors.light)};
-
-  &::before {
-    content: "";
-    position: absolute;
-    display: block;
-    margin: auto;
-    height: 5px;
-    width: 5px;
-    border-radius: 50%;
-    background-color: ${p => p.theme.colors.main};
-    top: -5px;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  &:hover::before {
-    opacity: 1;
-  }
+  ${navLinkStyle}
 `
 
 export default Navbar

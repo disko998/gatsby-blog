@@ -1,12 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 
-// type DateAndReadTimeProps = {
-//   readonly readTime: string
-//   readonly date: string
-// }
+type DateAndReadTimeProps = {
+  readonly readTime: string
+  readonly date: string
+}
 
-export default function DateAndReadTime({ readTime, date }) {
+export default function DateAndReadTime({
+  readTime,
+  date,
+}: DateAndReadTimeProps) {
   return (
     <ReadTime>
       {readTime} &bull;
