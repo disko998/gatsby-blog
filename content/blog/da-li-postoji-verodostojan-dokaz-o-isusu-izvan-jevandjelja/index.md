@@ -1,6 +1,7 @@
 ---
-title: Ko je bio Istoriski Isus?
+title: Da li postoje dokazi o Isusu izvan Biblije?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
+hide: true
 date: 2021-11-14T16:23:36.638Z
 description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija? Šta
   nam mogu reći ostali istoriski izvori o Isusovom životu i ranom hršćanstvu?
@@ -9,11 +10,11 @@ tags:
   - Isus
   - Istorija
 ---
-Možda će za nekoga to biti iznenađenje ali Novi zavet nije jedini istoriski izvor koji govri o Isusu Hristu. Novi zavet se sastoji od četiri nezavisna dokumenta očevidaca događaja koje zovemo Jevanđelje i brojne druge spise i poslanice apostola gde postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista, ali da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? 
+Možda će za nekog to biti iznenađenje ali Novi zavet nije jedini istoriski izvor koji govri o Isusu Hristu. Novi zavet se sastoji od četiri nezavisna dokumenta očevidaca događaja koje zovemo Jevanđelje i brojne druge spise i poslanice apostola gde postoje odlični dokazi o životu, učenjima, smrti i vaskrsenju Isusa Hrista, ali da li postoje i drugi dokazi koji to potvrđuju? Da li postoje spisi van Novog zaveta koji potvrđuju ili podupiru bilo koje suštinske stvari o Isusu ili ranom hrišćanstvu? 
 
 </br>
 
-Ovde cemo ćitirati jedne od najpouzdanijih jevreskih i paganskih ali i u većini slučajeva i neprijateljski nastorjenih izvora prema hrišćanima 1. i 2. veka n.e.
+Ovde cemo citirati najpouzdanije jevrejske i paganske, u većini slučajeva neprijateljski nastorjene izvore, prema hrišćanima 1. i 2. veka n.e.
 
 ### 1. Josif Flavije
 
@@ -39,7 +40,7 @@ Iako ovi podaci pružaju neke značajne potvrde o Isusu, neki skeptici postavlja
 
 </br>
 
-Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju da Pilat isprva ne želi da osudi Hrista, Isus i njegovi sledbenici za njih nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
+Odgovor na ovo pitanje je da su za njega bila važnija politička pitanja i borba protiv Rima, pa je zbog toga Jovan Krstitelj izgledao kao veća politička pretnja nego Isus. Setimo se da se Isus nije čak ni protivio plaćanju poreza Rimljanima. Tako da iz Josifovog ugla tog vremena sto možemo primetiti i u Jevanđelju kako Pilat isprva ne želi da osudi Hrista, Isus i njegovi sledbenici nisu izgledali značajno iako gledajući iz ovog perioda unazad jesu.
 
 </br>
 
@@ -83,7 +84,11 @@ Rani dokument o prvim hrišćanima: *prvi hrišćcani su verovali da je Isus Bog
 
 </br>
 
-Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to moglo da bude natprirodno objašnjenje i nudi ideju da je Isus bio vanbračni sin čoveka po imenu Pantera (ideja pozajmljena od Jevreja koji su se u to vreme protivili Isusu). Ali u pisanju ovog izveštaja, Celzus potvrđuje nekoliko važnih tvrdnji: *da postoji nešto neobično u vezi sa njegovim ocem,* *Isus je imao zemaljskog oca koji je bio stolar, bio je u Egiptu, posedovao je neobične magijske moći i tvrdio da je Bog.*
+Celzus priznaje da je Isus navodno rođen od device, ali zatim tvrdi da bi to moglo da bude natprirodno objašnjenje i nudi ideju da je Isus bio vanbračni sin čoveka po imenu Pantera (ideja pozajmljena od Jevreja koji su se u to vreme protivili Isusu). 
+
+</br>
+
+Ali u pisanju ovog izveštaja, Celzus potvrđuje nekoliko važnih tvrdnji: *da je rođen od device, imao zemaljskog oca koji je bio stolar, bio je u Egiptu, posedovao je neobične magijske moći i tvrdio da je Bog.*
 
 ### 6. Dan kada se zemlja pomračila
 
@@ -93,13 +98,13 @@ Jos jedan od argumenata skeptika jeste podatak iz Jevanđelja, da je na zemlji n
 
 **Talus (52 n.e.)** je možda najraniji sekularni pisac koji je pominjao Isusa i toliko je star da njegovi spisi više i ne postoje. Ali Julije Afrikanus, koji piše oko 221. godine nove ere, citira Talusa koji je prethodno pokušao da objasni tamu koja se pojavila na Isusovom raspeću:
 
-> Na ceo svet je pritiskala najstrašnija tama, i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Tu tamu Talus, u trećoj knjizi svoje Istorij naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanac, Hronografija, 18:1)
+> Na ceo svet je pritiskala najstrašnija tama, i stene su bile razderane od zemljotresa, i mnoga mesta u Judeji i drugim oblastima su srušena. Tu tamu Talus, u trećoj knjizi svoje Istorij naziva, kako mi se bez razloga čini, pomračenjem sunca.” (Julije Afrikanus, Hronografija, 18:1)
 
 Kada bi se moglo pronaći samo više od Talusovog zapisa, mogli bismo pronaći više potvrde o Isusovom raspeću. Ali postoje neke stvari koje možemo zaključiti iz ovog izveštaja: *Na mestu Njegovog raspeća došlo je do zemljotresa i tame.*
 
 </br>
 
-**Flegon (80-140 n.e.)** na sličan način kao Talus, Julije Afrikanus takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine nove ere. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
+**Flegon (80-140 n.e.)** na sličan način kao Talus, Julije Afrikanus takođe pominje istoričara po imenu Flegon koji je napisao hroniku istorije oko 140. godine n.e. U ovoj istoriji, Flegon takođe pominje tamu koja okružuje raspeće u pokušaju da to objasni:
 
 > „Flegon beleži da je u vreme Tiberija Cezara, u vreme punog meseca, došlo do potpunog pomračenja sunca od šestog do devetog sata. *(Africanus, Hronografija, 18:1)*
 
@@ -107,11 +112,7 @@ Flegona pominje i Origen (rani crkveni teolog i naučnik, rođen u Aleksandriji)
 
 > Sada Flegon, u trinaestoj ili četrnaestoj knjizi, mislim, njegovih Hronika, ne samo da je pripisao Isusu znanje o budućim događajima. . . ali i svedočio da je rezultat odgovarao Njegovim predviđanjima“. *(Origen protiv Celza, knjiga 2, poglavlje 14)*
 >
-> </br>
->
 > „A što se tiče pomračenja u vreme Tiberija Cezara, u čijoj vladavini se čini da je Isus bio razapet, i velikih zemljotresa koji su se tada dogodili…” *(Origen protiv Celza, knjiga 2, poglavlje 33)*
->
-> </br>
 >
 > „Isus, dok je bio živ, nije sam sebi bio od pomoći, ali je ustao posle smrti i pokazao znakove svoje kazne i pokazao kako su mu ruke probodene ekserima *(Origen protiv Celza, knjiga 2, poglavlje 59)*
 
@@ -127,11 +128,7 @@ Naučnici veruju da postoji niz talmudskih spisa koji se odnose na Isusa, a za m
 
 > Isus je praktikovao magiju i odveo Izrael na stranputicu“ *(b. Sanhedrin 43a; up. t. Šabat 11.15; b. Šabat 104b)*
 >
-> </br>
->
 > Rabi Hisda (um. 309) je rekao da je rabin Jeremija bar Aba rekao: ’Šta je to što je napisano: ’Neće te zadesiti nikakvo zlo, niti će se neka kuga približiti tvojoj kući‘? (Psalam 91:10)... „Neće te zadesiti zlo“ (znači) da te zli snovi i zle misli neće iskušavati; ’niti se neka pošast približiti tvojoj kući’ (znači) da nećeš imati sina ili učenika koji spaljuje svoju hranu kao Isus iz Nazareta. *(b. Sanhedrin 103a; up. b. Berakhot 17b)*
->
-> </br>
 >
 > Naši rabini su poučavali da je Isus imao pet učenika: Mataja, Nakaija, Nezera, Bunija i Toda. Doveli su Mataija (na suđenje). Rekao je: „Mora li Matai biti ubijen? Jer je napisano: ’Kada ću (matai) doći i pojaviti se pred Bogom?“ (Psalam 92:2) Rekli su mu: „Da, Matai treba da bude ubijen, jer je napisano: ’Kad (matai) umre ime će njegovo propasti“ (Psalam 41:5). Doveli su Nakaija. Rekao im je: „Mora li Nakai biti ubijen? Jer je napisano: „Nevin i pravednik neće ubiti“ (Izlazak 23:7). Rekli su mu: „Da, Nakai mora biti ubijen, jer je napisano: ’Na tajnim mestima ubija nevine“ (Psalam 10:8). *(b. Sanhedrin 43a; odlomak se nastavlja na sličan način za Nezer, Buni i Todah)*
 
@@ -149,7 +146,7 @@ Hajde da razmotrimo šta smo naučili iz neprijateljskih nastrojenih izvora koji
 
 </br>
 
-*Isus je rođen i živeo u Judeji. Rođen je, navodno, od mlade jevrejke i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Iscelio je hrome. Tačno je predvideo budućnost. Progonili su ga Jevrejski lideri zbog onoga što je rekao. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskro iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Imao je brata zvanog Jakov i jedan od učenika se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa kao Boga, čak i nakon Njegove smrti.*
+*Isus je rođen i živeo u Judeji. Rođen je, navodno, od device jevrejke i imao je zemaljskog oca koji je bio stolar. Bio je učitelj koji je učio da će kroz pokajanje i veru svi sledbenici postati braća i sestre. Odveo je Jevreje od njihovih verovanja. Bio je mudar čovek koji je tvrdio da je Bog i Mesija. Imao je neobične magijske moći i činio je čudesna dela. Tačno je predvideo budućnost. Progonili su ga Jevrejski lideri zbog onoga što je rekao. Razapet je uoči Pashe i ovo raspeće se dogodilo pod upravom Pontija Pilata, za vreme Tiberija Cezara. Na dan Njegovog raspeća, nebo se smračilo i dogodio se zemljotres. Nakon toga, sahranjen je u grobnici i kasnije je otkriveno da je grobnica prazna. On se javio svojim učenicima vaskrsao iz groba i pokazao im svoje rane. Isusovi učenici i sledbenici podržavali su visoki moralni kodeks. Imao je brata zvanog Jakov i jedan od učenika se zvao Matai. Učenici su takođe bili proganjani zbog svoje vere, ali su stradali bez promene svojih tvrdnji. Redovno su se sastajali da bi obožavali Isusa kao Boga, čak i nakon Njegove smrti.*
 
 </br>
 
@@ -161,7 +158,7 @@ Nije loše, s obzirom da ove informacije potiču iz drevnih izveštaja koji su n
 
 ## Ostali dokazi
 
-Kada ljudi započnu religiozni pokret, često se dogodi da tek posle više godina krenu da beleže podatke pismeno dok se prvenstveno prenosi usmeno. Ali činjenica je da imamo bolje istoriske podatke o Isusu nego osnivaču bilo koje druge religije.
+Kada ljudi započnu religiozni pokret, često se dogodi da tek posle više godina krenu da beleže podatke pismeno dok se prvenstveno prenose usmeno. Ali činjenica je da imamo bolje istoriske podatke o Isusu nego osnivaču bilo koje druge religije.
 
 </br>
 
@@ -169,7 +166,7 @@ Na primer knjige o Budi koji je živeo u 6. veku pre Hrista, zapisane su tek pos
 
 </br>
 
-Apostol Pavle je započeo sa pisanjem svojih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko nemože da iznese pouzdanu tvrdnju. Među naj ranijim spisima su i poslanice očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i mnoge druge.
+Apostol Pavle je započeo sa pisanjem svojih poslanica pre nego što su Jevanđelja zapisana. One sadrže veoma rane izveštaje o Isusu, toliko rane da niko ne može da iznese pouzdanu tvrdnju. Među naj ranijim spisima su i poslanice očevidaca Jakova i Petra. U ovim spisima vidimo da su prvi hrišćani obožavali Isusa kao Boga tako da to pobija poularnu teoriju da su hrišćani kasnije uneli tvrdnju o božanskoj prirodi Isusa Hrista. Pored toga tu su i brojni spisi "apostolskih otaca" koji su bili najraniji hrišćanski pisci posle Novog zaveta, kao što su: Poslanice Klimenta, Ignjacija, Polikrapa, Varnave i mnoge druge.
 
 </br>
 
