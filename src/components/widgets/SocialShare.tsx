@@ -19,13 +19,13 @@ export default function SocialShare({
 }: SocialShareProps) {
   const {
     site: { siteMetadata },
-  } = useStaticQuery(query)
+  } = useStaticQuery<Site>(query)
 
   title = title || siteMetadata.title
   description = description || siteMetadata.description
 
   const siteUrl = __DEV__
-    ? `https://www.myblog.com/${title}`
+    ? `${siteMetadata.siteUrl}/${title}`
     : globalHistory.location.href
 
   return (
@@ -70,20 +70,6 @@ export default function SocialShare({
   )
 }
 
-const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        social {
-          twitter
-        }
-      }
-    }
-  }
-`
-
 const HeaderTitle = styled.h3`
   text-transform: uppercase;
   padding-bottom: 30px;
@@ -117,22 +103,18 @@ const SocialContainer = styled.div`
 
         &:hover {
           border-color: ${p => p.theme.colors.main};
-          /* &.facebook {
-            color: ${p => p.theme.colors.facebook};
-          }
-
-          &.twitter {
-            color: ${p => p.theme.colors.twitter};
-          }
-
-          &.google {
-            color: ${p => p.theme.colors.google};
-          }
-
-          &.linkedin {
-            color: ${p => p.theme.colors.linkedin};
-          } */
         }
+      }
+    }
+  }
+`
+
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
       }
     }
   }

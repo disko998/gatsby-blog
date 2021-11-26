@@ -10,7 +10,7 @@ import { BookmarkContext } from "../../../providers"
 import { Thumbnail } from "../../elements"
 import { DateAndReadTime } from "../../shared"
 
-const maxLength = 140
+const MAX_DESC_LENGTH = 140
 
 type PostCardProps = {
   post: PostNode
@@ -64,8 +64,9 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           <CardDescription
             dangerouslySetInnerHTML={{
               __html: post.frontmatter.description
-                ? post.frontmatter.description.substring(0, maxLength) + "..."
-                : post.excerpt.substring(0, maxLength) + "...",
+                ? post.frontmatter.description.substring(0, MAX_DESC_LENGTH) +
+                  "..."
+                : post.excerpt.substring(0, MAX_DESC_LENGTH) + "...",
             }}
             itemProp="description"
           />
@@ -79,7 +80,7 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
   )
 }
 
-export const ArticleCard = styled.article`
+export const ArticleCard = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
@@ -125,7 +126,7 @@ export const CardDescription = styled.p`
   overflow: hidden;
   font-weight: 500;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
-  color: ${p => p.theme.colors.grayLight};
+  color: ${p => p.theme.colors.lightGray};
 `
 
 export const CardFooter = styled.div`

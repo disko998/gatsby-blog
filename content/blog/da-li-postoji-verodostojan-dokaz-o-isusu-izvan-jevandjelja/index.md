@@ -1,7 +1,7 @@
 ---
 title: Da li postoje dokazi o Isusu izvan Biblije?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
-hide: true
+hide: false
 date: 2021-11-14T16:23:36.638Z
 description: Da li postoji dodatni dokaz o Isusu izvan njegovih biografija? Šta
   nam mogu reći ostali istoriski izvori o Isusovom životu i ranom hršćanstvu?
