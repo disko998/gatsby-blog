@@ -85,7 +85,9 @@ const PostNavCard = styled.div<{ next?: boolean; round?: boolean }>`
 `
 
 const ArrowText = styled.nav<{ next?: boolean }>`
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -95,8 +97,8 @@ const ArrowText = styled.nav<{ next?: boolean }>`
 `
 
 function postNavArrows(props) {
-  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px; font-size: 30px;}`
-  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px; font-size: 30px;}`
+  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px; font-size: 30px; position: relative; top: -6px}`
+  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px; font-size: 30px; position: relative; top: -6px}`
 
   return props.next ? nextStyle : prevStyle
 }
