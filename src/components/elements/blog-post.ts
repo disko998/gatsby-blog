@@ -74,6 +74,10 @@ export const BlogContent = styled.article`
     margin-top: ${p => p.theme.spacing.xLarge};
   }
 
+  p {
+    margin-top: ${p => p.theme.spacing.medium};
+  }
+
   blockquote {
     position: relative;
     padding: 32px 20px 32px 64px;

@@ -11,12 +11,13 @@ export default function BlogsTagPageTemplate({ pageContext, data }) {
     </Layout>
   )
 }
-
 export const query = graphql`
-  query tagPageQuery($tag: String!) {
+  query tagPageQuery($tagRegex: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: {
+        frontmatter: { tags: { regex: $tagRegex }, hide: { ne: true } }
+      }
     ) {
       nodes {
         excerpt

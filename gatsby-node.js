@@ -13,7 +13,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(
     `
       {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+        allMarkdownRemark(
+          filter: { frontmatter: { hide: { ne: true } } }
+          sort: { fields: [frontmatter___date], order: ASC }
+        ) {
           nodes {
             id
             fields {
@@ -72,6 +75,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: blogsTagPage,
       context: {
         tag,
+        tagRegex: `/${tag}/gi`,
         otherTags: tags.filter(t => t !== tag),
       },
     })

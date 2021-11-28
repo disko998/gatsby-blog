@@ -15,6 +15,7 @@ export default function BlogListPageTemplate({ pageContext, data }) {
 export const query = graphql`
   query blogListPageQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
+      filter: { frontmatter: { hide: { ne: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

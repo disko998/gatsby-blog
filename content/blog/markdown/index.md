@@ -11,7 +11,9 @@ tags:
   - markdown
   - gatsby
 readTime: 30 sec
+hide: false
 ---
+
 This website is built with **Gatsby.js** which uses **React** a **JavaScript** framework for building static websites. Gatsby.js shines when you use it for something like portfolio, eCommerce, or blog websites as this website does, which under the hood uses markdown files to display blogs. But let's talk a little bit about markdowns and see why and how are they use at all...\
 \
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. They are widely used for editing blogs, forums, documentation as most developers are familiar with **README.ME** files. This is essentially a simpler way (more appealing to human readers) to tell computers how to display some content without actually having to write code like **HTML**, all you have to learn is simple markup language syntax and you are ready to go. I create a small cheat sheet for you to get started with markups.
@@ -39,7 +41,7 @@ Markdown is a lightweight markup language for creating formatted text using a pl
 
 **bold text**
 
-*italicized text*
+_italicized text_
 
 ~~The world is flat.~~
 
@@ -68,13 +70,15 @@ _italicized text_
 
 1. First item
 
-   * First item
+   - First item
+
 2. Second item
 
-   * Second item
+   - Second item
+
 3. Third item
 
-   * Third item
+   - Third item
 
 ```markdown
 1. First item
@@ -85,9 +89,9 @@ _italicized text_
    - Third item
 ```
 
-* Write the press release
-* Update the website
-* Contact the media
+- Write the press release
+- Update the website
+- Contact the media
 
 ```markdown
 - [x] Write the press release

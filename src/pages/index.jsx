@@ -33,6 +33,7 @@ const BlogListPage = () => {
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
+      filter: { frontmatter: { hide: { ne: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 9
     ) {
