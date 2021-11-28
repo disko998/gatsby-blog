@@ -13,6 +13,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(
     `
       {
+        site {
+          siteMetadata {
+            featuredTags
+          }
+        }
         allMarkdownRemark(
           filter: { frontmatter: { hide: { ne: true } } }
           sort: { fields: [frontmatter___date], order: ASC }
@@ -41,11 +46,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const posts = result.data.allMarkdownRemark.nodes
+  console.log(result.data.site.siteMetadata.featuredTags)
 
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
-  let tags = []
+  let tags = [...result.data.site.siteMetadata.featuredTags]
   if (posts.length > 0) {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id

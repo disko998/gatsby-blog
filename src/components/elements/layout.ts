@@ -51,6 +51,7 @@ export const Col = styled.div<ColProps>`
 
   @media ${p => p.theme.breakpoints.mobile} {
     min-width: 100%;
+    padding: ${p => p.theme.spacing.small} 0;
   }
 
   @media ${p => p.theme.breakpoints.tablet} {

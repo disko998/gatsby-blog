@@ -10,6 +10,7 @@ tags:
   - react
   - markdown
   - gatsby
+  - JavaScript
 readTime: 30 sec
 hide: false
 ---
