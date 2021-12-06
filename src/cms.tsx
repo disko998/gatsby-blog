@@ -32,7 +32,7 @@ const BlogPostPreview = ({ widgetFor, entry, getAsset }) => {
 CMS.init({
   config: {
     site_url: window.location.origin,
-    logo_url: "https://your-site.com/images/logo.svg",
+    // logo_url: "https://your-site.com/images/logo.svg",
     locale: "en", // hr
 
     backend: {

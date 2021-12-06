@@ -23,8 +23,9 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
   if (!posts.length) {
     return (
       <Section>
-        <Center>
+        <Center direction="column">
           <Img fixed={file.childImageSharp?.fixed} />
+          <EmptyText>Your list is empty</EmptyText>
         </Center>
       </Section>
     )
@@ -55,6 +56,11 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
     </>
   )
 }
+
+const EmptyText = styled.h1`
+  margin: 1rem 0;
+  text-transform: capitalize;
+`
 
 const ColumnWrapper = styled(Col)`
   .react-reveal {

@@ -7,6 +7,7 @@ interface IText {
   display?: string
   margin?: string
   padding?: string
+  align?: string
 }
 
 export const Text = styled.div<IText>`
@@ -16,4 +17,5 @@ export const Text = styled.div<IText>`
   display: ${({ display }) => display || "block"};
   margin: ${({ margin }) => margin || "0"};
   padding: ${({ padding }) => padding || "0"};
+  text-align: ${({ align }) => align || "left"};
 `

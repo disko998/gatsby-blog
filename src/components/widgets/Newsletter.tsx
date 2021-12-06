@@ -1,3 +1,4 @@
+import { Text } from "components/elements/text"
 import React from "react"
 import styled from "styled-components"
 
@@ -5,13 +6,13 @@ import { TextInput, Button } from "../elements"
 
 function Newsletter() {
   const [newsletter, setNewsletter] = React.useState("")
-  const [showMessage, setShowMessage] = React.useState(false)
+  const [isSubscribe, setIsSubscribe] = React.useState(false)
 
-  React.useEffect(() => {
-    if (showMessage) {
-      setTimeout(() => setShowMessage(false), 3000)
-    }
-  }, [showMessage])
+  //   React.useEffect(() => {
+  //     if (isSubscribe) {
+  //       setTimeout(() => setIsSubscribe(false), 3000)
+  //     }
+  //   }, [isSubscribe])
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewsletter(e.target.value)
@@ -23,21 +24,27 @@ function Newsletter() {
       if (!newsletter.trim()) return
 
       setNewsletter("")
-      setShowMessage(true)
+      setIsSubscribe(true)
     },
     [newsletter]
   )
 
   return (
     <div>
-      <p style={{ textAlign: "center" }}>
+      <Text align="center">
         Subscribe to our newsletter and we’ll send you the emails of latest
         posts.
-      </p>
+      </Text>
       <NewsletterForm>
-        <TextInput value={newsletter} onChange={onChange} placeholder="Email" />
-        <Button onClick={onSubmit}>
-          {showMessage ? "Subscribed!" : "Join"}
+        {!isSubscribe && (
+          <TextInput
+            value={newsletter}
+            onChange={onChange}
+            placeholder="Email"
+          />
+        )}
+        <Button flex={1} onClick={onSubmit} disabled={isSubscribe}>
+          {isSubscribe ? "Thank you for joining!" : "Join"}
         </Button>
       </NewsletterForm>
     </div>

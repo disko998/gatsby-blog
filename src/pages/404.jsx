@@ -6,7 +6,7 @@ import { navigate } from "@reach/router"
 import Img from "gatsby-image"
 
 import { Layout, SEO } from "../components"
-import { Button } from "../components/elements"
+import { Button, Section, Center } from "../components/elements"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -15,34 +15,27 @@ const NotFoundPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="404: Not Found" />
 
-      <Wrapper>
-        <Image404 fadeIn fluid={data.file.childImageSharp?.fluid} />
+      <Section>
+        <Center direction="column">
+          <Image404 fadeIn fluid={data.file.childImageSharp?.fluid} />
 
-        <Title404>
-          "<Pathname>{location.pathname}</Pathname>" Not found!
-        </Title404>
+          <Title404>
+            "<Pathname>{location.pathname}</Pathname>" Not found!
+          </Title404>
 
-        <BackButton onClick={() => navigate(-1)}>
-          <BiArrowBack size={20} />
-          <span>Go back</span>
-        </BackButton>
-      </Wrapper>
+          <BackButton onClick={() => navigate(-1)}>
+            <BiArrowBack size={20} />
+            <span>Go back</span>
+          </BackButton>
+        </Center>
+      </Section>
     </Layout>
   )
 }
 
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 85vh;
-`
-
 const Title404 = styled.h1`
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px;
+  margin: 1rem 0;
+  text-transform: capitalize;
 
   @media ${p => p.theme.breakpoints.smallTablet} {
     font-size: 25px;

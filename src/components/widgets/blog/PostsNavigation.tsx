@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { navigate } from "gatsby"
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai"
 
 import { Thumbnail } from "../../elements"
 import { rem } from "../../../utils/helper"
@@ -26,7 +27,10 @@ const PostsNavigation: React.FC<PostsNavigationProps> = ({
             hoverEffect
             fluid={previous.frontmatter.thumbnail?.childImageSharp.fluid}
           />
-          <ArrowText>previous post</ArrowText>
+          <ArrowText>
+            <ArrowIconLeft size={15} />
+            previous post
+          </ArrowText>
           <h2>{previous.frontmatter.title}</h2>
         </PostNavCard>
       )}
@@ -42,7 +46,10 @@ const PostsNavigation: React.FC<PostsNavigationProps> = ({
             hoverEffect
             fluid={next.frontmatter.thumbnail?.childImageSharp.fluid}
           />
-          <ArrowText next>next post</ArrowText>
+          <ArrowText>
+            next post
+            <ArrowIconRight size={15} />
+          </ArrowText>
           <h2>{next.frontmatter.title}</h2>
         </PostNavCard>
       )}
@@ -92,15 +99,14 @@ const ArrowText = styled.nav<{ next?: boolean }>`
   font-weight: 500;
   text-transform: uppercase;
   color: ${p => p.theme.colors.light};
-
-  ${postNavArrows}
+  text-align: center;
 `
 
-function postNavArrows(props) {
-  const nextStyle = `&::after {content: "\\2192";display: inline; margin-left: 5px; font-size: 30px; position: relative; top: -6px}`
-  const prevStyle = `&::before {content: "\\2190";display: inline; margin-right: 5px; font-size: 30px; position: relative; top: -6px}`
-
-  return props.next ? nextStyle : prevStyle
-}
+const ArrowIconRight = styled(AiOutlineArrowRight)`
+  margin: 0 3px;
+`
+const ArrowIconLeft = styled(AiOutlineArrowLeft)`
+  margin: 0 3px;
+`
 
 export default PostsNavigation

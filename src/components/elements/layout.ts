@@ -72,8 +72,9 @@ export const Row = styled.div`
   align-items: center;
 `
 
-export const Center = styled.div`
+export const Center = styled.div<{ direction?: string }>`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: ${({ direction }) => (direction ? direction : "row")};
 `

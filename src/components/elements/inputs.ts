@@ -37,7 +37,7 @@ export const NewsletterForm = styled.form`
   }
 `
 
-export const Button = styled.button`
+export const Button = styled.button<{ width?: string; flex?: number }>`
   padding: 20px 40px;
   font-size: 16px;
   font-weight: 700;
@@ -52,9 +52,11 @@ export const Button = styled.button`
   outline: 0;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: ${p => p.theme.colors.light};
   transition: all 0.2s ease;
   cursor: pointer;
+  width: ${p => p.width || "auto"};
+  ${p => p.flex || `flex: ${p.flex}`};
 
   &:hover {
     color: ${p => p.theme.colors.background};
