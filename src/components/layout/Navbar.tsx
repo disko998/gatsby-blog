@@ -1,19 +1,24 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { globalHistory } from "@reach/router"
+import Img from "gatsby-image"
 
 import { rem } from "./../../utils/helper"
 import { Container } from "../elements"
+import { QueryType } from "global"
 
 const Navbar: React.FC = () => {
+  const { site, file } = useStaticQuery<QueryType>(query)
   const { location } = globalHistory
 
   return (
     <NavWrapper>
       <Container>
         <NavContent>
-          <Logo to="/">Aditu</Logo>
+          <HomeLink to="/">
+            <Logo fadeIn fluid={file.childImageSharp?.fluid} />
+          </HomeLink>
 
           <Nav>
             <NavItem>
@@ -43,6 +48,26 @@ const Navbar: React.FC = () => {
   )
 }
 
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    file(relativePath: { eq: "logo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+const Logo = styled(Img)`
+  width: 150px;
+`
+
 const NavWrapper = styled.nav`
   width: 100%;
   height: ${rem(80)};
@@ -66,7 +91,7 @@ const NavContent = styled.div`
   }
 `
 
-const Logo = styled(Link)`
+const HomeLink = styled(Link)`
   font-size: 27px;
   line-height: 1;
   font-weight: 900;

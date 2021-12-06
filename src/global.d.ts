@@ -1,3 +1,5 @@
+import { FluidObject } from "gatsby-image"
+
 declare type SiteMetadata = {
   title: string
   description: string
@@ -9,9 +11,14 @@ declare type SiteMetadata = {
   featuredTags: string[]
 }
 
-declare type Site = {
+declare type QueryType = {
   site: {
     siteMetadata: SiteMetadata
+  }
+  file: {
+    childImageSharp: {
+      fluid: FluidObject
+    }
   }
 }
 

@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
-import { Layout, BlogList, SEO } from "../components"
+import { Layout, BlogList, SEO } from "components"
 
-const POST_PER_PAGE = process.env.POST_PER_PAGE
+const POST_PER_PAGE = 9
 
 const BlogListPage = () => {
   return (

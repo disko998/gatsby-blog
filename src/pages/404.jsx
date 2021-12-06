@@ -73,7 +73,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    file(relativePath: { eq: "surr-404.png" }) {
+    file(relativePath: { eq: "404.png" }) {
       childImageSharp {
         fluid(maxWidth: 1300) {
           ...GatsbyImageSharpFluid

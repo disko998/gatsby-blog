@@ -44,7 +44,7 @@ function Newsletter() {
           />
         )}
         <Button flex={1} onClick={onSubmit} disabled={isSubscribe}>
-          {isSubscribe ? "Thank you for joining!" : "Join"}
+          {isSubscribe ? "Thank you for joining us!" : "Join"}
         </Button>
       </NewsletterForm>
     </div>

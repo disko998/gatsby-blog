@@ -17,17 +17,7 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-resolve-src",
     "gatsby-plugin-feed",
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          "roboto mono",
-          "Roboto:0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900",
-          "Courgette",
-        ],
-        display: "swap",
-      },
-    },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -37,7 +27,18 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/logo.png`,
+        icon: `content/assets/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          "roboto mono",
+          "Roboto:0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900",
+          "Courgette",
+        ],
+        display: "swap",
       },
     },
     {

@@ -5,6 +5,7 @@ import { FaFacebookSquare, FaTwitter, FaLinkedin } from "react-icons/fa"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { __DEV__ } from "../../utils/helper"
+import { QueryType } from "global"
 
 type SocialShareProps = {
   title?: string
@@ -19,7 +20,7 @@ export default function SocialShare({
 }: SocialShareProps) {
   const {
     site: { siteMetadata },
-  } = useStaticQuery<Site>(query)
+  } = useStaticQuery<QueryType>(query)
 
   title = title || siteMetadata.title
   description = description || siteMetadata.description

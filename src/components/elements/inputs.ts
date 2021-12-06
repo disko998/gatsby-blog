@@ -56,7 +56,7 @@ export const Button = styled.button<{ width?: string; flex?: number }>`
   transition: all 0.2s ease;
   cursor: pointer;
   width: ${p => p.width || "auto"};
-  ${p => p.flex || `flex: ${p.flex}`};
+  ${p => p.flex && `flex: ${p.flex}`};
 
   &:hover {
     color: ${p => p.theme.colors.background};

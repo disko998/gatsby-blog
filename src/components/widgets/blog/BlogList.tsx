@@ -70,7 +70,7 @@ const ColumnWrapper = styled(Col)`
 
 const query = graphql`
   query {
-    file(relativePath: { eq: "mirage-list-is-empty.png" }) {
+    file(relativePath: { eq: "empty.png" }) {
       childImageSharp {
         fixed(width: 300, height: 300) {
           ...GatsbyImageSharpFixed
