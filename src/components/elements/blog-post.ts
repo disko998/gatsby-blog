@@ -148,4 +148,14 @@ export const BlogContent = styled.article`
       object-fit: cover;
     }
   }
+
+  div > img {
+    margin-top: ${p => p.theme.spacing.medium};
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 100%;
+    img {
+      object-fit: cover;
+    }
+  }
 `

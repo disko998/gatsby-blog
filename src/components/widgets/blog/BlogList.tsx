@@ -25,7 +25,7 @@ const BlogList: React.FC<BlogListProp> = ({ posts, page }) => {
       <Section>
         <Center direction="column">
           <Img fixed={file.childImageSharp?.fixed} />
-          <EmptyText>Your list is empty</EmptyText>
+          <EmptyText>list is empty</EmptyText>
         </Center>
       </Section>
     )
