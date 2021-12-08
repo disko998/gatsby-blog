@@ -60,10 +60,10 @@ export const Col = styled.div<ColProps>`
 `
 
 export const Section = styled.section`
-  margin: ${p => p.theme.spacing.xxLarge} 0;
+  margin: ${p => p.theme.spacing.xLarge} 0;
 
   @media ${p => p.theme.breakpoints.tablet} {
-    margin: ${p => p.theme.spacing.large} 0;
+    margin: ${p => p.theme.spacing.medium} 0;
   }
 `
 

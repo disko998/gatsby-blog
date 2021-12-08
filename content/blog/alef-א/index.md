@@ -1,5 +1,5 @@
 ---
-title: " Alef א"
+title: "Alef א"
 thumbnail: screenshot-2021-12-07-at-22.44.58.png
 hide: false
 date: 2021-12-07T21:08:49.111Z
@@ -10,6 +10,7 @@ tags:
   - bog
   - jhvh
 ---
+
 Alef je prvo slovo hebrejskog jezika i predstavlja: snagu, vodju i Boga. Sva slova u hebrejskom jeziku imaju svoj piktograf i određenu numeričku verdnost koja ide uz njih, pa tako imamo da alef predstavlja glavu bika i ima numeričku verdnost 1.
 
 ![alef](alef-power-point-slides.jpg "alef")
@@ -22,11 +23,11 @@ Sad pogledajmo neke reči koje počinju sa ovim slovom:
 
 `ehja ešer ehja = אהיה אשר אהיה = Ja Sam koji Jesam`
 
-Možemo videti da najažnija imena i titule koje Bog koristi u Bibliji počinju sa slovom alef. Poslednja izjava je iz 2. Mojsijeve, 3:14, kada se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom *"Ja Sam koji Jesam",* i zatim Bog nastavlja i kaze: *"Idi i reci sinovima Izraelovim Onaj koji Jeste (יהוה) me je poslavo vama.״*. Odatle dobijamo čuveni tetragramaton **יהוה**, koga najčešce izgovarmo kao Jahve ili Jehova.
+Možemo videti da najažnija imena i titule koje Bog koristi u Bibliji počinju sa slovom alef. Poslednja izjava je iz 2. Mojsijeve, 3:14, kada se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom _"Ja Sam koji Jesam",_ i zatim Bog nastavlja i kaze: _"Idi i reci sinovima Izraelovim Onaj koji Jeste (יהוה) me je poslavo vama.״_. Odatle dobijamo čuveni tetragramaton **יהוה**, koga najčešce izgovarmo kao Jahve ili Jehova.
 
 ![jhvh](czxca.jpg "jhvh")
 
-Na slici iznad možemo primetiti da u jednoj rečenici Bog spominje svoje ima 3 puta što je meni vrlo zanimljivo jer tvorac ne radi ništa slučajno, zatim na sledećoj slici ako sakupimo index slova (NE numeričku verdnost ili gematriju nego poziciju slova u alefbetu), u izjavi *"Ja Sam koji Jesam" , dobijamo sledece...*
+Na slici iznad možemo primetiti da u jednoj rečenici Bog spominje svoje ima 3 puta što je meni vrlo zanimljivo jer tvorac ne radi ništa slučajno, zatim na sledećoj slici ako sakupimo index slova (NE numeričku verdnost ili gematriju nego poziciju slova u alefbetu), u izjavi _"Ja Sam koji Jesam" , dobijamo sledece..._
 
 ![Ja Sam koji Jesam](jsia.jpg "Ja Sam koji Jesam")
 
@@ -42,11 +43,11 @@ Sada bih spomenuo nešto nazimljivo sa početka tore (prvih pet knjiga mojsijevi
 
 ![berešit](dasd.jpg "berešit")
 
-*"Berešit bara Elohim et hašamaim va'et ha'arec (U početku stvori bog nebesa i zemlju.)"*. Samo ova rečenica je toliko kompleksna i sadrži bezbroj dimenzija o kojima bih mogao da pričam dan i noć, ali da se mi vratimo na naše slovo alef.\
+_"Berešit bara Elohim et hašamaim va'et ha'arec (U početku stvori bog nebesa i zemlju.)"_. Samo ova rečenica je toliko kompleksna i sadrži bezbroj dimenzija o kojima bih mogao da pričam dan i noć, ali da se mi vratimo na naše slovo alef.\
 \
-Vidmo da se alef u prvoj rečenici pojavljuje 6 puta, broj 6 smo već spomenuli u predhodnim pasusima. 6 slova alef mogu da predstavljaju i 6000 jer znamo: 
+Vidmo da se alef u prvoj rečenici pojavljuje 6 puta, broj 6 smo već spomenuli u predhodnim pasusima. 6 slova alef mogu da predstavljaju i 6000 jer znamo:
 
-*`"Jedan dan pred Gospodom je kao hiljadu godina i hiljadu godina kao jedan dan. (2. Petar 3:8)"`*
+_`"Jedan dan pred Gospodom je kao hiljadu godina i hiljadu godina kao jedan dan. (2. Petar 3:8)"`_
 
 Hiljadu se na hebrejskom kaže elef što je prektično isto kao alef. Znači alef moze da znači 1 ili 1000. I ovde imamo period od 6000 godina koliko ce trajati zemlja i sledećih hiljadu godina je takozvani mesijanski period kad se zemlja odmara posle dolaska Hrista i svršetka ovog sveta kakvog znamo.
 
@@ -58,11 +59,11 @@ Sakupimo sada numeričke vrednosti Božjeg imena (JHVH) i titule (Elohim), i tak
 
 Elijahu (Ilija) = **אליה**ו = JHVH (Gospod) je moj Bog
 
-Daniel (Danijel) = דני**אל**  = Bog je moj sudija
+Daniel (Danijel) = דני**אל** = Bog je moj sudija
 
 Irmejahu (Jeremija) = ירמ**יה**ו = JHVH (Gospod) će uzdići
 
-Vratimo se zada na poentu, sakupljanjem gematriskih ili numeričkih vrednosti slova dobijamo sledeće: **15, 26, 31, 86**. Ako bi sada brojali slova od početka tore, videćemo nešto vrlo interesantno da 15, 26, 31 i 86 slovo jeste  **א  Alef**. Bog nam i ovde potvrđuje da je on Alef.
+Vratimo se zada na poentu, sakupljanjem gematriskih ili numeričkih vrednosti slova dobijamo sledeće: **15, 26, 31, 86**. Ako bi sada brojali slova od početka tore, videćemo nešto vrlo interesantno da 15, 26, 31 i 86 slovo jeste **א Alef**. Bog nam i ovde potvrđuje da je on Alef.
 
 ![alef](cxzda.jpg "alef")
 
@@ -84,13 +85,13 @@ Ako bi namerno napisali pogrešno **אלפ,** ovakakv oblik slova fej/pej bi zna
 
 ![alef](dasdasdcx.jpg "alef")
 
-Tkaođe sam spomenuo da je oblik slova vrlo bitan, ako ste nekad pisali slovo alef primetili ste da vam trebaju **3** poteza. Zašto ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde daje hint na njegovu prirodu koja ima veze sa brojem 3. Kažem opet ako postoji tvorac ništa ne može biti slučajno. 
+Tkaođe sam spomenuo da je oblik slova vrlo bitan, ako ste nekad pisali slovo alef primetili ste da vam trebaju **3** poteza. Zašto ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde daje hint na njegovu prirodu koja ima veze sa brojem 3. Kažem opet ako postoji tvorac ništa ne može biti slučajno.
 
 Ustvari sva tri poteza koja sačinjavaju slovo **א alef** su druga prostija slova u hebrejskom jeziku, a to su: **י jud** i **ו vav**. Znači napišemo vav koji je nagnut na jednu stranu, i zatim dopišemo jud odozgo i odozdo.
 
 Podsetimo se opet sa početne tabele šta predstavljaju jud i vav? **י jud** predstavlja ruku što iznačava rad a **ו vav** ekser ili nešto što spaja.
 
-Kada sve saberete imamo jednu vrlo zanimljivo sliku: Ruka odozgo (božja čista), ruka odozdo (čovečja grešna) i jedan ekser koji ih spaja (Mesija)!! 
+Kada sve saberete imamo jednu vrlo zanimljivo sliku: Ruka odozgo (božja čista), ruka odozdo (čovečja grešna) i jedan ekser koji ih spaja (Mesija)!!
 
 ![ruka i ekser](dczwq.jpg "ruka i ekser")
 

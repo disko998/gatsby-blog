@@ -10,18 +10,22 @@ export const PostHeader = styled.header`
   width: 100%;
 `
 
+const featuredImageStyle = p => `
+width: 100%;
+max-height: 600px;
+border-radius: 16px;
+
+@media ${p.theme.breakpoints.tablet} {
+    max-height: 400px;
+ }
+`
+
 export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
-  width: 100%;
-  max-height: 600px;
-  border-radius: 16px;
-  filter: brightness(100%);
+  ${featuredImageStyle}
 `
 
 export const FeaturedImageNative = styled.img`
-  width: 100%;
-  max-height: 600px;
-  border-radius: 16px;
-  filter: brightness(100%);
+  ${featuredImageStyle}
 `
 
 export const PostTitle = styled.h1`
