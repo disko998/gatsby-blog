@@ -83,3 +83,25 @@ Nemoj te da vas zbuni ovaj drugi oblik slova **ף** fej koji se zove fej sofit. 
 Ako bi namerno napisali pogrešno **אלפ,** ovakakv oblik slova fej/pej bi značio zatvorena usta i ako malo bolje pogledate u samom slovu **פ** može perfektno stati slovo  **ב**, dok sofit forma **אלף** izgleda kao otvorena usta. Ako sada sve sabereme imamo sledeću sliku...
 
 ![alef](dasdasdcx.jpg "alef")
+
+Tkaođe sam spomenuo da je oblik slova vrlo bitan, ako ste nekad pisali slovo alef primetili ste da vam trebaju **3** poteza. Zašto ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde daje hint na njegovu prirodu koja ima veze sa brojem 3. Kažem opet ako postoji tvorac ništa ne može biti slučajno. 
+
+Ustvari sva tri poteza koja sačinjavaju slovo **א alef** su druga prostija slova u hebrejskom jeziku, a to su: **י jud** i **ו vav**. Znači napišemo vav koji je nagnut na jednu stranu, i zatim dopišemo jud odozgo i odozdo.
+
+Podsetimo se opet sa početne tabele šta predstavljaju jud i vav? **י jud** predstavlja ruku što iznačava rad a **ו vav** ekser ili nešto što spaja.
+
+Kada sve saberete imamo jednu vrlo zanimljivo sliku: Ruka odozgo (božja čista), ruka odozdo (čovečja grešna) i jedan ekser koji ih spaja (Mesija)!! 
+
+![ruka i ekser](dczwq.jpg "ruka i ekser")
+
+Primećujemo da ovo **ו vav** ne stoji uspravno kao što bi trebalo, to je zato što on predstavlja Mesiju koji stoji uspravno (čovek koji nije grešan stoji uspravno) koji će morati da se ponizi da bi spojio čoveka sa bogom.
+
+O i da umalo da zaboravim, ako sakupimo numeričke vrednost ovih slova, dobijamo sledeće:
+
+`Jud י 10 + Jud י 10 + Vav ו 6 = JHVH 26 יהוה`
+
+Isto je i sa pisanom formom:
+
+`Kaf 20 כ + Vav ו 6 = JHVH 26 יהוה`
+
+![jhvh 26](dasxczc.jpg "jhvh 26")
