@@ -1,6 +1,6 @@
 ---
-title: "Alef א"
-thumbnail: screenshot-2021-12-07-at-22.44.58.png
+title: Alef א
+thumbnail: 121dsad.jpg
 hide: false
 date: 2021-12-07T21:08:49.111Z
 description: Čudo slova alef u bibliji
