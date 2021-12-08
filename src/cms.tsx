@@ -53,7 +53,7 @@ CMS.init({
         folder: "content/blog",
         create: true,
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
-        path: "blog/{{title}}",
+        path: "{{title}}/index",
         preview_path: __DEV__ ? "{{dirname}}" : undefined,
         editor: { preview: true },
         fields: [
