@@ -4,13 +4,11 @@ import { navigate } from "gatsby"
 import { BsStarFill } from "react-icons/bs"
 import styled from "styled-components"
 
-import { rem } from "../../../utils/helper"
+import { rem, shortDescription } from "../../../utils/helper"
 import TagsList from "../TagsList"
 import { BookmarkContext } from "../../../providers"
 import { Thumbnail } from "../../elements"
 import { DateAndReadTime } from "../../shared"
-
-const MAX_DESC_LENGTH = 140
 
 type PostCardProps = {
   post: PostNode
@@ -62,13 +60,12 @@ const BlogCard: React.FC<PostCardProps> = ({ post }) => {
           <CardTitle>{post.frontmatter.title}</CardTitle>
 
           <CardDescription
-            dangerouslySetInnerHTML={{
-              __html: post.frontmatter.description
-                ? post.frontmatter.description.substring(0, MAX_DESC_LENGTH) +
-                  "..."
-                : post.excerpt.substring(0, MAX_DESC_LENGTH) + "...",
-            }}
             itemProp="description"
+            dangerouslySetInnerHTML={{
+              __html: shortDescription(
+                post.frontmatter.description || post.excerpt
+              ),
+            }}
           />
 
           <CardFooter>
