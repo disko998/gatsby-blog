@@ -16,7 +16,7 @@ Alef je prvo slovo hebrejskog jezika i predstavlja: snagu, vodju i Boga. Sva slo
 
 Sad pogledajmo neke reči koje počinju sa ovim slovom:
 
-`elohim = אלהים = Bog `
+`elohim = אלהים = Bog`
 
 `adonai = אדני = Gospod`
 
@@ -50,4 +50,22 @@ Vidmo da se alef u prvoj rečenici pojavljuje 6 puta, broj 6 smo već spomenuli 
 
 Hiljadu se na hebrejskom kaže elef što je prektično isto kao alef. Znači alef moze da znači 1 ili 1000. I ovde imamo period od 6000 godina koliko ce trajati zemlja i sledećih hiljadu godina je takozvani mesijanski period kad se zemlja odmara posle dolaska Hrista i svršetka ovog sveta kakvog znamo.
 
-Zatim zapazite i poziciju slova u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Opet imamo hintove za broj 3, ostavam vama da razmišljate o tome.
+Zatim zapazite i poziciju slova u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Onvde imamo 3 para slova alef, i kao što vidimo pozicija slova je vrlo bitna, zato zapovest kaze da se ništa ne dodaje ili oduzima iz zakona, pa čak i jedno slovo, a na sledećem primeru će mo to ponovo potvrditi...
+
+![JHVH i elohim](dasdx.jpg "JHVH i elohim")
+
+Sakupimo sada numeričke vrednosti Božjeg imena (JHVH) i titule (Elohim), i takođe skraćene verzije Jah i El. Skraćeni oblici se najčešće koriste na primer u imenima, daću par primera:
+
+Elijahu (Ilija) = **אליה**ו = JHVH (Gospod) je moj Bog
+
+Daniel (Danijel) = דני**אל**  = Bog je moj sudija
+
+Irmejahu (Jeremija) = ירמ**יה**ו = JHVH (Gospod) će uzdići
+
+Vratimo se zada na poentu, sakupljanjem gematriskih ili numeričkih vrednosti slova dobijamo sledeće: **15, 26, 31, 86**. Ako bi sada brojali slova od početka tore, videćemo nešto vrlo interesantno da 15, 26, 31 i 86 slovo jeste  **א  Alef**. Bog nam i ovde potvrđuje da je on Alef.
+
+![alef](cxzda.jpg "alef")
+
+Ako i dalje niste uvereni iz nekog razloga, sakupite sada sve indeke broja alef u prvoj rečenici (ili poziciju slova). Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
+
+![elohim](cxzczx.jpg "elohim")
