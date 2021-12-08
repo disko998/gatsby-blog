@@ -14,14 +14,14 @@ export const FeaturedImage = styled(Img)<GatsbyImageFluidProps>`
   width: 100%;
   max-height: 600px;
   border-radius: 16px;
-  filter: brightness(80%);
+  filter: brightness(100%);
 `
 
 export const FeaturedImageNative = styled.img`
   width: 100%;
   max-height: 600px;
   border-radius: 16px;
-  filter: brightness(80%);
+  filter: brightness(100%);
 `
 
 export const PostTitle = styled.h1`
