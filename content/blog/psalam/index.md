@@ -7,7 +7,6 @@ tags:
   - biblija
   - orthodox christianity
   - religion
-readTime: 1 min
 hide: true
 ---
 
