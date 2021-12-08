@@ -54,7 +54,7 @@ CMS.init({
         create: true,
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
         path: "blog/{{title}}",
-        preview_path: __DEV__ ? "{{dirname}}" : "{{title}}",
+        preview_path: __DEV__ ? "{{dirname}}" : undefined,
         editor: { preview: true },
         fields: [
           { label: "Title", name: "title", widget: "string" },
