@@ -69,3 +69,17 @@ Vratimo se zada na poentu, sakupljanjem gematriskih ili numeričkih vrednosti sl
 Ako i dalje niste uvereni iz nekog razloga, sakupite sada sve indeke broja alef u prvoj rečenici (ili poziciju slova). Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
 
 ![elohim](cxzczx.jpg "elohim")
+
+Rekli bi smo, pa da ako je alef toliko važno slovo zašto Bog započinje bibliju sa drugim slovom alefbeta slovom **ב bet**. Kao što sam već spomenuo Bog ne radi ništa slučajno pa čak i u ovako naizgled bezazlenom primeru.
+
+![berešti](bereshit.jpg "berešti")
+
+Da bi tora i sve što je postalo moglo da postane, mora da postoji neko ko će sve to stvoriti. Mi znamo da je to Tvorac ili kao što smo već utvrdili **א Alef.** I ovde imamo vro lepu sliku koja ilustruje Alef koji postoji pre svega i iz njegovih usta je postalo sve što je postalo. Namerno sam ovako rekao jer deluje poznato **Jovan 1:1**. Jovan nam između ostalog kaže da je reč u početku bila u Boga i Bog je bio reč, a sama reč alef se može zapisati, na sledeći način **אלף alef**.
+
+Kao što već zamo da **א alef** ima piktograf glave bika što označava snagu, vodju, Boga, ako se vratimo na na prvu sliku koja prikazuje tabelu svih slova i značenja, vidimo da **ל lamed** predstavlja pastirki štap, znači da **אל El** predstavlja snažnog pastira, a slovo **פ pej/fej** predstavlja usta. Tako da sam reči **אלף alef** znači: **"Iz usta snažnog pastira".**
+
+Nemoj te da vas zbuni ovaj drugi oblik slova **ף** fej koji se zove fej sofit. U hebrejskom jeziku pored 22 slova postoje i 5 sofit formi, jedno od tih slova je i **פ** (sofit forma: **ף**). Suština je u tome da kada se to slovo nadje na kraju reči jednostavno se drugačije piše tj. ima malo drugačiji oblik nego inače ali se isto izgovara. Sama reč sofit znači na kraju ili krajnje.
+
+Ako bi namerno napisali pogrešno **אלפ,** ovakakv oblik slova fej/pej bi značio zatvorena usta i ako malo bolje pogledate u samom slovu **פ** može perfektno stati slovo  **ב**, dok sofit forma **אלף** izgleda kao otvorena usta. Ako sada sve sabereme imamo sledeću sliku...
+
+![alef](dasdasdcx.jpg "alef")
