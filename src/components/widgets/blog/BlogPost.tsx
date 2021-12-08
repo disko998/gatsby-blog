@@ -45,8 +45,8 @@ const BlogPost = ({
   return (
     <article itemScope itemType="http://schema.org/Article">
       <Section>
-        <Grid brake={breakpoints.tablet}>
-          <Col flex={1.2}>
+        <Grid brake={breakpoints.mobile}>
+          <Col flex={1.5}>
             {src ? (
               <FeaturedImageNative src={src} />
             ) : (
