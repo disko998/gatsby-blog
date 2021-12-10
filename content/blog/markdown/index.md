@@ -1,20 +1,19 @@
 ---
 title: Markdown Cheat Sheet
 thumbnail: thumb.png
+hide: false
 date: 2021-07-16T01:46:59.993Z
 description: Markdown is a lightweight markup language for creating formatted
   text using a plain-text editor. I created small cheat sheet with most common
   markup elements in one place for you to get started.
 tags:
   - web development
-  - react
+  - React
   - markdown
-  - gatsby
+  - Gatsby
   - JavaScript
-hide: false
 ---
-
-This website is built with **Gatsby.js** which uses **React** a **JavaScript** framework for building static websites. Gatsby.js shines when you use it for something like portfolio, eCommerce, or blog websites as this website does, which under the hood uses markdown files to display blogs. But let's talk a little bit about markdowns and see why and how are they use at all...\
+This website is built with **Gatsby.js** which uses **React** a **JavaScript** framework under the hood to building static websites. Gatsby.js shines when you use it to build portfolios, eCommerce or blog websites.\
 \
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. They are widely used for editing blogs, forums, documentation as most developers are familiar with **README.ME** files. This is essentially a simpler way (more appealing to human readers) to tell computers how to display some content without actually having to write code like **HTML**, all you have to learn is simple markup language syntax and you are ready to go. I create a small cheat sheet for you to get started with markups.
 
@@ -41,7 +40,7 @@ Markdown is a lightweight markup language for creating formatted text using a pl
 
 **bold text**
 
-_italicized text_
+*italicized text*
 
 ~~The world is flat.~~
 
@@ -70,15 +69,13 @@ _italicized text_
 
 1. First item
 
-   - First item
-
+   * First item
 2. Second item
 
-   - Second item
-
+   * Second item
 3. Third item
 
-   - Third item
+   * Third item
 
 ```markdown
 1. First item
@@ -89,9 +86,9 @@ _italicized text_
    - Third item
 ```
 
-- Write the press release
-- Update the website
-- Contact the media
+* Write the press release
+* Update the website
+* Contact the media
 
 ```markdown
 - [x] Write the press release
@@ -113,9 +110,11 @@ _italicized text_
 
 # Media
 
-<!-- !\\\[alt text](salty_egg.jpg)
+![markdown](thumb.png "markdown")
 
-    !\\\[alt text](salty_egg.jpg) -->
+```markdown
+![markdown](thumb.png "markdown")
+```
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/tpiyEe_CqB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
