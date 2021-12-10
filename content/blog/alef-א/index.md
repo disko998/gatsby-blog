@@ -9,6 +9,7 @@ tags:
   - Biblija
   - JHVH
   - Alef
+  - Hebrejski
 ---
 
 
