@@ -6,13 +6,11 @@ date: 2021-12-07T21:08:49.111Z
 description: "Alef je prvo slovo hebrejskog jezika i predstavlja glavu bika što
   označava: snagu, vodju i Boga. "
 tags:
-  - Biblija
+  - biblija
   - JHVH
-  - Alef
-  - Hebrejski
+  - alef
+  - hebrejski
 ---
-
-
 Alef je prvo slovo hebrejskog jezika i predstavlja glavu bika što označava: snagu, vodju i Boga. Sva slova u hebrejskom jeziku imaju svoj piktograf (simbol koji ima određeno značenje) i numeričku verdnost odnosno gematriju, što je u slučaju slova **א alef 1**.\
 \
 Na slici ispod možemo videti ceo alefbet, sva slova, njihove piktografe, značenje i numeričke vrednosti. Ova tabela će nam biti vrlo važna referenca i u nastavku.
@@ -29,27 +27,27 @@ Pogledajmo sada neke reči koje počinju sa slovom **א Alef**:
 
 `ehja ešer ehja = אהיה אשר אהיה = Ja Sam koji Jesam`
 
-Otac se u hebrejskom jeziku kaže **av** ali ono takođe ima svoje starinsko značenje. **א** predstavlja snagu, a slovo **ב** kuću kao što možemo videti iz table iznad, dakle ***"snaga kuće"*** jeste **av otac**.
+Otac se u hebrejskom jeziku kaže **av** ali ova reč takođe ima svoje starinsko značenje. Kao što znamo **א alef** predstavlja snagu, a slovo **ב bet** kuću, kao što možemo videti iz table iznad, dakle otac bi značo **"snaga kuće".**
 
 ![](screenshot-2021-12-07-at-22.30.23.png)
 
-Najvažnija imena i titule koje Bog koristi u Bibliji počinju sa slovom alef. Poslednji primer jeste izjava iz **2. Mojsije 3:14**, gde se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom **"Ja Sam koji Jesam"** *,* i zatim Bog nastavlja i kaže:
+Najvažnija Božja imena i titule koje se koriste u Bibliji počinju sa slovom alef. Takođe smo imali primer izjava iz **2. Mojsije 3:14**, gde se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom **"Ja Sam koji Jesam"** *,* i zatim Bog nastavlja i kaže:
 
 >  Idi i reci sinovima Izraelovim Onaj koji Jeste (יהוה) me je poslavo vama.
 
- Odatle dobijamo čuveni tetragramaton **יהוה**, koga najčešce izgovaraju kao Jahve ili Jehova, u nastavku ja ću referisati ovo ime kao **JHVH**  što predstavlja svako pojedinačno slovo iz ovog imena jud, he, vav i he ili **Gospod** kako je u našem prevodu.
+Odatle smo dobili čuveni tetragramaton **יהוה**, koga najčešce izgovaraju kao Jahve ili Jehova, u nastavku ja ću referisati ovo ime kao **JHVH**  što predstavlja svako pojedinačno slovo iz ovog imena: jud, he, vav i he ili **Gospod** kako je u našem prevodu.
 
 ![JHVH](czxca.jpg "JHVH")
 
 Na slici iznad možemo primetiti, da u jednoj rečenici Bog spominje svoje ima **3** puta, što je vrlo zanimljivo jer On ne radi ništa slučajno kao što će mo i videti u nastvku. 
 
-Takođe ako sakupimo inekse slova (NE numeričku verdnost ili gematriju nego poziciju slova u alefbetu), u izjavi *"Ja Sam koji Jesam" ,* dobijamo sledece...
+Takođe ako sakupimo indekse slova (NE numeričku verdnost nego poziciju slova u alefbetu), u izjavi *"Ja Sam koji Jesam" ,* dobijamo sledece...
 
 ![Ja Sam koji Jesam](jsia.jpg "Ja Sam koji Jesam")
 
-Vrlo je zanimljivo ponavljanje ovih brojeva 3 i 7 kroz celu Bibliju, a ovo je samo jedan od mnogo primera. Znamo da broj 7 predstavlja puninu ili savrešenstvo, Bog je stvorio svet za 6 dana i sedmi dan posvetio. Zato je čovekov broj ili broj zveri 6 jer predstavlja nesavršenstvo. Ovo je neka vrsta Božjeg pečata tako da znamo šta je nadahnuto Njegovim duhom a šta nije, jer danas imamo mnoge apokrife i knjige koje mnogi pokušavaju da uključe u sastav Biblije.
+Vrlo je zanimljivo ponavljanje ovih brojeva 3 i 7 kroz celu Bibliju, a ovo je samo jedan od mnogo primera. Znamo da broj 7 predstavlja puninu ili savrešenstvo, Bog je stvorio svet za 6 dana i sedmi dan posvetio. Zato je čovekov broj ili broj zveri 6 jer predstavlja nesavršenstvo. Ovo je neka vrsta Božjeg pečata tako da znamo šta je nadahnuto Njegovim duhom a šta ne, jer danas imamo mnoge apokrife i knjige koje mnogi pokušavaju da uključe u sastav Biblije.
 
-Ovo kažem ne samo zbog ovog primera nego bezboj drugih za koje se nadam da ću imati prilike da pišem u narednom periodu, gde možemo videti da događaji, imena koja je su u suprotnosti sa Bogom ili Božjim zakonom imaju numeričku vrednost koja je na neki način vezana za broj 6, a ono što je od Boga za najčešće 3 ili 7,. Što se tiče broja 3 ostavljam vama da razmišljate, ovde ću pokazati još jedan zanimljiv primer:
+Ovo kažem ne samo zbog ovog primera nego i mnogih drugih za koje se nadam da ću imati prilike da pišem u narednom periodu, gde možemo videti da događaji, imena koja je su u suprotnosti sa Bogom ili Božjim zakonom imaju numeričku vrednost koja je na neki način vezana za broj 6, a ono što je od Boga za najčešće 3 ili 7,. Što se tiče broja 3 ostavljam vama da razmišljate, ovde ću pokazati još jedan zanimljiv primer:
 
 ![jhvh i mojsije](dascx.jpg "jhvh i mojsije")
 
@@ -57,7 +55,7 @@ Ako uzmemo gematriju ili numeričku vrednost ove izjave, dobijamo broj **543** �
 
 `Bog + Prorok = Isus`
 
-Sada bih spomenuo nešto zanimljivo sa početka Tore (prvih pet knjiga Mojsijevih koja se zovu ***"učenje"***), pogledajmo sledeću sliku:
+Sada bih spomenuo nešto zanimljivo sa početka Tore (prvih pet knjiga Mojsijevih koja se zovu **"učenje"**), pogledajmo sledeću sliku:
 
 ![berešit](dasd.jpg "berešit")
 
@@ -69,7 +67,7 @@ Sada bih spomenuo nešto zanimljivo sa početka Tore (prvih pet knjiga Mojsijevi
 
 Hiljadu se na hebrejskom kaže elef što je prektično isto kao alef. Znači alef moze da znači 1 ili 1000. Dakle ovde imamo period od 6000 godina koliko ce trajati zemlja, a zatim 1000 godina ili takozvani *mesijanski period.*
 
-Zapazite i poziciju slova **א** u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Onvde imamo **3** para slova alef, a kao što vidimo pozicija slova je takođe veoma bitna. 
+Zapazite i poziciju slova **א** u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Ovde imamo **3** para slova alef, a kao što vidimo pozicija slova je takođe veoma bitna. 
 
 Zapovest kaze da se ništa ne dodaje ili oduzima iz zakona, pa čak i jedno slovo, a na sledećem primeru će mo to ponovo potvrditi...
 
@@ -83,11 +81,11 @@ Daniel (Danijel) = דני**אל** = Bog je moj sudija
 
 Irmejahu (Jeremija) = ירמ**יה**ו = JHVH (Gospod) će uzdići
 
-Sakupljanjem numeričkih vrednosti ovih imena dobijamo sledeće: **15, 26, 31, 86**. Ako sada brojimo slova sa početka Tore (Biblije), videćemo nešto vrlo interesantno, da su 15., 26., 31. i 86. slovo **א Alef**. Bog nam i ovde potvrđuje da je on Alef.
+Sakupljanjem gematrije ovih imena dobijamo sledeće vrednosti: **15, 26, 31, 86**. Ako sada brojimo slova sa početka Tore (Biblije), videćemo nešto vrlo interesantno, da su 15, 26, 31 i 86-to slovo **א Alef**. Njegovo ime i titula pokazuju nam na slovo alef, Bog nam i ovde potvrđuje da je on Alef.
 
 ![Alef](cxzda.jpg "Alef")
 
-Ako i dalje sumljate, sakupimo sada sve indekse ili poziciju slova alef u prvoj rečenici. Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
+Ako i dalje sumnjate, sakupimo sada sve indekse ili poziciju slova alef u prvoj rečenici. Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
 
 ![Elohim](cxzczx.jpg "Elohim")
 
@@ -109,9 +107,9 @@ Ako bi namerno napisali pogrešno **אלפ,** ovakakv oblik slova fej predstavlj
 
 ![Iz usta snažnog pastira](dasdasdcx.jpg "Iz usta snažnog pastira")
 
-Takođe sam pomenuo da je oblik slova takođe vrlo bitan. Ako ste nekad pisali slovo alef primetili ste da vam je potrebno **3** poteza. Zašto Bog ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde opet potvrđuje da je njegova priroda kompleksna i ima veze sa brojem 3. Opet kažem, ako postoji tvorac ništa ne može biti slučajno.
+Takođe sam pomenuo da je oblik slova vrlo bitan. Ako ste nekad pisali slovo alef primetili ste da su vam potrebna **3** poteza. Zašto Bog ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde opet potvrđuje da je njegova priroda kompleksna i ima veze sa brojem 3.
 
-Ustvari sva tri poteza koja sačinjavaju slovo **א alef,** su ustvari druga dva "prostija" slova u hebrejskom jeziku, a to su: **י jud** i **ו vav**. Znači da bi napisali slovo **א alef**, potrebno je napisati vav koji je nagnut na levu stranu, i zatim dopišemo jud odozgo i odozdo.
+Ustvari sva tri poteza koja sačinjavaju slovo **א alef,** su ustvari druga dva "prostija" slova u hebrejskom jeziku, a to su: **י jud** i **ו vav**. Znači da bi napisali slovo **א alef**, potrebno je napisati vav, i zatim dopišemo jud odozgo i odozdo.
 
 Podsetimo se opet sa početne tabele šta predstavljaju jud i vav? **י jud** će predstavljati ruku što iznačava rad, a **ו vav** ekser ili nešto što spaja.
 
@@ -119,7 +117,7 @@ Kada sve saberete imamo jednu vrlo zanimljivo sliku: ruka odozgo (Božja), ruka 
 
 ![čovek i bog](dczwq.jpg "čovek i bog")
 
-Primetili smo da **ו vav** ne stoji uspravno kao što bi trebalo, to je zato što ono predstavlja Mesiju koji stoji uspravno (čovek koji nije grešan stoji uspravno), koji će morati da se ponizi da bi spojio čoveka sa Bogom, takođe samo slovo vav predstavlja ekser.
+Primetili smo da **ו vav** ne stoji uspravno kao što bi trebalo, to je zato što ono predstavlja Mesiju koji stoji uspravno (čovek koji nije grešan stoji uspravno), koji će morati da se ponizi da bi spojio čoveka sa Bogom.
 
 > Osim toga, kad je po obličju postao čovek, ponizio se i postao poslušan sve do smrti, i to smrti na krstu. (Filibljanima, 2:8)
 
@@ -135,6 +133,6 @@ Isto je i sa pisanom formom:
 
 # Bonus
 
-Jedna zanimljiva pesma iz spisa **"שיר השירים (pesma nad pesmama)"**,[ שיר](https://www.youtube.com/watch?v=qYpYzf3xlAc&list=PLeXpWRgWgS3xTVON2ZMDI5dNjcmY_m86n&index=22&ab_channel=12TribesMusic).
+Jedna zanimljiva pesma iz pesme nad pesmama **(שיר השירים)**, [ovde](https://www.youtube.com/watch?v=qYpYzf3xlAc&list=PLeXpWRgWgS3xTVON2ZMDI5dNjcmY_m86n&index=22&ab_channel=12TribesMusic).
 
 ![bonus](dadc.jpg "bonus")
