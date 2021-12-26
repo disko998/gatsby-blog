@@ -3,7 +3,7 @@ title: Alef א
 thumbnail: 121dsad.jpg
 hide: false
 date: 2021-12-07T21:08:49.111Z
-description: "Alef je prvo slovo hebrejskog jezika i predstavlja glavu bika što
+description: "Alef, prvo slovo hebrejskog jezika, predstavlja glavu bika koja
   označava: snagu, vodju i Boga. "
 tags:
   - biblija
@@ -11,7 +11,7 @@ tags:
   - alef
   - hebrejski
 ---
-Alef je prvo slovo hebrejskog jezika i predstavlja glavu bika što označava: snagu, vodju i Boga. Sva slova u hebrejskom jeziku imaju svoj piktograf (simbol koji ima određeno značenje) i numeričku verdnost odnosno gematriju, što je u slučaju slova **א alef 1**.\
+Alef je prvo slovo hebrejskog jezika i predstavlja glavu bika što označava: snagu, vodju i Boga. Slova u hebrejskom jeziku, za razliku od drugih, imaju svoj starinski simbol ili piktograf od koga se kasnije razvilo slovo i koji ima određeno značenje. Takođe imaju i numerološku ili gematrisku verdnost, što je u slučaju slova **א alef 1**.\
 \
 Na slici ispod možemo videti ceo alefbet, sva slova, njihove piktografe, značenje i numeričke vrednosti. Ova tabela će nam biti vrlo važna referenca i u nastavku.
 
@@ -27,11 +27,11 @@ Pogledajmo sada neke reči koje počinju sa slovom **א Alef**:
 
 `ehja ešer ehja = אהיה אשר אהיה = Ja Sam koji Jesam`
 
-Otac se u hebrejskom jeziku kaže **av** ali ova reč takođe ima svoje starinsko značenje. Kao što znamo **א alef** predstavlja snagu, a slovo **ב bet** kuću, kao što možemo videti iz table iznad, dakle otac bi značo **"snaga kuće".**
+Znamo da **א alef** predstavlja glavu bika što označava snagu, slovo **ב bet** predstavlja kuću, kao što možemo videti iz table iznad, dakle **"snaga kuće"** jeste otac **av**.
 
-![](screenshot-2021-12-07-at-22.30.23.png)
+![av](screenshot-2021-12-07-at-22.30.23.png "av")
 
-Najvažnija Božja imena i titule koje se koriste u Bibliji počinju sa slovom alef. Takođe smo imali primer izjava iz **2. Mojsije 3:14**, gde se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom **"Ja Sam koji Jesam"** *,* i zatim Bog nastavlja i kaže:
+Takođe vidmo da najvažnija Božja imena i titule koje On koristi u Bibliji počinju sa slovom alef. Poslednji primer je izjava iz **2. Mojsije 3:14**, gde se Mojsije obraća Bogu i pita ga kako se zove, a on mu odgovara sa čuvenom izjavom **"Ja Sam koji Jesam"** *,* i zatim Bog nastavlja i kaže:
 
 >  Idi i reci sinovima Izraelovim Onaj koji Jeste (יהוה) me je poslavo vama.
 
@@ -41,13 +41,13 @@ Odatle smo dobili čuveni tetragramaton **יהוה**, koga najčešce izgovaraju
 
 Na slici iznad možemo primetiti, da u jednoj rečenici Bog spominje svoje ima **3** puta, što je vrlo zanimljivo jer On ne radi ništa slučajno kao što će mo i videti u nastvku. 
 
-Takođe ako sakupimo indekse slova (NE numeričku verdnost nego poziciju slova u alefbetu), u izjavi *"Ja Sam koji Jesam" ,* dobijamo sledece...
+Takođe ako sakupimo indekse slova (NE numeričku verdnost nego poziciju slova u alefbetu), u izjavi **"Ja Sam koji Jesam"** *,* dobijamo sledece...
 
 ![Ja Sam koji Jesam](jsia.jpg "Ja Sam koji Jesam")
 
 Vrlo je zanimljivo ponavljanje ovih brojeva 3 i 7 kroz celu Bibliju, a ovo je samo jedan od mnogo primera. Znamo da broj 7 predstavlja puninu ili savrešenstvo, Bog je stvorio svet za 6 dana i sedmi dan posvetio. Zato je čovekov broj ili broj zveri 6 jer predstavlja nesavršenstvo. Ovo je neka vrsta Božjeg pečata tako da znamo šta je nadahnuto Njegovim duhom a šta ne, jer danas imamo mnoge apokrife i knjige koje mnogi pokušavaju da uključe u sastav Biblije.
 
-Ovo kažem ne samo zbog ovog primera nego i mnogih drugih za koje se nadam da ću imati prilike da pišem u narednom periodu, gde možemo videti da događaji, imena koja je su u suprotnosti sa Bogom ili Božjim zakonom imaju numeričku vrednost koja je na neki način vezana za broj 6, a ono što je od Boga za najčešće 3 ili 7,. Što se tiče broja 3 ostavljam vama da razmišljate, ovde ću pokazati još jedan zanimljiv primer:
+Ovo kažem zato što događaji, imena, itd. koja je su u suprotnosti sa Bogom imaju numeričku vrednost koja je na neki način vezana za broj 6, a ono što je od Boga za najčešće 3 ili 7. Što se tiče broja 3 ostavljam vama da razmišljate, ovde ću pokazati još jedan zanimljiv primer:
 
 ![jhvh i mojsije](dascx.jpg "jhvh i mojsije")
 
@@ -61,19 +61,19 @@ Sada bih spomenuo nešto zanimljivo sa početka Tore (prvih pet knjiga Mojsijevi
 
 > Berešit bara Elohim et hašamaim va'et ha'arec (U početku stvori bog nebesa i zemlju.)
 
- Samo ova rečenica je toliko kompleksna i sadrži bezbroj dimenzija o kojima bih mogao da pričam dan i noć, ali da se mi vratimo na alef. Vidmo da se alef u prvoj rečenici pojavljuje 6 puta, a rekli smo da slovo **א** ima gematrisku vrednost **1** ali moze da bude i 1000 jer pismo kaže:
+Samo ova rečenica je veoma kompleksna i sadrži puno dimenzija o kojoj cu napraviti poseban blog, ali da se mi vratimo na naše slovo alef. Vidmo da se alef u prvoj rečenici pojavljuje 6 puta, a rekli smo da alef ima gematrisku vrednost **1** ali moze da bude i **1000** jer pismo kaže:
 
 > Jedan dan pred Gospodom je kao hiljadu godina i hiljadu godina kao jedan dan. (2. Petar 3:8)
 
 Hiljadu se na hebrejskom kaže elef što je prektično isto kao alef. Znači alef moze da znači 1 ili 1000. Dakle ovde imamo period od 6000 godina koliko ce trajati zemlja, a zatim 1000 godina ili takozvani *mesijanski period.*
 
-Zapazite i poziciju slova **א** u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Ovde imamo **3** para slova alef, a kao što vidimo pozicija slova je takođe veoma bitna. 
+Zapazite i poziciju slova **א** u rečenici, vidmo da se alef u prve dve reči nalazi na trećem i na trećem mestu, pa onda na drugom i na drugom i na kraju na prvom i na prvom mestu. Ovde imamo **3** para slova alef, kao što vidimo pozicija slova je takođe veoma bitna. 
 
 Zapovest kaze da se ništa ne dodaje ili oduzima iz zakona, pa čak i jedno slovo, a na sledećem primeru će mo to ponovo potvrditi...
 
 ![JHVH i Elohim](dasdx.jpg "JHVH i Elohim")
 
-Sakupimo sada numeričke vrednosti Božjeg imena **JHVH** (Gospod) i titule **Elohim** (Bog), i takođe skraćene verzije **יה** (**Ja**) i **אל** (**El**). Skraćeni oblici se najčešće koriste u imenima, daću vam par primera:
+Sakupimo sada numeričke vrednosti Božjeg imena **JHVH** (Gospod) i titule **Elohim** (Bog), takođe skraćene verzije **יה** (**Ja**) i **אל** (**El**). Skraćeni oblici se najčešće koriste u imenima, daću vam par primera:
 
 Elijahu (Ilija) = **אליה**ו = JHVH (Gospod) je moj Bog
 
@@ -81,11 +81,11 @@ Daniel (Danijel) = דני**אל** = Bog je moj sudija
 
 Irmejahu (Jeremija) = ירמ**יה**ו = JHVH (Gospod) će uzdići
 
-Sakupljanjem gematrije ovih imena dobijamo sledeće vrednosti: **15, 26, 31, 86**. Ako sada brojimo slova sa početka Tore (Biblije), videćemo nešto vrlo interesantno, da su 15, 26, 31 i 86-to slovo **א Alef**. Njegovo ime i titula pokazuju nam na slovo alef, Bog nam i ovde potvrđuje da je on Alef.
+Sakupljanjem numeroloških vrednosti ovih imena dobijamo: **15, 26, 31, 86**. Ako sada brojimo slova sa početka Tore (Biblije), videćemo nešto vrlo interesantno, da su 15, 26, 31 i 86-to slovo **א Alef,** Bog nam i ovde potvrđuje da je on Alef.
 
 ![Alef](cxzda.jpg "Alef")
 
-Ako i dalje sumnjate, sakupimo sada sve indekse ili poziciju slova alef u prvoj rečenici. Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
+Ako i dalje skeptični, sakupimo sada sve indekse ili poziciju slova alef u prvoj rečenici. Dobijamo broj **86**, a već nam je poznato da je to numerička verdnost reči **Elohim** (Bog).
 
 ![Elohim](cxzczx.jpg "Elohim")
 
@@ -95,29 +95,29 @@ Dakle da bi postalo sve što je jeste, mora da postoji uzrok, neko ko će sve to
 
 ![berešti](bereshit.jpg "berešti")
 
-I ovde imamo vro lepu sliku koja ilustruje Alef koji je bio u početku, sve je postalo preko njega i bez njega ništa nije postalo. Namerno sam ovako rekao jer deluje poznato **Jovan 1:2-3**. Jovan nam između ostalog kaže da je reč u početku bila u Boga i Bog je bio reč, a samo slovo alef možemo zapisati kao reč **אלף alef**.
+I ovde imamo vro lepu sliku koja ilustruje Alef koji je bio u početku, sve je postalo preko njega i bez njega ništa nije postalo. Namerno sam ovako rekao jer deluje poznato **Jovan 1:2-3**. Apostol Jovan nam između ostalog kaže da je reč u početku bila u Boga i Bog je bila reč, a samo slovo alef možemo zapisati kao reč **אלף alef**.
 
 > U Početku je bila reč, i reč je bila kod Boga, i Bog je bila reč. Ona je u početku bila kod Boga. Sve je postalo preko nje i bez nje ništa nije postalo.
 
-Kao što već zamo da **א alef** ima piktograf glave bika što označava snagu, **ל lamed** će predstavljati pastirki štap, što znači da je **אל El** ***"snažni pastir"***, a slovo **פ pej/fej** predstavlja usta. Tako da sam reči **אלף alef** će znači: ***"Iz usta snažnog pastira"*.**
+Kao što već zamo **א alef** označava snagu, **ל lamed** predstavlja pastirki štap, iz ovoga možemo zaključiti da reč **אל El** znači **"snažni pastir"**, a slovo **פ pej/fej** ima piktograf koji predstavlja usta.
 
-Nemojte da vas zbuni ovaj drugi oblik slova **ף** fej koji se zove fej sofit. U hebrejskom jeziku pored 22 slova postoje i 5 sofit formi, jedno od tih slova je i **פ fej** (sofit forma: **ף**). Suština je u tome da kada se to slovo nadje na kraju reči jednostavno se drugačije piše tj. ima drugačiji oblik na kraju reči, ali se isto izgovara. Sama reč sofit znači na kraju ili krajnje.
+Nemojte da vas zbuni ovaj drugi oblik slova **ף** fej koji se zove fej sofit. U hebrejskom jeziku pored 22 slova postoje i 5 sofit formi, jedno od tih slova je i **פ fej** (sofit forma: **ף**). Suština je u tome da kada se to slovo nadje na kraju reči jednostavno se drugačije piše tj. ima drugačiji oblik na kraju reči, ali je to isto slovo. Sama reč sofit znači na kraju ili krajnje.
 
-Ako bi namerno napisali pogrešno **אלפ,** ovakakv oblik slova fej predstavlja zatvorena usta, a ako malo bolje pogledamo u samom slovu **פ fej,** mogli bi smo stvaiti slovo **ב bet.** Dakle sada imamo **s*nažnog pastira koji u svojim ustima ima slovo ב***.
+Ako bi za trenutak napisali pogrešno **אלפ,** ovakakv oblik slova fej predstavlja zatvorena usta, a ako malo bolje pogledamo u samom slovu **פ fej,** mogli bi smo smestiti slovo **ב bet** koje prvo slovo Tore, dakle imamo **"Iz usta snašnog pastira..."**
 
 ![Iz usta snažnog pastira](dasdasdcx.jpg "Iz usta snažnog pastira")
 
-Takođe sam pomenuo da je oblik slova vrlo bitan. Ako ste nekad pisali slovo alef primetili ste da su vam potrebna **3** poteza. Zašto Bog ne bi za svoje slovo uzeo nešto jednostavnije što bi se moglo napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde opet potvrđuje da je njegova priroda kompleksna i ima veze sa brojem 3.
+Takođe sam pomenuo da je oblik slovo vrlo značajan jer nam daje određenu sliku i značenje kao i sam piktograf. Ako ste nekad pisali slovo alef primetili ste da su vam potrebna **3** poteza. Zašto Bog ne bi za svoje slovo uzeo nešto jednostavnije, što bi mogli napisati iz jednog poteza da ukazuje na to da je on 1, ne on nam ovde opet potvrđuje da je njegova priroda kompleksna i ima veze sa brojem 3.
 
 Ustvari sva tri poteza koja sačinjavaju slovo **א alef,** su ustvari druga dva "prostija" slova u hebrejskom jeziku, a to su: **י jud** i **ו vav**. Znači da bi napisali slovo **א alef**, potrebno je napisati vav, i zatim dopišemo jud odozgo i odozdo.
 
-Podsetimo se opet sa početne tabele šta predstavljaju jud i vav? **י jud** će predstavljati ruku što iznačava rad, a **ו vav** ekser ili nešto što spaja.
+Podsetimo se opet sa početne tabele šta predstavljaju jud i vav? **י jud** će predstavljati ruku što označava rad, a **ו vav** ekser ili nešto što spaja.
 
 Kada sve saberete imamo jednu vrlo zanimljivo sliku: ruka odozgo (Božja), ruka odozdo (čovečja grešna) i jedan ekser koji ih spaja (Mesija/Hristos)!!
 
 ![čovek i bog](dczwq.jpg "čovek i bog")
 
-Primetili smo da **ו vav** ne stoji uspravno kao što bi trebalo, to je zato što ono predstavlja Mesiju koji stoji uspravno (čovek koji nije grešan stoji uspravno), koji će morati da se ponizi da bi spojio čoveka sa Bogom.
+Možete primetiti da **ו vav** ne stoji uspravno kao što bi trebalo, to je zato što ono predstavlja Mesiju koji stoji uspravno (čovek koji nije grešan stoji uspravno), koji će morati da se ponizi da bi spojio čoveka sa Bogom.
 
 > Osim toga, kad je po obličju postao čovek, ponizio se i postao poslušan sve do smrti, i to smrti na krstu. (Filibljanima, 2:8)
 
@@ -133,6 +133,6 @@ Isto je i sa pisanom formom:
 
 # Bonus
 
-Jedna zanimljiva pesma iz pesme nad pesmama **(שיר השירים)**, [ovde](https://www.youtube.com/watch?v=qYpYzf3xlAc&list=PLeXpWRgWgS3xTVON2ZMDI5dNjcmY_m86n&index=22&ab_channel=12TribesMusic).
+Jedna zanimljiva pesma na hebrejskom jeziku iz "pesme nad pesmama" **(שיר השירים)**, [ovde](https://www.youtube.com/watch?v=qYpYzf3xlAc&list=PLeXpWRgWgS3xTVON2ZMDI5dNjcmY_m86n&index=22&ab_channel=12TribesMusic).
 
 ![bonus](dadc.jpg "bonus")
