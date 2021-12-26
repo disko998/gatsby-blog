@@ -6,7 +6,7 @@ date: 2021-12-07T21:08:49.111Z
 description: "Alef, prvo slovo hebrejskog jezika, predstavlja glavu bika koja
   označava: snagu, vodju i Boga. "
 tags:
-  - biblija
+  - Biblija
   - JHVH
   - alef
   - hebrejski
