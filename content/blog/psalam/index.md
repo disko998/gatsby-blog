@@ -7,7 +7,7 @@ tags:
   - biblija
   - orthodox christianity
   - religion
-readTime: 1 min
+hide: true
 ---
 
 ## Шестопсалмије, чита отац [Предраг Поповић](https://www.youtube.com/channel/UCemJnziIY4jC8HfH1vqxhzw)

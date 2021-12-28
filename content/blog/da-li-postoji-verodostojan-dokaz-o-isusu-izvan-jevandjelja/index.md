@@ -1,5 +1,5 @@
 ---
-title: Da li postoje dokazi o Isusu izvan Biblije?
+title: Da li postoje verodostojni dokazi o Isusu izvan Jevanđelja?
 thumbnail: the-lord-jesus-christ-is-god-himself.jpeg
 hide: false
 date: 2021-11-14T16:23:36.638Z

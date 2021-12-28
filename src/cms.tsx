@@ -6,6 +6,7 @@ import { hr } from "netlify-cms-locales"
 import { CSSInjector, GlobalStyles, theme } from "styles"
 import { Container } from "components/elements/layout"
 import BlogPost from "components/widgets/blog/BlogPost"
+import { __DEV__ } from "utils/helper"
 
 const BlogPostPreview = ({ widgetFor, entry, getAsset }) => {
   return (
@@ -14,7 +15,7 @@ const BlogPostPreview = ({ widgetFor, entry, getAsset }) => {
         <GlobalStyles />
         <Container>
           <BlogPost
-            readingTime="2 min"
+            readingTime={entry.getIn(["data", "readTime"]) || "2 min"}
             title={entry.getIn(["data", "title"])}
             src={getAsset(entry.getIn(["data", "thumbnail"]))?.url}
             tags={entry.getIn(["data", "tags"])?.toJS() || []}
@@ -39,7 +40,7 @@ CMS.init({
       name: "git-gateway",
       branch: "master",
     },
-    local_backend: process.env.NODE_ENV === "development",
+    local_backend: __DEV__,
     publish_mode: "editorial_workflow",
     media_folder: "static/assets",
     public_folder: "/assets",
@@ -52,8 +53,8 @@ CMS.init({
         folder: "content/blog",
         create: true,
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
-        path: "blog/{{title}}",
-        preview_path: "{{slug}}",
+        path: "{{title}}/index",
+        preview_path: __DEV__ ? "{{dirname}}" : undefined,
         editor: { preview: true },
         fields: [
           { label: "Title", name: "title", widget: "string" },

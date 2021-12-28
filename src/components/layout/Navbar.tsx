@@ -9,18 +9,18 @@ import { Container } from "../elements"
 import { QueryType } from "global"
 
 const Navbar: React.FC = () => {
-  const { site, file } = useStaticQuery<QueryType>(query)
+  const { file } = useStaticQuery<QueryType>(query)
   const { location } = globalHistory
 
   return (
-    <NavWrapper>
+    <NavBarContainer>
       <Container>
         <NavContent>
           <HomeLink to="/">
             <Logo fadeIn fluid={file.childImageSharp?.fluid} />
           </HomeLink>
 
-          <Nav>
+          <NavLinks>
             <NavItem>
               <NavLink active={location.pathname === "/"} to="/">
                 Blogs
@@ -35,40 +35,18 @@ const Navbar: React.FC = () => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavCustomButton
-                onClick={() => (document.location.href = "/admin/")}
-              >
+              <NavButton onClick={() => (document.location.href = "/admin/")}>
                 Login
-              </NavCustomButton>
+              </NavButton>
             </NavItem>
-          </Nav>
+          </NavLinks>
         </NavContent>
       </Container>
-    </NavWrapper>
+    </NavBarContainer>
   )
 }
 
-const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    file(relativePath: { eq: "logo.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
-const Logo = styled(Img)`
-  width: 150px;
-`
-
-const NavWrapper = styled.nav`
+const NavBarContainer = styled.nav`
   width: 100%;
   height: ${rem(80)};
   display: flex;
@@ -106,7 +84,7 @@ const HomeLink = styled(Link)`
   text-align: center;
 `
 
-const Nav = styled.ul`
+const NavLinks = styled.ul`
   list-style-type: none;
   display: flex;
   flex-flow: row nowrap;
@@ -119,10 +97,16 @@ const Nav = styled.ul`
 
 const NavItem = styled.li`
   margin: 0 ${p => p.theme.spacing.small};
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media ${p => p.theme.breakpoints.mobile} {
     margin: 0 ${p => p.theme.spacing.xSmall};
   }
+`
+const Logo = styled(Img)`
+  width: 150px;
 `
 
 const navLinkStyle = p => {
@@ -156,12 +140,27 @@ const navLinkStyle = p => {
 	`
 }
 
-const NavCustomButton = styled.div<{ active?: boolean }>`
+const NavButton = styled.div<{ active?: boolean }>`
   ${navLinkStyle}
 `
 
 const NavLink = styled(Link)<{ active?: boolean }>`
   ${navLinkStyle}
 `
-
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    file(relativePath: { eq: "logo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 export default Navbar
