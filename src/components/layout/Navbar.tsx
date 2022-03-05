@@ -3,10 +3,10 @@ import styled from "styled-components"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { globalHistory } from "@reach/router"
 import Img from "gatsby-image"
+import { QueryType } from "global"
 
 import { rem } from "./../../utils/helper"
 import { Container } from "../elements"
-import { QueryType } from "global"
 
 const Navbar: React.FC = () => {
   const { file } = useStaticQuery<QueryType>(query)
@@ -106,7 +106,7 @@ const NavItem = styled.li`
   }
 `
 const Logo = styled(Img)`
-  width: 100px;
+  width: 120px;
 `
 
 const navLinkStyle = p => {
@@ -154,9 +154,9 @@ const query = graphql`
         title
       }
     }
-    file(relativePath: { eq: "logo.png" }) {
+    file(relativePath: { eq: "logo-white.png" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 200) {
           ...GatsbyImageSharpFluid
         }
       }
