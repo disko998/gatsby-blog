@@ -106,7 +106,7 @@ const NavItem = styled.li`
   }
 `
 const Logo = styled(Img)`
-  width: 150px;
+  width: 100px;
 `
 
 const navLinkStyle = p => {
