@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Benel",
-    description: "Some description",
-    siteUrl: "https://benel.netlify.app",
+    title: "Biblical Code",
+    description:
+      "Biblical code is a blogging website that share knowledge on the different topics like: bible, coding and more.",
+    siteUrl: "https://biblicalcode.rs",
     author: {
       name: "Stefan Diskic",
       email: "disko998@gmail.com",
